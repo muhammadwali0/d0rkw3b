@@ -1,4 +1,3 @@
-# github.py
 import urllib.parse
 
 # -----------------------
@@ -6,14 +5,15 @@ import urllib.parse
 # -----------------------
 def gh_user_links(username):
     """Return common GitHub links for a user/profile."""
-    base = f"https://github.com/{username}"
+    encoded_user = urllib.parse.quote_plus(username.strip())
+    base = f"https://github.com/{encoded_user}"
     return {
         "Profile": base,
         "Repositories": f"{base}?tab=repositories",
         "Stars": f"{base}?tab=stars",
         "Followers": f"{base}?tab=followers",
         "Following": f"{base}?tab=following",
-        "Gists": f"https://gist.github.com/{username}",
+        "Gists": f"https://gist.github.com/{encoded_user}",
         "Contributions (graph)": f"{base}?tab=contributions",
     }
 
@@ -22,7 +22,9 @@ def gh_user_links(username):
 # -----------------------
 def gh_repo_links(owner, repo):
     """Return common links for a repository."""
-    base = f"https://github.com/{owner}/{repo}"
+    encoded_owner = urllib.parse.quote_plus(owner.strip())
+    encoded_repo = urllib.parse.quote_plus(repo.strip())
+    base = f"https://github.com/{encoded_owner}/{encoded_repo}"
     return {
         "Repository": base,
         "Issues": f"{base}/issues",
@@ -40,7 +42,7 @@ def gh_repo_links(owner, repo):
 # -----------------------
 def gh_search_links(term):
     """General GitHub search links (users, repos, code)."""
-    q = urllib.parse.quote_plus(term)
+    q = urllib.parse.quote_plus(term.strip())
     return {
         "Repositories": f"https://github.com/search?q={q}&type=repositories",
         "Code": f"https://github.com/search?q={q}&type=code",

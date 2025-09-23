@@ -2,7 +2,8 @@ import urllib.parse
 
 # LinkedIn Profile Links
 def li_profile_links(username):
-    base = f"https://www.linkedin.com/in/{username}"
+    encoded = urllib.parse.quote_plus(username.strip())
+    base = f"https://www.linkedin.com/in/{encoded}"
     return {
         "Profile": f"{base}",
         "About": f"{base}/details/about/",
@@ -21,7 +22,8 @@ def li_profile_links(username):
 
 # LinkedIn Company Links
 def li_company_links(company_name):
-    base = f"https://www.linkedin.com/company/{company_name}"
+    encoded = urllib.parse.quote_plus(company_name.strip())
+    base = f"https://www.linkedin.com/company/{encoded}"
     return {
         "Company Page": f"{base}",
         "About": f"{base}/about/",
@@ -35,7 +37,7 @@ def li_company_links(company_name):
 
 # LinkedIn Generic Search Links
 def li_search_links(term):
-    encoded = urllib.parse.quote_plus(term)
+    encoded = urllib.parse.quote_plus(term.strip())
     return {
         "All": f"https://www.linkedin.com/search/results/all/?keywords={encoded}",
         "People": f"https://www.linkedin.com/search/results/people/?keywords={encoded}",
@@ -46,5 +48,3 @@ def li_search_links(term):
         "Events": f"https://www.linkedin.com/search/results/events/?keywords={encoded}",
         "Courses": f"https://www.linkedin.com/learning/search?keywords={encoded}"
     }
-
-

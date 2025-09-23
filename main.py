@@ -17,12 +17,8 @@ ________  _______ __________ ____  __.__      ____________________
 
 """)
 
-import search_links
-import facebook
-import x
-import linkedin
-import github
 
+import search_links, facebook, x, linkedin, github, instagram, communities
 
 def show_facebook_menu():
     while True:
@@ -162,6 +158,71 @@ def show_github_menu():
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
 
+def show_instagram_menu():
+    while True:
+        print("\n====== Instagram ======")
+        print("1. Username")
+        print("2. IG User ID")
+        print("3. Username + Search Terms")
+        print("4. Usernames")
+        print("5. Search Terms")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            username = input("Enter Instagram username: ")
+            links = instagram.instagram_username_links(username)
+        elif choice == "2":
+            user_id = input("Enter Instagram User ID: ")
+            links = instagram.instagram_user_id_links(user_id)
+        elif choice == "3":
+            username = input("Enter Instagram username: ")
+            term = input("Enter search terms: ")
+            links = instagram.instagram_username_term_links(username, term)
+        elif choice == "4":
+            username1 = input("Enter first Instagram username: ")
+            username2 = input("Enter second Instagram username: ")
+            links = instagram.instagram_username_association_links(username1, username2)
+        elif choice == "5":
+            term = input("Enter search terms: ")
+            links = instagram.instagram_term_only_links(term)
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+            continue
+
+        print("\n====== Generated Links ======")
+        for name, url in links.items():
+            print(f"[+] {name:<25} {url}")
+
+def show_communities_menu():
+    while True:
+        print("\n====== Communities ======")
+        print("1. Username")
+        print("2. Search Terms")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            username = input("Enter username: ")
+            links = communities.community_user_links(username)
+        elif choice == "2":
+            term = input("Enter search terms: ")
+            links = communities.community_search_links(term)
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+            continue
+
+        print("\n====== Generated Links ======")
+        for community, urls in links.items():
+            print(f"\n====== {community} ======")
+            for name, url in urls.items():
+                print(f"[+] {name:<25} {url}")
+
+
 def main():
     while True:
         print("\n====== Main Menu ======")
@@ -170,6 +231,8 @@ def main():
         print("3. X")
         print("4. Linkedin")
         print("5. Github")
+        print("6. Instagram")
+        print("7. Communities")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -196,6 +259,12 @@ def main():
             
         elif choice == "5":
             show_github_menu()
+
+        elif choice == "6":
+            show_instagram_menu()
+
+        elif choice == "7":
+            show_communities_menu()
 
         elif choice == "0":
             break
