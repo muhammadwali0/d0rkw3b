@@ -17,7 +17,7 @@ ________  _______ __________ ____  __.__      ____________________
 
 """)
 
-import search_links, facebook, x, instagram
+import search_links, facebook, x, instagram, communities
 
 def show_facebook_menu():
     while True:
@@ -130,6 +130,32 @@ def show_instagram_menu():
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
 
+def show_communities_menu():
+    while True:
+        print("\n====== Communities ======")
+        print("1. Username")
+        print("2. Search Terms")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            username = input("Enter username: ")
+            links = communities.community_user_links(username)
+        elif choice == "2":
+            term = input("Enter search terms: ")
+            links = communities.community_search_links(term)
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+            continue
+
+        print("\n====== Generated Links ======")
+        for community, urls in links.items():
+            print(f"\n====== {community} ======")
+            for name, url in urls.items():
+                print(f"[+] {name:<25} {url}")
+
 
 def main():
     while True:
@@ -138,6 +164,7 @@ def main():
         print("2. Facebook")
         print("3. X")
         print("4. Instagram")
+        print("5. Communities")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -161,6 +188,9 @@ def main():
 
         elif choice == "4":
             show_instagram_menu()
+
+        elif choice == "5":
+            show_communities_menu()
 
         elif choice == "0":
             break
