@@ -14,7 +14,7 @@ def gh_user_links(username):
         "Followers": f"{base}?tab=followers",
         "Following": f"{base}?tab=following",
         "Gists": f"https://gist.github.com/{encoded_user}",
-        "Contributions (graph)": f"{base}?tab=contributions",
+        "Contributions": f"{base}?tab=contributions",
     }
 
 # -----------------------
@@ -32,7 +32,7 @@ def gh_repo_links(owner, repo):
         "Commits": f"{base}/commits",
         "Branches": f"{base}/branches",
         "Releases": f"{base}/releases",
-        "Actions (CI)": f"{base}/actions",
+        "Actions": f"{base}/actions",
         "Wiki": f"{base}/wiki",
         "Insights": f"{base}/pulse",
     }

@@ -11,8 +11,8 @@ ________  _______ __________ ____  __.__      ____________________
 /_______  /\_____  /____|_  /____|__ \ \__/\  / /______  /______  /
         \/       \/       \/        \/      \/         \/       \/                                
 
-                All your OSINT links in one place
-               by Muhammad Wali and Syed Subhan Ali                             
+                 All your OSINT links in one place
+                         by Wali & Subhan                             
                                                                       
 
 """)
@@ -96,14 +96,14 @@ def show_x_menu():
 def show_linkedin_menu():
     while True:
         print("\n====== LinkedIn ======")
-        print("1. Profile")
+        print("1. Username")
         print("2. Company")
-        print("3. Generic Search (People, Jobs, Groups, Posts etc.)")
+        print("3. Keywords")
         print("0. Back to Main Menu")
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            uname = input("Enter LinkedIn username/vanity: ")
+            uname = input("Enter LinkedIn username: ")
             links = linkedin.li_profile_links(uname)
 
         elif choice == "2":
@@ -121,16 +121,16 @@ def show_linkedin_menu():
             print("Invalid choice.")
             continue
 
-        print("\n====== Generated LinkedIn Links ======")
+        print("\n====== Generated Links ======")
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
 
 def show_github_menu():
     while True:
         print("\n====== GitHub ======")
-        print("1. User / Profile")
+        print("1. Username")
         print("2. Repository")
-        print("3. Search (users/repos/code/issues)")
+        print("3. Keyword")
         print("0. Back to Main Menu")
         choice = input("Enter your choice: ")
 
@@ -144,7 +144,7 @@ def show_github_menu():
             links = github.gh_repo_links(owner, repo)
 
         elif choice == "3":
-            term = input("Enter search term (e.g. project name or keyword): ").strip()
+            term = input("Enter search term: ").strip()
             links = github.gh_search_links(term)
 
         elif choice == "0":
@@ -154,7 +154,7 @@ def show_github_menu():
             print("Invalid choice.")
             continue
 
-        print("\n====== Generated GitHub Links ======")
+        print("\n====== Generated Links ======")
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
 
@@ -230,8 +230,8 @@ def main():
         print("2. Facebook")
         print("3. X")
         print("4. Linkedin")
-        print("5. Github")
-        print("6. Instagram")
+        print("5. Instagram")
+        print("6. GitHub")
         print("7. Communities")
         print("0. Exit")
         choice = input("Enter your choice: ")
@@ -258,10 +258,10 @@ def main():
             show_linkedin_menu()
             
         elif choice == "5":
-            show_github_menu()
+            show_instagram_menu()
 
         elif choice == "6":
-            show_instagram_menu()
+            show_github_menu()
 
         elif choice == "7":
             show_communities_menu()
