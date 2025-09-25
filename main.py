@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities, documents
+import search_links, facebook, x, linkedin, instagram, github, communities, documents, images
 
 def show_facebook_menu():
     while True:
@@ -227,6 +227,31 @@ def show_communities_menu():
             for name, url in urls.items():
                 print(f"[+] {name:<25} {url}")
 
+def show_images_menu():
+    while True:
+        print("\n====== Images ======")
+        print("1. Reverse Image Search")
+        print("2. Images Search")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            image_url = input("Enter image URL: ")
+            results = images.reverse_image_search(image_url)
+        elif choice == "2":
+            term = input("Enter search term: ")
+            results = images.image_keyword_search(term)
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+            continue
+
+        for category, links in results.items():
+            print(f"\n====== {category} ======")
+            for name, url in links.items():
+                print(f"[+] {name:<25} {url}")
+
 
 def main():
     while True:
@@ -239,6 +264,7 @@ def main():
         print("6. GitHub")
         print("7. Communities")
         print("8. Documents")
+        print("9. Images")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -278,6 +304,9 @@ def main():
             print("\n====== Generated Links ======")
             for name, url in links["Documents"].items():
                 print(f"[+] {name:<25} {url}")
+
+        elif choice == "9":
+            show_images_menu()
 
         elif choice == "0":
             break
