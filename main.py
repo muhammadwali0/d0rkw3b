@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, github, instagram, communities
+import search_links, facebook, x, linkedin, instagram, github, communities
 
 def show_facebook_menu():
     while True:
@@ -99,6 +99,7 @@ def show_linkedin_menu():
         print("1. Username")
         print("2. Company")
         print("3. Keywords")
+        print("4. Post URL")
         print("0. Back to Main Menu")
         choice = input("Enter your choice: ")
 
@@ -113,6 +114,10 @@ def show_linkedin_menu():
         elif choice == "3":
             term = input("Enter search keyword: ")
             links = linkedin.li_search_links(term)
+
+        elif choice == "4":
+            post_url = input("Enter LinkedIn post URL: ")
+            links = linkedin.linkedin_post_upload_date(post_url)
 
         elif choice == "0":
             break

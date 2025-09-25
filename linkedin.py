@@ -1,4 +1,9 @@
+
 import urllib.parse
+from datetime import datetime
+import requests
+import re
+
 
 # LinkedIn Profile Links
 def li_profile_links(username):
@@ -17,7 +22,10 @@ def li_profile_links(username):
         "Documents": f"{base}/recent-activity/documents/",
         "Images": f"{base}/recent-activity/images/",
         "Videos": f"{base}/recent-activity/videos/",
-        "Comments": f"{base}/recent-activity/comments/"
+        "Comments": f"{base}/recent-activity/comments/",
+        "Profile": f"https://www.linkedin.com/in/{username}",
+        "Google Photos": f"https://www.google.com/search?q=site:linkedin.com+{encoded}&source=lnms&udm=2",
+        "Bing Photos": f"https://www.bing.com/images/search?q=site%3Alinkedin.com+{encoded}&scenario=ImageBasicHover"
     }
 
 # LinkedIn Company Links
@@ -47,4 +55,11 @@ def li_search_links(term):
         "Posts": f"https://www.linkedin.com/search/results/content/?keywords={encoded}",
         "Events": f"https://www.linkedin.com/search/results/events/?keywords={encoded}",
         "Courses": f"https://www.linkedin.com/learning/search?keywords={encoded}"
+    }
+
+
+def linkedin_post_upload_date(post_url):
+    encoded_url = urllib.parse.quote_plus(post_url.strip())
+    return {
+        "Timestamp Extractor": f"https://ollie-boyd.github.io/Linkedin-post-timestamp-extractor/?url={encoded_url}"
     }
