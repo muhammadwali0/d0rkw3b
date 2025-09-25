@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities
+import search_links, facebook, x, linkedin, instagram, github, communities, documents
 
 def show_facebook_menu():
     while True:
@@ -238,6 +238,7 @@ def main():
         print("5. Instagram")
         print("6. GitHub")
         print("7. Communities")
+        print("8. Documents")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -270,6 +271,13 @@ def main():
 
         elif choice == "7":
             show_communities_menu()
+
+        elif choice == "8":
+            term = input("Enter search terms: ")
+            links = documents.document_links(term)
+            print("\n====== Generated Links ======")
+            for name, url in links["Documents"].items():
+                print(f"[+] {name:<25} {url}")
 
         elif choice == "0":
             break
