@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities, documents, images
+import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images
 
 def show_facebook_menu():
     while True:
@@ -227,6 +227,34 @@ def show_communities_menu():
             for name, url in urls.items():
                 print(f"[+] {name:<25} {url}")
 
+            
+def show_usernames_menu():
+    while True:
+        print("\n====== Username OSINT ======")
+        print("1. Generate links for a username")
+        print("0. Back to Main Menu")
+        choice = input("Choice: ").strip()
+
+        if choice == "1":
+            uname = input("Enter username (can contain spaces): ").strip()
+            if not uname:
+                print("Empty username. Try again.")
+                continue
+
+            results = usernames.username_osint_links(uname)
+            if "error" in results:
+                print("Error:", results["error"])
+                continue
+
+            print(f"\n=== Links for '{uname}' ===")
+            for site in sorted(results.keys()):
+                print(f"[+] {site:<25} {results[site]}")
+            print("\nOpen these links in your browser to check profiles and mentions.")
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+
 def show_images_menu():
     while True:
         print("\n====== Images ======")
@@ -263,8 +291,10 @@ def main():
         print("5. Instagram")
         print("6. GitHub")
         print("7. Communities")
-        print("8. Documents")
-        print("9. Images")
+        print("8. Emails")
+        print("9. Usernames")
+        print("10. Documents")
+        print("11. Images")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -297,15 +327,32 @@ def main():
 
         elif choice == "7":
             show_communities_menu()
-
+            
         elif choice == "8":
+            em = input("Enter email address: ").strip()
+            if not em:
+                print("Empty input. Try again.")
+                continue
+            results = emailaddresses.email_search_links(em)
+            if "error" in results:
+                print("Error:", results["error"])
+                continue
+
+            print(f"\n====== Generated Links ======")
+            for site in sorted(results.keys()):
+                print(f"[+] {site:<18} {results[site]}")
+            
+        elif choice == "9":
+            show_usernames_menu()
+
+        elif choice == "10":
             term = input("Enter search terms: ")
             links = documents.document_links(term)
             print("\n====== Generated Links ======")
             for name, url in links["Documents"].items():
                 print(f"[+] {name:<25} {url}")
 
-        elif choice == "9":
+        elif choice == "11":
             show_images_menu()
 
         elif choice == "0":
