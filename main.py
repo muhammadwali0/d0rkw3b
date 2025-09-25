@@ -12,12 +12,13 @@ ________  _______ __________ ____  __.__      ____________________
         \/       \/       \/        \/      \/         \/       \/                                
 
                 All your OSINT links in one place
-                        by Muhammad Wali                               
+               by Muhammad Wali and Syed Subhan Ali                             
                                                                       
 
 """)
 
-import search_links, facebook, x, instagram, communities
+
+import search_links, facebook, x, linkedin, github, instagram, communities
 
 def show_facebook_menu():
     while True:
@@ -89,6 +90,71 @@ def show_x_menu():
             continue
 
         print("\n====== Generated Links ======")
+        for name, url in links.items():
+            print(f"[+] {name:<25} {url}")
+            
+def show_linkedin_menu():
+    while True:
+        print("\n====== LinkedIn ======")
+        print("1. Profile")
+        print("2. Company")
+        print("3. Generic Search (People, Jobs, Groups, Posts etc.)")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            uname = input("Enter LinkedIn username/vanity: ")
+            links = linkedin.li_profile_links(uname)
+
+        elif choice == "2":
+            cname = input("Enter Company name: ")
+            links = linkedin.li_company_links(cname)
+
+        elif choice == "3":
+            term = input("Enter search keyword: ")
+            links = linkedin.li_search_links(term)
+
+        elif choice == "0":
+            break
+
+        else:
+            print("Invalid choice.")
+            continue
+
+        print("\n====== Generated LinkedIn Links ======")
+        for name, url in links.items():
+            print(f"[+] {name:<25} {url}")
+
+def show_github_menu():
+    while True:
+        print("\n====== GitHub ======")
+        print("1. User / Profile")
+        print("2. Repository")
+        print("3. Search (users/repos/code/issues)")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            username = input("Enter GitHub username: ").strip()
+            links = github.gh_user_links(username)
+
+        elif choice == "2":
+            owner = input("Enter repo owner (username/org): ").strip()
+            repo = input("Enter repo name: ").strip()
+            links = github.gh_repo_links(owner, repo)
+
+        elif choice == "3":
+            term = input("Enter search term (e.g. project name or keyword): ").strip()
+            links = github.gh_search_links(term)
+
+        elif choice == "0":
+            break
+
+        else:
+            print("Invalid choice.")
+            continue
+
+        print("\n====== Generated GitHub Links ======")
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
 
@@ -163,8 +229,10 @@ def main():
         print("1. Search Engines")
         print("2. Facebook")
         print("3. X")
-        print("4. Instagram")
-        print("5. Communities")
+        print("4. Linkedin")
+        print("5. Github")
+        print("6. Instagram")
+        print("7. Communities")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -185,11 +253,17 @@ def main():
 
         elif choice == "3":
             show_x_menu()
-
+            
         elif choice == "4":
+            show_linkedin_menu()
+            
+        elif choice == "5":
+            show_github_menu()
+
+        elif choice == "6":
             show_instagram_menu()
 
-        elif choice == "5":
+        elif choice == "7":
             show_communities_menu()
 
         elif choice == "0":
