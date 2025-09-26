@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images
+import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images, videos
 
 def show_facebook_menu():
     while True:
@@ -253,6 +253,35 @@ def show_images_menu():
             for name, url in links.items():
                 print(f"[+] {name:<25} {url}")
 
+def show_videos_menu():
+    while True:
+        print("\n====== Videos ======")
+        print("1. YouTube Video ID")
+        print("2. Search Terms")
+        print("3. YouTube Username")
+        print("0. Back to Main Menu")
+        choice = input("Enter your choice: ")
+
+        if choice == "1":
+            video_id = input("Enter YouTube video ID: ")
+            links = videos.video_id_links(video_id)
+        elif choice == "2":
+            term = input("Enter search terms: ")
+            links = videos.video_search_links(term)
+        elif choice == "3":
+            username = input("Enter YouTube username: ")
+            links = videos.youtube_username_links(username)
+        elif choice == "0":
+            break
+        else:
+            print("Invalid choice.")
+            continue
+
+        for category, urls in links.items():
+            print(f"\n====== {category} ======")
+            for name, url in urls.items():
+                print(f"[+] {name:<25} {url}")
+
 
 def main():
     while True:
@@ -268,6 +297,7 @@ def main():
         print("9. Usernames")
         print("10. Documents")
         print("11. Images")
+        print("12. Videos")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -324,6 +354,9 @@ def main():
 
         elif choice == "11":
             show_images_menu()
+
+        elif choice == "12":
+            show_videos_menu()
 
         elif choice == "0":
             break
