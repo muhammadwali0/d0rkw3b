@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images, videos
+import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images, videos, ipaddresses
 
 def show_facebook_menu():
     while True:
@@ -298,6 +298,7 @@ def main():
         print("10. Documents")
         print("11. Images")
         print("12. Videos")
+        print("13. IP Addresses")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -357,6 +358,13 @@ def main():
 
         elif choice == "12":
             show_videos_menu()
+
+        elif choice == "13":
+            ip = input("Enter IP address: ")
+            links = ipaddresses.ip_osint_links(ip)
+            print("\n====== Generated Links ======")
+            for name, url in links["IP Address OSINT"].items():
+                print(f"[+] {name:<25} {url}")
 
         elif choice == "0":
             break
