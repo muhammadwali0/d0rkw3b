@@ -309,19 +309,11 @@ def main():
                 print(f"[+] {name:<25} {url}")
             
         elif choice == "9":
-            uname = input("Enter username: ").strip()
-            if not uname:
-                print("Empty username. Try again.")
-                continue
-
-            results = usernames.username_osint_links(uname)
-            if "error" in results:
-                print("Error:", results["error"])
-                continue
-
-            print(f"\n=== Generated Links ===")
-            for site in sorted(results.keys()):
-                print(f"[+] {site:<25} {results[site]}")
+            username = input("Enter Username: ")
+            links = usernames.username_osint_links(username)
+            print("\n====== Generated Links ======")
+            for name, url in links["Username OSINT"].items():
+                print(f"[+] {name:<25} {url}")
 
         elif choice == "10":
             term = input("Enter search terms: ")
