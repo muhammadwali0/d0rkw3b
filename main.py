@@ -18,7 +18,7 @@ ________  _______ __________ ____  __.__      ____________________
 """)
 
 
-import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images, videos, ipaddresses
+import search_links, facebook, x, linkedin, instagram, github, communities, emailaddresses, usernames, documents, images, videos, ipaddresses, domain
 
 def show_facebook_menu():
     while True:
@@ -134,23 +134,21 @@ def show_github_menu():
     while True:
         print("\n====== GitHub ======")
         print("1. Username")
-        print("2. Repository")
-        print("3. Keyword")
+        print("2. Repository Name")
         print("0. Back to Main Menu")
         choice = input("Enter your choice: ")
 
         if choice == "1":
             username = input("Enter GitHub username: ").strip()
-            links = github.gh_user_links(username)
+            links = github.gh_user_links(username)   # github. prefix
 
         elif choice == "2":
-            owner = input("Enter repo owner (username/org): ").strip()
-            repo = input("Enter repo name: ").strip()
-            links = github.gh_repo_links(owner, repo)
+            repo_name = input("Enter repository name: ").strip()
+            links = github.gh_repo_search(repo_name)  # github. prefix
 
         elif choice == "3":
             term = input("Enter search term: ").strip()
-            links = github.gh_search_links(term)
+            links = github.gh_search_links(term)   # github. prefix
 
         elif choice == "0":
             break
@@ -162,6 +160,7 @@ def show_github_menu():
         print("\n====== Generated Links ======")
         for name, url in links.items():
             print(f"[+] {name:<25} {url}")
+
 
 def show_instagram_menu():
     while True:
@@ -299,6 +298,7 @@ def main():
         print("11. Images")
         print("12. Videos")
         print("13. IP Addresses")
+        print("14. Domain")
         print("0. Exit")
         choice = input("Enter your choice: ")
 
@@ -364,6 +364,14 @@ def main():
             links = ipaddresses.ip_osint_links(ip)
             print("\n====== Generated Links ======")
             for name, url in links["IP Address OSINT"].items():
+                print(f"[+] {name:<25} {url}")
+                
+                
+        elif choice == "14":
+            dom = input("Enter domain name: ")
+            links = domain.domain_osint_links(dom)
+            print("\n====== Generated Links ======")
+            for name, url in links.items():
                 print(f"[+] {name:<25} {url}")
 
         elif choice == "0":
