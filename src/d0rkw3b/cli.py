@@ -120,6 +120,10 @@ def interactive():
 
 def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
+    from .cases.cli import dispatch as case_dispatch
+    managed = case_dispatch(argv)
+    if managed is not None:
+        return managed
     from .workbench_cli import dispatch as workbench_dispatch
     managed = workbench_dispatch(argv)
     if managed is not None:

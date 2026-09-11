@@ -75,3 +75,15 @@ Generated queries cannot carry a confirmed output entity/relationship. The email
 pivot is explicitly syntactic, not an inferred account or ownership claim.
 26 offline unittest checks pass, including all seven recipe executions and API
 network-denial tests. P1 storage/collection and P2/release/adoption work remain open.
+
+## Progress: P1 cases and evidence
+
+Implemented explicit platform-local SQLite schema 1 with foreign keys, transactional
+runs, entity deduplication scoped to cases, notes and byte-preserving evidence
+imports with SHA-256/provenance. Added case/evidence CLI and investigate --case,
+JSONL/CSV/Markdown projections, provenance-preserving GraphML/GEXF and timestamp-
+aware timelines. File/hash/hostname model types added for collection consumers.
+36 offline unittest checks pass, including rollback, future-schema refusal,
+cross-case isolation, no implicit storage, evidence bytes and graph provenance.
+Remaining: active connectors, external integrations/plugins, ecosystem and release
+work; final audit must still assess the entire original attachment.

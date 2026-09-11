@@ -1,6 +1,7 @@
 import ipaddress
 import re
 import unicodedata
+from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from .models import TARGET_TYPES, Target
@@ -35,7 +36,13 @@ def validate(value, kind):
         if kind != f'ipv{address.version}' or '%' in value:
             raise ValueError(f'invalid {kind} address')
         value = str(address)
-    elif kind == 'domain':
+    elif kind == 'file':
+        value = str(Path(value).expanduser().resolve())
+    elif kind == 'file_hash':
+        if not re.fullmatch(r'sha256:[A-Fa-f0-9]{64}', value):
+            raise ValueError('file_hash must be sha256: followed by 64 hex digits')
+        value = value.lower()
+    elif kind in ('domain', 'hostname'):
         value = domain_name(value)
     elif kind == 'email':
         if value.count('@') != 1:

@@ -2,6 +2,7 @@
 import argparse
 import json
 import sys
+import sqlite3
 
 from .core.recipes import load_recipes
 from .core.registry import load_registry
@@ -25,6 +26,7 @@ def dispatch(argv):
         parser.add_argument('target')
         parser.add_argument('--type')
         parser.add_argument('--recipe')
+        parser.add_argument('--case', help='save this run to an existing local case')
         parser.add_argument('--all', action='store_true', help='show all paths instead of five queries per stage')
         parser.add_argument('--network', choices=('clearnet', 'tor', 'all'), default='clearnet')
         parser.add_argument('--param', action='append', default=[], metavar='NAME=VALUE')
@@ -68,6 +70,10 @@ def dispatch(argv):
         plan = investigate(args.target, type=args.type, recipe=args.recipe, all=args.all,
                            network=args.network, provider_files=args.provider_file,
                            recipe_files=args.recipe_file, parameters=parameters)
+        if args.case:
+            from .cases.store import CaseStore
+            with CaseStore(writable=True) as store:
+                store.save(args.case, plan)
         for error in plan.diagnostics:
             print(f'notice: {error}', file=sys.stderr)
         if args.format == 'json':
@@ -91,6 +97,6 @@ def dispatch(argv):
             for relation in plan.relationships:
                 print(f'\nPivot: {relation.predicate} (method: {relation.provenance.method})')
         return 0
-    except (ValueError, OSError) as exc:
+    except (ValueError, OSError, sqlite3.Error) as exc:
         print(f'error: {exc}', file=sys.stderr)
         return 2

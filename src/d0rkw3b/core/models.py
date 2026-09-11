@@ -2,7 +2,7 @@ from dataclasses import dataclass
 
 TARGET_TYPES = frozenset(('search', 'username', 'email', 'domain', 'ipv4', 'ipv6',
                           'url', 'document', 'video_id', 'phone', 'user_id',
-                          'location_id', 'list_id', 'repository', 'company'))
+                          'location_id', 'list_id', 'repository', 'company', 'file', 'file_hash', 'hostname'))
 VARIABLES = frozenset(('query', 'username', 'username2', 'email', 'domain', 'ip',
                        'url', 'video_id', 'phone', 'user_id', 'location_id',
                        'list_id', 'repository', 'company', 'year', 'next_year'))
