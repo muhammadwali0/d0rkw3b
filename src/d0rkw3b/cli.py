@@ -8,6 +8,8 @@ import sys
 import webbrowser
 
 from . import __version__
+from .core.config import load_settings
+from .core.diagnostics import DEBUG, report_error
 from .core.detector import detect
 from .core.models import TARGET_TYPES, VARIABLES
 from .core.registry import load_registry
@@ -20,15 +22,18 @@ def parser():
     result = argparse.ArgumentParser(description='The Local OSINT Workbench. Queries and investigations are offline; --open and providers health are explicit network actions.',
         epilog='Commands: investigate TARGET | recipes list/info | providers list/health | dev validate-providers/validate-recipes/registry-stats | interactive. Example: d0rkw3b investigate example.com --recipe domain-footprint')
     result.add_argument('target', nargs='*', help='[type] target, or interactive / providers / validate-providers')
+    result.add_argument('--verbose', action='store_true', help='diagnostics on stderr')
+    result.add_argument('--debug', action='store_true', help='traceback frames on stderr for errors; no locals or chained exceptions')
     result.add_argument('--version', action='version', version=__version__)
     result.add_argument('--type', choices=sorted(TARGET_TYPES | {'ip'}))
+    result.add_argument('--pack', help='logical provider group; see packs list')
     result.add_argument('--category', help='filter by category (use providers to list)')
     result.add_argument('--provider', action='append', default=[], help='select exact provider ID; repeatable')
     result.add_argument('--provider-file', action='append', default=[], help='additional JSON provider file or directory')
     result.add_argument('--network', choices=('clearnet', 'tor', 'all'), default='clearnet', help='default: clearnet; Tor links are never automatically opened')
     result.add_argument('--include-disabled', action='store_true', help='include retained reference definitions')
     result.add_argument('--param', action='append', default=[], metavar='NAME=VALUE', help='extra parameter, e.g. year=2024, query=term, username2=other')
-    result.add_argument('--format', choices=('text', 'json', 'csv', 'markdown'), default='text')
+    result.add_argument('--format', choices=('text', 'json', 'csv', 'markdown'), default=load_settings()['default_format'])
     result.add_argument('--all', action='store_true', help='show every matching provider (text defaults to top 10; machine formats remain complete)')
     result.add_argument('--open', action='store_true', help='open one explicitly selected clearnet provider in your browser; sends target to provider')
     return result
@@ -112,14 +117,18 @@ def interactive():
             except SystemExit:
                 pass  # argparse errors should not end the session
         except ValueError as exc:
-            print(f'error: {exc}', file=sys.stderr)
+            report_error(exc)
         except (EOFError, KeyboardInterrupt):
             print()
             return 0
 
 
-def main(argv=None):
+def _main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
+    from .registry_cli import dispatch as registry_dispatch
+    managed = registry_dispatch(argv)
+    if managed is not None:
+        return managed
     from .connectors.cli import dispatch as connector_dispatch
     managed = connector_dispatch(argv)
     if managed is not None:
@@ -158,8 +167,12 @@ def main(argv=None):
             raise ValueError('unknown provider IDs: ' + ', '.join(sorted(unknown)))
         if args.category and args.category not in {p['category'] for p in providers}:
             raise ValueError('unknown category: ' + args.category)
+        from .core.packs import in_pack, packs
+        if args.pack and args.pack not in {p['id'] for p in packs(providers)}:
+            raise ValueError('unknown pack: ' + args.pack)
         providers = [p for p in rank_providers(providers) if (not selected or p['id'] in selected)
                      and (not args.category or p['category'] == args.category)
+                     and (not args.pack or in_pack(p, args.pack))
                      and (args.network == 'all' or p['network'] == args.network)
                      and (args.include_disabled or (p['enabled'] and p['status'] not in ('disabled', 'broken', 'deprecated')))]
         if args.target == ['providers']:
@@ -223,7 +236,30 @@ def main(argv=None):
     except BrokenPipeError:
         return 0
     except (ValueError, OSError) as exc:
-        print(f'error: {exc}', file=sys.stderr)
+        report_error(exc)
         return 2
     except KeyboardInterrupt:
         return 130
+
+
+def main(argv=None):
+    argv = list(sys.argv[1:] if argv is None else argv)
+    # Only actual options before the -- delimiter are interpreted globally.
+    boundary = argv.index('--') if '--' in argv else len(argv)
+    prefix, suffix = argv[:boundary], argv[boundary:]
+    debug, verbose = '--debug' in prefix, '--verbose' in prefix
+    argv = [v for v in prefix if v not in ('--debug', '--verbose')] + suffix
+    token = DEBUG.set(debug)
+    try:
+        if verbose:
+            print('D0RKW3B: command dispatch; targets and credentials are omitted from diagnostic logs.', file=sys.stderr)
+        return _main(argv)
+    except BrokenPipeError:
+        return 0
+    except (ValueError, OSError) as exc:
+        report_error(exc)
+        return 2
+    except KeyboardInterrupt:
+        return 130
+    finally:
+        DEBUG.reset(token)

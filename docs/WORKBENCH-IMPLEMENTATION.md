@@ -100,3 +100,12 @@ mocked DNS/RDAP, local hashing, subprocess timeout/output bounds, missing tools,
 read-only ExifTool args and test-plugin lifecycle. No live DNS/RDAP or installed
 ExifTool run is claimed. Remaining: registry updates/packs, query grammar,
 configuration/errors/logging, documentation/release CI and full completion audit.
+
+## Progress: P2 registry and CLI preferences
+
+Added complete local snapshot validation/SHA-256 activation/rollback with fallback,
+logical packs, explicit typed expressions, three validated local preferences,
+connector-disable enforcement and stderr verbose/debug frames. Registry updates
+have no remote service, implicit fetch or target transmission. 51 offline tests
+pass. Version/release metadata, lint/build/install CI, final docs and full review
+remain pending; no release or external publication has occurred.

@@ -81,7 +81,7 @@ def validate_provider(item):
     return item
 
 
-def load_registry(extra_paths=()):
+def load_bundled_registry(extra_paths=()):
     providers, errors, seen = [], [], set()
     sources = sorted(files('d0rkw3b').joinpath('providers').iterdir(), key=lambda p: p.name)
     for path in extra_paths:
@@ -106,4 +106,28 @@ def load_registry(extra_paths=()):
                 providers.append(item)
             except (ValueError, TypeError, KeyError) as exc:
                 errors.append(f'{source}[{index}]: {exc}')
+    return sorted(providers, key=lambda p: p['id']), errors
+
+
+def load_registry(extra_paths=()):
+    from .updates import active_snapshot
+    bundled, errors = load_bundled_registry()
+    providers, update_errors = active_snapshot(bundled)
+    errors.extend(update_errors)
+    if extra_paths:
+        all_providers, extra_errors = load_bundled_registry(extra_paths)
+        errors.extend(error for error in extra_errors if error not in errors)
+        bundled_ids = {p['id'] for p in bundled}
+        seen = {p['id'] for p in providers}
+        for provider in all_providers:
+            if provider['id'] in bundled_ids:
+                continue
+            if provider['id'] in seen:
+                errors.append('duplicate provider ID: ' + provider['id'])
+            else:
+                seen.add(provider['id'])
+                providers.append(provider)
+    from .config import load_settings
+    disabled = set(load_settings()['disabled_providers'])
+    providers = [dict(p, enabled=False) if p['id'] in disabled else p for p in providers]
     return sorted(providers, key=lambda p: p['id']), errors

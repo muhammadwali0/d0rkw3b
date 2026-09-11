@@ -4,6 +4,7 @@ import http.client
 import json
 import sqlite3
 import sys
+from ..core.diagnostics import report_error
 
 from ..cases.store import CaseStore
 from ..core.entities import Entity
@@ -68,5 +69,5 @@ def dispatch(argv):
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except (ValueError, OSError, sqlite3.Error, http.client.HTTPException) as exc:
-        print(f'error: {exc}', file=sys.stderr)
+        report_error(exc)
         return 2

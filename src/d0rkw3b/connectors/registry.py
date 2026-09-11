@@ -51,6 +51,9 @@ def manifests():
 
 def collect(entity, connector_id, *, disclose=None, timeout=None):
     """Execute exactly one requested connector. Capability declarations are not a sandbox."""
+    from ..core.config import load_settings
+    if connector_id in load_settings()['disabled_connectors']:
+        raise ConnectorPermissionError('connector is disabled by local configuration: ' + connector_id)
     plugins = {}
     if connector_id not in MANIFESTS and connector_id != 'exiftool':
         plugins, errors = discover_plugins()

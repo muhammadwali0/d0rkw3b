@@ -2,6 +2,7 @@
 import argparse
 import json
 import sys
+from .core.diagnostics import report_error
 import sqlite3
 import http.client
 from dataclasses import replace
@@ -27,6 +28,9 @@ def dispatch(argv):
     else:
         parser.add_argument('target')
         parser.add_argument('--type')
+        parser.add_argument('--category')
+        parser.add_argument('--pack')
+        parser.add_argument('--expression', action='store_true', help='parse TYPE:VALUE [category:NAME]')
         parser.add_argument('--recipe')
         parser.add_argument('--with', dest='connectors', action='append', default=[], help='explicit connector ID; displays capabilities before collection')
         parser.add_argument('--case', help='save this run to an existing local case')
@@ -70,9 +74,16 @@ def dispatch(argv):
             if not separator or key not in VARIABLES or key in parameters:
                 raise ValueError('invalid or duplicate parameter')
             parameters[key] = value
+        if args.expression:
+            from .core.expressions import parse_expression
+            kind, value, category = parse_expression(args.target)
+            if args.type and args.type != kind or args.category and category and args.category != category:
+                raise ValueError('expression conflicts with explicit filters')
+            args.type, args.target = kind, value
+            args.category = category or args.category
         plan = investigate(args.target, type=args.type, recipe=args.recipe, all=args.all,
                            network=args.network, provider_files=args.provider_file,
-                           recipe_files=args.recipe_file, parameters=parameters)
+                           recipe_files=args.recipe_file, parameters=parameters, category=args.category, pack=args.pack)
         if args.connectors:
             if len(args.connectors) > 5 or len(set(args.connectors)) != len(args.connectors):
                 raise ValueError('select at most five distinct connectors')
@@ -117,5 +128,5 @@ def dispatch(argv):
                 print(f'\nPivot: {relation.predicate} (method: {relation.provenance.method})')
         return 0
     except (ValueError, OSError, sqlite3.Error, http.client.HTTPException) as exc:
-        print(f'error: {exc}', file=sys.stderr)
+        report_error(exc)
         return 2

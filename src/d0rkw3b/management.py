@@ -2,6 +2,7 @@
 import argparse
 import json
 import sys
+from .core.diagnostics import report_error
 from collections import Counter
 
 from .core.health import check_providers
@@ -56,5 +57,5 @@ def dispatch(argv):
             print(json.dumps(result, indent=2))
         return 1 if errors else 0
     except (ValueError, OSError) as exc:
-        print(f'error: {exc}', file=sys.stderr)
+        report_error(exc)
         return 2

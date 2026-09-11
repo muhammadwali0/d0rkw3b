@@ -24,7 +24,7 @@ class Investigation:
 
 
 def investigate(value, *, type=None, recipe=None, all=False, network='clearnet',
-                provider_files=(), recipe_files=(), parameters=None, created_at=None):
+                provider_files=(), recipe_files=(), parameters=None, created_at=None, category=None, pack=None):
     """Return a plan. Creation times are real; normalized values and IDs are stable.
 
     ``all`` includes all enabled matching providers. No case is created, no
@@ -37,6 +37,11 @@ def investigate(value, *, type=None, recipe=None, all=False, network='clearnet',
     if target.variable in (parameters or {}) or 'next_year' in (parameters or {}):
         raise ValueError('parameters cannot override the input entity or derived next_year')
     providers, diagnostics = load_registry(provider_files)
+    from .core.packs import in_pack, packs
+    if category and category not in {p['category'] for p in providers}:
+        raise ValueError('unknown category: ' + category)
+    if pack and pack not in {p['id'] for p in packs(providers)}:
+        raise ValueError('unknown pack: ' + pack)
     stages = None
     if recipe:
         recipes, errors = load_recipes(providers, recipe_files)
@@ -50,6 +55,8 @@ def investigate(value, *, type=None, recipe=None, all=False, network='clearnet',
     available = [p for p in rank_providers(providers) if p['enabled']
                  and p['status'] not in ('broken', 'disabled', 'deprecated')
                  and target.type in p['target_types']
+                 and (not category or p['category'] == category)
+                 and (not pack or in_pack(p, pack))
                  and (network == 'all' or p['network'] == network)]
     if stages is None:
         categories = list(dict.fromkeys(p['category'] for p in available))
