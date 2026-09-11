@@ -1,0 +1,24 @@
+name: provider health report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5 * * 1'
+permissions:
+  contents: read
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install .
+      - name: Check at most 20 public provider origins
+        run: d0rkw3b providers health --max-requests 20 --delay 1 --timeout 5 --format json > provider-health.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: provider-health
+          path: provider-health.json
+          retention-days: 30

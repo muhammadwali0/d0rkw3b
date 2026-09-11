@@ -22,7 +22,11 @@
     "source": "usernames.py:username_osint_links",
     "parameters": [
       "username"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "usernames-username-osint-links-username-osint-bing",
@@ -47,7 +51,11 @@
     "source": "usernames.py:username_osint_links",
     "parameters": [
       "username"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "usernames-username-osint-links-username-osint-yandex",
@@ -422,7 +430,11 @@
     "source": "usernames.py:username_osint_links",
     "parameters": [
       "username"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "usernames-username-osint-links-username-osint-facebook",
@@ -447,7 +459,11 @@
     "source": "usernames.py:username_osint_links",
     "parameters": [
       "username"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "usernames-username-osint-links-username-osint-instagram",
@@ -472,7 +488,11 @@
     "source": "usernames.py:username_osint_links",
     "parameters": [
       "username"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "usernames-username-osint-links-username-osint-tiktok",

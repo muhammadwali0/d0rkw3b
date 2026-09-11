@@ -67,12 +67,17 @@ d0rkw3b --help
 d0rkw3b document "Acme Corporation" --category documents --format csv
 ```
 
-JSON is an array ordered by stable provider ID, with `id`, `name`, `category`,
+JSON is a complete array ordered by transparent editorial rank (stable IDs break ties), with `id`, `name`, `category`,
 `network`, `status`, and `url`. It includes no timestamps or random fields.
 CSV has the same columns; Markdown and text support human review. Diagnostics go
 to stderr. Exit codes: 0 success, 1 failed registry validation, 2 usage/input/no
 matching providers, 130 interrupted. Redirect output using your shell; existing
 files are subject to your shell's normal overwrite behavior.
+
+Text queries show the top 10 recommendations; add `--all` for every match.
+Explicit provider selection and JSON/CSV/Markdown retain complete results.
+See [provider verification and ranking](docs/provider-verification.md) for
+`providers health`, its network limits, and the scoring formula.
 
 ## Categories and advanced targets
 

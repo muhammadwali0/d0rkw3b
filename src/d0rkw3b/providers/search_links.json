@@ -22,7 +22,11 @@
     "source": "search_links.py:generate_links",
     "parameters": [
       "query"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "search-links-generate-links-clearnet-google-date",
@@ -197,7 +201,11 @@
     "source": "search_links.py:generate_links",
     "parameters": [
       "query"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "search-links-generate-links-clearnet-bing-news",
@@ -347,7 +355,11 @@
     "source": "search_links.py:generate_links",
     "parameters": [
       "query"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "search-links-generate-links-clearnet-startpage",
@@ -422,7 +434,11 @@
     "source": "search_links.py:generate_links",
     "parameters": [
       "query"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "search-links-generate-links-clearnet-wayback",

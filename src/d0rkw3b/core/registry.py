@@ -13,14 +13,17 @@ REQUIRED = {'id', 'name', 'target_types', 'category', 'description', 'template',
             'status', 'last_verified', 'notes', 'source', 'parameters'}
 
 
+OPTIONAL = {'quality', 'packs', 'verification', 'rate_limit_notes'}
+
+
 def validate_provider(item):
     if not isinstance(item, dict):
         raise ValueError('provider must be an object')
     missing = REQUIRED - item.keys()
     if missing:
         raise ValueError('missing fields: ' + ', '.join(sorted(missing)))
-    if item.keys() - REQUIRED:
-        raise ValueError('unknown fields: ' + ', '.join(sorted(item.keys() - REQUIRED)))
+    if item.keys() - REQUIRED - OPTIONAL:
+        raise ValueError('unknown fields: ' + ', '.join(sorted(item.keys() - REQUIRED - OPTIONAL)))
     for key in ('id', 'name', 'category', 'description', 'template', 'homepage', 'notes', 'source'):
         if not isinstance(item[key], str) or not item[key].strip():
             raise ValueError(f'{key} must be a nonempty string')
@@ -42,6 +45,25 @@ def validate_provider(item):
             raise ValueError(f'invalid {key}')
     if item['last_verified'] is not None:
         date.fromisoformat(item['last_verified'])
+    quality = item.get('quality')
+    if quality is not None:
+        if (not isinstance(quality, dict) or set(quality) != {'priority', 'reason'}
+                or type(quality['priority']) is not int or not 0 <= quality['priority'] <= 5
+                or not isinstance(quality['reason'], str) or not quality['reason'].strip()):
+            raise ValueError('quality requires priority 0–5 and a nonempty editorial reason')
+    if 'packs' in item and (not isinstance(item['packs'], list) or
+            any(not isinstance(v, str) or not re.fullmatch('[a-z0-9-]+', v) for v in item['packs'])):
+        raise ValueError('packs must be a list of lowercase identifiers')
+    if 'rate_limit_notes' in item and not isinstance(item['rate_limit_notes'], str):
+        raise ValueError('rate_limit_notes must be text')
+    if 'verification' in item:
+        verification = item['verification']
+        if (not isinstance(verification, dict) or set(verification) != {'method', 'confidence', 'notes'}
+                or any(not isinstance(v, str) or not v.strip() for v in verification.values())
+                or verification['confidence'] not in ('low', 'medium', 'high')):
+            raise ValueError('verification requires method, confidence (low/medium/high), and notes')
+        if item['last_verified'] is None:
+            raise ValueError('verification requires an actual last_verified date')
     used = fields(item['template'])
     if used - VARIABLES:
         raise ValueError('unsupported variables: ' + ', '.join(sorted(used - VARIABLES)))

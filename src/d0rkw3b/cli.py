@@ -12,6 +12,7 @@ from .core.detector import detect
 from .core.models import TARGET_TYPES, VARIABLES
 from .core.registry import load_registry
 from .core.renderer import fields, render
+from .core.ranking import rank_providers
 from .core.validation import validate
 
 
@@ -28,6 +29,7 @@ def parser():
     result.add_argument('--include-disabled', action='store_true', help='include retained reference definitions')
     result.add_argument('--param', action='append', default=[], metavar='NAME=VALUE', help='extra parameter, e.g. year=2024, query=term, username2=other')
     result.add_argument('--format', choices=('text', 'json', 'csv', 'markdown'), default='text')
+    result.add_argument('--all', action='store_true', help='show every matching provider (text defaults to top 10; machine formats remain complete)')
     result.add_argument('--open', action='store_true', help='open one explicitly selected clearnet provider in your browser; sends target to provider')
     return result
 
@@ -116,6 +118,11 @@ def interactive():
 
 
 def main(argv=None):
+    argv = list(sys.argv[1:] if argv is None else argv)
+    from .management import dispatch
+    managed = dispatch(argv)
+    if managed is not None:
+        return managed
     cli = parser()
     args = cli.parse_args(argv)
     try:
@@ -138,7 +145,7 @@ def main(argv=None):
             raise ValueError('unknown provider IDs: ' + ', '.join(sorted(unknown)))
         if args.category and args.category not in {p['category'] for p in providers}:
             raise ValueError('unknown category: ' + args.category)
-        providers = [p for p in providers if (not selected or p['id'] in selected)
+        providers = [p for p in rank_providers(providers) if (not selected or p['id'] in selected)
                      and (not args.category or p['category'] == args.category)
                      and (args.network == 'all' or p['network'] == args.network)
                      and (args.include_disabled or (p['enabled'] and p['status'] not in ('disabled', 'broken', 'deprecated')))]
@@ -195,6 +202,9 @@ def main(argv=None):
                 raise ValueError('disabled/reference providers cannot be automatically opened')
             if not webbrowser.open(rows[0]['url'], new=2):
                 raise ValueError('browser could not be opened')
+        if args.format == 'text' and not args.all and not selected and len(rows) > 10:
+            print(f'{len(rows) - 10} additional providers available with --all', file=sys.stderr)
+            rows = rows[:10]
         print(output(rows, args.format), end='')
         return 0
     except BrokenPipeError:
