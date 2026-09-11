@@ -1,0 +1,43 @@
+{
+  "id": "domain-footprint",
+  "name": "Domain footprint",
+  "description": "Generate reviewable domain footprint paths. Queries are not confirmed findings.",
+  "target_types": [
+    "domain"
+  ],
+  "stages": [
+    {
+      "name": "Certificates",
+      "description": "Review indexed certificate records; issuance does not prove current ownership.",
+      "providers": [
+        "domain-domain-osint-links-crt-sh"
+      ]
+    },
+    {
+      "name": "Registration",
+      "description": "Review registration and DNS sources.",
+      "providers": [
+        "domain-domain-osint-links-who-is",
+        "domain-domain-osint-links-who-is-dns",
+        "domain-domain-osint-links-whois"
+      ]
+    },
+    {
+      "name": "History",
+      "description": "Inspect archived registration pages, including fixed historical snapshots.",
+      "providers": [
+        "domain-domain-osint-links-whois-archive-i",
+        "domain-domain-osint-links-whois-archive-ii",
+        "domain-domain-osint-links-whois-archive-iii"
+      ]
+    },
+    {
+      "name": "Reputation",
+      "description": "Review third-party context without treating reputation as attribution.",
+      "providers": [
+        "domain-domain-osint-links-virustotal",
+        "domain-domain-osint-links-alienvault-otx"
+      ]
+    }
+  ]
+}

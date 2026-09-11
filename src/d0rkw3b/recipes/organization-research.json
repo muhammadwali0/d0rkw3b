@@ -1,0 +1,20 @@
+{
+  "id": "organization-research",
+  "name": "Organization research",
+  "description": "Generate reviewable organization research paths. Queries are not confirmed findings.",
+  "target_types": [
+    "company"
+  ],
+  "stages": [
+    {
+      "name": "Company context",
+      "description": "Review company pages and public activity; do not infer ownership from name similarity.",
+      "providers": [
+        "linkedin-li-company-links-company-page",
+        "linkedin-li-company-links-about",
+        "linkedin-li-company-links-jobs",
+        "linkedin-li-company-links-posts"
+      ]
+    }
+  ]
+}

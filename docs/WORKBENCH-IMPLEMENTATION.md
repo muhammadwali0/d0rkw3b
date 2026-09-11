@@ -65,3 +65,13 @@ stats and separate scheduled health artifacts. 19 offline unittest checks pass.
 Baseline provider coverage remains 425/14 categories/15 types/13 Tor, all unverified.
 No live checks or semantic claims made. No external release exists in the GitHub
 release listing inspected during audit. Remaining P0/P1/P2/P3 items above are open.
+
+## Progress: structured P0 investigations
+
+Added validated Entity/Relationship/Provenance/Observation models, stable typed
+identity, offline investigation API, seven validated recipes, investigate and
+recipes command groups, clean structured exports and interactive routing.
+Generated queries cannot carry a confirmed output entity/relationship. The email
+pivot is explicitly syntactic, not an inferred account or ownership claim.
+26 offline unittest checks pass, including all seven recipe executions and API
+network-denial tests. P1 storage/collection and P2/release/adoption work remain open.

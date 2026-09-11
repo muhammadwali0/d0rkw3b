@@ -20,4 +20,4 @@ d0rkw3b = "d0rkw3b.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-d0rkw3b = ["providers/*.json"]
+d0rkw3b = ["providers/*.json", "recipes/*.json"]

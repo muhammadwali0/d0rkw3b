@@ -1,0 +1,19 @@
+{
+  "id": "image-provenance",
+  "name": "Image provenance",
+  "description": "Generate reviewable image provenance paths. Queries are not confirmed findings.",
+  "target_types": [
+    "url"
+  ],
+  "stages": [
+    {
+      "name": "Reverse image paths",
+      "description": "Opening these generated URLs shares the image URL with the chosen service; no upload or network request occurs here.",
+      "providers": [
+        "images-reverse-image-search-reverse-image-search-google-lens",
+        "images-reverse-image-search-reverse-image-search-tineye",
+        "images-reverse-image-search-reverse-image-search-yandex"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "document-provenance",
+  "name": "Document provenance",
+  "description": "Generate reviewable document provenance paths. Queries are not confirmed findings.",
+  "target_types": [
+    "document"
+  ],
+  "stages": [
+    {
+      "name": "Indexed documents",
+      "description": "Review indexed files and publication archives, not downloaded contents.",
+      "providers": [
+        "documents-document-links-documents-pdf",
+        "documents-document-links-documents-google-docs",
+        "documents-document-links-documents-archive-org",
+        "documents-document-links-documents-google-books"
+      ]
+    }
+  ]
+}

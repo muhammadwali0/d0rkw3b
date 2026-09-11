@@ -17,8 +17,8 @@ from .core.validation import validate
 
 
 def parser():
-    result = argparse.ArgumentParser(description='Generate OSINT links locally. No requests are sent unless --open is used.',
-        epilog='Examples: d0rkw3b email example@example.com | d0rkw3b @someone --format json | d0rkw3b interactive')
+    result = argparse.ArgumentParser(description='The Local OSINT Workbench. Queries and investigations are offline; --open and providers health are explicit network actions.',
+        epilog='Commands: investigate TARGET | recipes list/info | providers list/health | dev validate-providers/validate-recipes/registry-stats | interactive. Example: d0rkw3b investigate example.com --recipe domain-footprint')
     result.add_argument('target', nargs='*', help='[type] target, or interactive / providers / validate-providers')
     result.add_argument('--version', action='version', version=__version__)
     result.add_argument('--type', choices=sorted(TARGET_TYPES | {'ip'}))
@@ -81,9 +81,10 @@ def menu_query(category, providers):
 
 
 def interactive():
-    print('D0RKW3B — local query launcher. Type help for examples; quit to exit.')
+    print('D0RKW3B — The Local OSINT Workbench. Type help for examples; quit to exit.')
     providers, _ = load_registry()
     categories = sorted({p['category'] for p in providers})
+    print('Commands: investigate TARGET, recipes list, providers health --help.')
     print('Choose a category number, or enter a CLI command. No links open automatically.')
     for index, category in enumerate(categories, 1):
         print(f'{index}. {category}')
@@ -119,6 +120,10 @@ def interactive():
 
 def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
+    from .workbench_cli import dispatch as workbench_dispatch
+    managed = workbench_dispatch(argv)
+    if managed is not None:
+        return managed
     from .management import dispatch
     managed = dispatch(argv)
     if managed is not None:
