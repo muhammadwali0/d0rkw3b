@@ -63,3 +63,19 @@ class UpdateTests(unittest.TestCase):
                         path, hashlib.sha256(raw).hexdigest(), bundled, root=root
                     )
                 self.assertFalse(snapshot_path(root).exists())
+
+    @unittest.skipUnless(hasattr(os, "mkfifo"), "named pipes require POSIX")
+    def test_named_pipe_snapshot_is_rejected_without_blocking(self):
+        from d0rkw3b.core.updates import active_snapshot
+
+        bundled, _ = load_bundled_registry()
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = snapshot_path(root)
+            path.parent.mkdir()
+            os.mkfifo(path)
+            with self.assertRaisesRegex(ValueError, "regular"):
+                install_snapshot(path, "0" * 64, bundled, root=root)
+            providers, errors = active_snapshot(bundled, root=root)
+            self.assertEqual(providers, bundled)
+            self.assertTrue(errors)

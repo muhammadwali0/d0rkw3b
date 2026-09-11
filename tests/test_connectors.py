@@ -121,7 +121,7 @@ class ConnectorTests(unittest.TestCase):
             self.assertEqual(result.observations[0].metadata["EXIF:Make"], "Example")
             argv = tool.call_args.args[0]
             self.assertEqual(argv[1:3], ["-config", ""])
-            self.assertEqual(argv[-2:], ["--", str(path)])
+            self.assertEqual(argv[-2:], ["--", str(path.resolve())])
 
     def test_bounded_process(self):
         self.assertEqual(

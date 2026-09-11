@@ -92,7 +92,7 @@ class CaseTests(unittest.TestCase):
 
     def test_platform_paths_and_repository_exclusion(self):
         with patch.dict(os.environ, {"D0RKW3B_DATA_DIR": str(self.root)}):
-            self.assertEqual(data_directory(), self.root)
+            self.assertEqual(data_directory(), self.root.resolve())
         repo = Path(self.temp.name) / "repo"
         (repo / ".git").mkdir(parents=True)
         with self.assertRaises(ValueError):

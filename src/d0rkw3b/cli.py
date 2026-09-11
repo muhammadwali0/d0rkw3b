@@ -21,8 +21,8 @@ from .core.validation import validate
 
 def parser():
     result = argparse.ArgumentParser(
-        description="The Local OSINT Workbench. Queries and investigations are offline; --open and providers health are explicit network actions.",
-        epilog="Commands: investigate TARGET | recipes list/info | providers list/health | dev validate-providers/validate-recipes/registry-stats | interactive. Example: d0rkw3b investigate example.com --recipe domain-footprint",
+        description="The Local OSINT Workbench. Query generation is offline. Opening links, health checks and network connectors require explicit invocation.",
+        epilog="Commands: investigate TARGET | recipes list/info | providers list/health/update | packs list | collect | connectors | integrations | file PATH | case | evidence | dev validate-providers/validate-recipes/registry-stats | interactive. Example: d0rkw3b investigate example.com --recipe domain-footprint",
     )
     result.add_argument(
         "target",
@@ -155,7 +155,9 @@ def interactive():
     print("D0RKW3B — The Local OSINT Workbench. Type help for examples; quit to exit.")
     providers, _ = load_registry()
     categories = sorted({p["category"] for p in providers})
-    print("Commands: investigate TARGET, recipes list, providers health --help.")
+    print(
+        "Commands: investigate TARGET, collect --help, case --help, evidence --help, recipes list, integrations, providers health --help."
+    )
     print(
         "Choose a category number, or enter a CLI command. No links open automatically."
     )

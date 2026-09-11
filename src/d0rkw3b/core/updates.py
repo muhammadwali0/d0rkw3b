@@ -7,6 +7,7 @@ import re
 import tempfile
 from pathlib import Path
 
+from ..localfiles import open_regular
 from .config import data_directory
 
 MAX_BYTES = 10_485_760
@@ -74,7 +75,8 @@ def snapshot_path(root=None):
 
 
 def read_snapshot(path, bundled):
-    with path.open("rb") as stream:
+    _, stream = open_regular(path)
+    with stream:
         raw = stream.read(MAX_BYTES + 1)
     if len(raw) > MAX_BYTES:
         raise ValueError("registry snapshot exceeds 10 MiB")
@@ -106,7 +108,8 @@ def install_snapshot(source, expected_sha256, bundled, root=None):
         raise ValueError(
             "supply the expected file SHA-256 as 64 hexadecimal characters"
         )
-    with Path(source).expanduser().open("rb") as stream:
+    _, stream = open_regular(source)
+    with stream:
         raw = stream.read(MAX_BYTES + 1)
     if (
         len(raw) > MAX_BYTES
