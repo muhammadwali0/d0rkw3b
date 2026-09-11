@@ -1,7 +1,8 @@
 """SQLite schema version 1. Fresh initialization is atomic; future schemas fail closed."""
+
 SCHEMA_VERSION = 1
 
-SCHEMA = '''
+SCHEMA = """
 CREATE TABLE cases (
     case_id TEXT PRIMARY KEY,
     name TEXT NOT NULL UNIQUE CHECK(length(name) BETWEEN 1 AND 120),
@@ -94,4 +95,4 @@ CREATE INDEX observations_output ON observations(case_id, output_entity_id);
 CREATE INDEX observations_relationship ON observations(case_id, run_id, relationship_id);
 CREATE INDEX evidence_entity ON evidence(case_id, entity_id);
 CREATE INDEX observations_time ON observations(case_id, timestamp);
-'''
+"""
