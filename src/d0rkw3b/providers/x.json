@@ -1,0 +1,783 @@
+[
+  {
+    "id": "x-x-username-links-profile",
+    "name": "Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Profile",
+    "template": "https://x.com/{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-outgoing-tweets",
+    "name": "Outgoing Tweets",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Outgoing Tweets",
+    "template": "https://x.com/search?q=from%3A{username}&f=live",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-incoming-tweets",
+    "name": "Incoming Tweets",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Incoming Tweets",
+    "template": "https://x.com/search?q=to%3A{username}&f=live",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-only-replies",
+    "name": "Only Replies",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Only Replies",
+    "template": "https://x.com/search?q=from%3A{username}%20filter%3Areplies&src=typed_query&f=live",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-no-replies",
+    "name": "No Replies",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: No Replies",
+    "template": "https://x.com/search?q=from%3A{username}%20-filter%3Areplies&src=typed_query&f=live",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-media-tweets",
+    "name": "Media Tweets",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Media Tweets",
+    "template": "https://x.com/{username}/media/",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-highlighted-tweets",
+    "name": "Highlighted Tweets",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Highlighted Tweets",
+    "template": "https://x.com/{username}/highlights/",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-lists-created",
+    "name": "Lists Created",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Lists Created",
+    "template": "https://x.com/{username}/lists/",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-lists-included",
+    "name": "Lists Included",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Lists Included",
+    "template": "https://x.com/{username}/lists/memberships",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-topics",
+    "name": "Topics",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Topics",
+    "template": "https://x.com/{username}/topics",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-links",
+    "name": "Links",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Links",
+    "template": "https://x.com/search?q=from%3A{username}%20filter%3Alinks&src=typed_query&f=live",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-followers",
+    "name": "Followers",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Followers",
+    "template": "https://x.com/{username}/followers",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-following",
+    "name": "Following",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Following",
+    "template": "https://x.com/{username}/following",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-google-archives",
+    "name": "Google Archives",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Google Archives",
+    "template": "https://www.google.com/search?q=site%3Atwitter.com%2F{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-google-tweets",
+    "name": "Google Tweets",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Google Tweets",
+    "template": "https://www.google.com/search?q=site%3Atwitter.com%2F{username}%2Fstatus%2F",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-bing-archives",
+    "name": "Bing Archives",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Bing Archives",
+    "template": "https://www.bing.com/search?q=twitter.com/{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-yandex-archives",
+    "name": "Yandex Archives",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Yandex Archives",
+    "template": "https://www.yandex.com/search/?text=https%3A%2F%2Ftwitter.com%2F{username}&lr=10615",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-wayback-machine",
+    "name": "Wayback Machine",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Wayback Machine",
+    "template": "https://web.archive.org/web/20250000000000*/twitter.com/{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-historical",
+    "name": "Historical",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Historical",
+    "template": "https://api.memory.lol/v1/tw/{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://api.memory.lol/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-links-twitter-audit",
+    "name": "Twitter Audit",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Twitter Audit",
+    "template": "https://www.twitteraudit.com/result/{username}",
+    "tags": [
+      "x_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.twitteraudit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-outgoing-by-year",
+    "name": "Outgoing by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Outgoing by Year",
+    "template": "https://x.com/search?q=from%3A{username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-incoming-by-year",
+    "name": "Incoming by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Incoming by Year",
+    "template": "https://x.com/search?q=to%3A{username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-media-by-year",
+    "name": "Media by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Media by Year",
+    "template": "https://x.com/search?q=from%3A{username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01%20filter%3Amedia&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-term-by-year",
+    "name": "Term by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Term by Year",
+    "template": "https://x.com/search?q={username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-no-replies-by-year",
+    "name": "No replies by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: No replies by Year",
+    "template": "https://x.com/search?q=from%3A{username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01%20-filter%3Areplies&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-only-replies-by-year",
+    "name": "Only Replies by Year",
+    "target_types": [
+      "username"
+    ],
+    "category": "x",
+    "description": "x: Only Replies by Year",
+    "template": "https://x.com/search?q=from%3A{username}%20since%3A{year}-01-01%20until%3A{next_year}-01-01%20filter%3Areplies&src=typd&f=live",
+    "tags": [
+      "x_username_by_year"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Exclusive end date corrected to January 1 of the following year.",
+    "source": "x.py:x_username_by_year",
+    "parameters": [
+      "username",
+      "year"
+    ]
+  },
+  {
+    "id": "x-x-user-id-links-historical",
+    "name": "Historical",
+    "target_types": [
+      "user_id"
+    ],
+    "category": "x",
+    "description": "x: Historical",
+    "template": "https://api.memory.lol/v1/tw/id/{user_id}",
+    "tags": [
+      "x_user_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://api.memory.lol/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_user_id_links",
+    "parameters": [
+      "user_id"
+    ]
+  },
+  {
+    "id": "x-x-real-name-links-profile",
+    "name": "Profile",
+    "target_types": [
+      "search"
+    ],
+    "category": "x",
+    "description": "x: Profile",
+    "template": "https://x.com/search?q={query}&f=user",
+    "tags": [
+      "x_real_name_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_real_name_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "x-x-list-links-list",
+    "name": "List",
+    "target_types": [
+      "list_id"
+    ],
+    "category": "x",
+    "description": "x: List",
+    "template": "https://x.com/i/lists/{list_id}",
+    "tags": [
+      "x_list_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_list_links",
+    "parameters": [
+      "list_id"
+    ]
+  },
+  {
+    "id": "x-x-list-links-list-members",
+    "name": "List Members",
+    "target_types": [
+      "list_id"
+    ],
+    "category": "x",
+    "description": "x: List Members",
+    "template": "https://x.com/i/lists/{list_id}/members",
+    "tags": [
+      "x_list_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_list_links",
+    "parameters": [
+      "list_id"
+    ]
+  },
+  {
+    "id": "x-x-list-links-list-followers",
+    "name": "List Followers",
+    "target_types": [
+      "list_id"
+    ],
+    "category": "x",
+    "description": "x: List Followers",
+    "template": "https://x.com/i/lists/{list_id}/followers",
+    "tags": [
+      "x_list_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "x.py:x_list_links",
+    "parameters": [
+      "list_id"
+    ]
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-google",
+    "name": "Email OSINT / Google",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Google",
+    "template": "https://www.google.com/search?q=%22{email}%22",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-bing",
+    "name": "Email OSINT / Bing",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Bing",
+    "template": "https://www.bing.com/search?q=%22{email}%22",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-yandex",
+    "name": "Email OSINT / Yandex",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Yandex",
+    "template": "https://yandex.com/search/?text=%22{email}%22",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hibp",
+    "name": "Email OSINT / HIBP",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / HIBP",
+    "template": "https://haveibeenpwned.com/unifiedsearch/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://haveibeenpwned.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-gravatar",
+    "name": "Email OSINT / Gravatar",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Gravatar",
+    "template": "https://gravatar.com/site/check/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gravatar.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-dehashed",
+    "name": "Email OSINT / Dehashed",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Dehashed",
+    "template": "https://dehashed.com/search?query=%22{email}%22",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://dehashed.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-spycloud",
+    "name": "Email OSINT / Spycloud",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Spycloud",
+    "template": "https://spycloud.com/",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://spycloud.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hudsonrock",
+    "name": "Email OSINT / HudsonRock",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / HudsonRock",
+    "template": "https://cavalier.hudsonrock.com/api/json/v2/preview/search-by-login/osint-tools?email={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://cavalier.hudsonrock.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-psbdmp",
+    "name": "Email OSINT / PSBDMP",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / PSBDMP",
+    "template": "https://psbdmp.ws/api/search/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://psbdmp.ws/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-intelix",
+    "name": "Email OSINT / IntelIX",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / IntelIX",
+    "template": "https://intelx.io/?s={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://intelx.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-cleantalk",
+    "name": "Email OSINT / CleanTalk",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / CleanTalk",
+    "template": "https://cleantalk.org/email-checker/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://cleantalk.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-leakix",
+    "name": "Email OSINT / LeakIX",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / LeakIX",
+    "template": "https://leakix.net/search?scope=leak&q=%22{email}%22",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://leakix.net/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hunterverify",
+    "name": "Email OSINT / HunterVerify",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / HunterVerify",
+    "template": "https://hunter.io/email-verifier/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://hunter.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-occrp",
+    "name": "Email OSINT / OCCRP",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / OCCRP",
+    "template": "https://data.occrp.org/search?q={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://data.occrp.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-whoisology",
+    "name": "Email OSINT / Whoisology",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Whoisology",
+    "template": "https://whoisology.com/email/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://whoisology.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-analyzeid",
+    "name": "Email OSINT / AnalyzeID",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / AnalyzeID",
+    "template": "https://analyzeid.com/id/{email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://analyzeid.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-whoxy",
+    "name": "Email OSINT / Whoxy",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Whoxy",
+    "template": "https://www.whoxy.com/search.php?email={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.whoxy.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-scamsearch",
+    "name": "Email OSINT / ScamSearch",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / ScamSearch",
+    "template": "https://scamsearch.io/search_report?searchoption=all&search={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://scamsearch.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-skymem",
+    "name": "Email OSINT / SkyMem",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / SkyMem",
+    "template": "https://www.skymem.info/srch?q={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.skymem.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-flickr",
+    "name": "Email OSINT / Flickr",
+    "target_types": [
+      "email"
+    ],
+    "category": "emailaddresses",
+    "description": "emailaddresses: Email OSINT / Flickr",
+    "template": "https://www.flickr.com/search/people/?q={email}",
+    "tags": [
+      "email_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.flickr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "emailaddresses.py:email_osint_links",
+    "parameters": [
+      "email"
+    ]
+  }
+]

@@ -1,0 +1,1727 @@
+[
+  {
+    "id": "communities-community-search-links-reddit-keyword-search",
+    "name": "Reddit / Keyword Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Keyword Search",
+    "template": "https://www.reddit.com/search?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-reddit-keyword-search-old",
+    "name": "Reddit / Keyword Search (Old)",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Keyword Search (Old)",
+    "template": "https://old.reddit.com/search?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://old.reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-reddit-subreddit-search",
+    "name": "Reddit / Subreddit Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Subreddit Search",
+    "template": "https://www.reddit.com/subreddits/search?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-reddit-domain",
+    "name": "Reddit / Domain",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Domain",
+    "template": "https://reddit.com/search?q=site:{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-reddit-domain-mention",
+    "name": "Reddit / Domain Mention",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Domain Mention",
+    "template": "https://reddit.com/search?q=url:{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-reddit-image-search",
+    "name": "Reddit / Image Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / Image Search",
+    "template": "https://www.google.com/imghp?sbi=1",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-hacker-news-keyword-search",
+    "name": "Hacker News / Keyword Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / Keyword Search",
+    "template": "https://hn.algolia.com/?query={query}&sort=byDate&prefix&page=0&dateRange=all&type=all",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://hn.algolia.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-hacker-news-google-search",
+    "name": "Hacker News / Google Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / Google Search",
+    "template": "https://www.google.com/search?q=site:news.ycombinator.com+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-4chan-keyword-search",
+    "name": "4chan / Keyword Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: 4chan / Keyword Search",
+    "template": "https://4chansearch.com/?q={query}&s=4",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://4chansearch.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-4chan-archive-search-i",
+    "name": "4chan / Archive Search I",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: 4chan / Archive Search I",
+    "template": "https://4chansearch.com/?q={query}&s=7",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://4chansearch.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-4chan-archive-search-ii",
+    "name": "4chan / Archive Search II",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: 4chan / Archive Search II",
+    "template": "https://archive.4plebs.org/_/search/text/{query}/order/asc/",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://archive.4plebs.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-4chan-google",
+    "name": "4chan / Google",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: 4chan / Google",
+    "template": "https://www.google.com/search?q=site:4chan.org%20{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-tiktok-tags",
+    "name": "TikTok / Tags",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Tags",
+    "template": "https://www.tiktok.com/tag/{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-tiktok-term-search",
+    "name": "TikTok / Term Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Term Search",
+    "template": "https://www.tiktok.com/search?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-tiktok-video-search",
+    "name": "TikTok / Video Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Video Search",
+    "template": "https://www.tiktok.com/search/video?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-tiktok-google-search",
+    "name": "TikTok / Google Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Google Search",
+    "template": "https://www.google.com/search?q=site:tiktok.com+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-meetup-event-search",
+    "name": "Meetup / Event Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Meetup / Event Search",
+    "template": "https://www.google.com/search?q=site:meetup.com+inurl:events+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-meetup-post-search",
+    "name": "Meetup / Post Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Meetup / Post Search",
+    "template": "https://www.google.com/search?q=site:meetup.com+inurl:discussions+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-meetup-google-search",
+    "name": "Meetup / Google Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Meetup / Google Search",
+    "template": "https://www.google.com/search?q=site:meetup.com+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-ebay-text-search",
+    "name": "Ebay / Text Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / Text Search",
+    "template": "https://www.ebay.com/sch/i.html?&LH_TitleDesc=1&_nkw={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-ebay-sold-search",
+    "name": "Ebay / Sold Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / Sold Search",
+    "template": "https://www.ebay.com/sch/i.html?_from=R40&_nkw={query}&LH_Sold=1&LH_Complete=1",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-ebay-completed-search",
+    "name": "Ebay / Completed Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / Completed Search",
+    "template": "https://www.ebay.com/sch/i.html?_from=R40&_nkw={query}&LH_Complete=1",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-pinterest-pins-search",
+    "name": "Pinterest / Pins Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / Pins Search",
+    "template": "https://www.pinterest.com/search/pins/?q={query}&rs=typo_auto_original&auto_correction_disabled=true",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-pinterest-boards-search",
+    "name": "Pinterest / Boards Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / Boards Search",
+    "template": "https://www.pinterest.com/search/boards/?q={query}&rs=typo_auto_original&auto_correction_disabled=true",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-pinterest-google-search",
+    "name": "Pinterest / Google Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / Google Search",
+    "template": "https://www.google.com/search?q=site:pinterest.com+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-discord-disboard",
+    "name": "Discord / Disboard",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Disboard",
+    "template": "https://disboard.org/search?keyword={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://disboard.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-discord-discord-me",
+    "name": "Discord / Discord.me",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Discord.me",
+    "template": "https://discord.me/servers?search={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://discord.me/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-discord-servers",
+    "name": "Discord / Servers",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Servers",
+    "template": "https://discordservers.com/search/{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://discordservers.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-discord-discordbee",
+    "name": "Discord / Discordbee",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Discordbee",
+    "template": "https://discordbee.com/servers?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://discordbee.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-discord-google-search",
+    "name": "Discord / Google Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Google Search",
+    "template": "https://www.google.com/search?q=site:discord.com+{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-parler-hashtag-search",
+    "name": "Parler / Hashtag Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Parler / Hashtag Search",
+    "template": "https://app.parler.com/hashtag/{query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://app.parler.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-gab-groups-search",
+    "name": "Gab / Groups Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Gab / Groups Search",
+    "template": "https://gab.com/search/hashtags?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gab.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-gab-hashtag-search",
+    "name": "Gab / Hashtag Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Gab / Hashtag Search",
+    "template": "https://gab.com/search/hashtags?q={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gab.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-mastodon-hashtag-search",
+    "name": "Mastodon / Hashtag Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Mastodon / Hashtag Search",
+    "template": "https://mastodon.social/api/v2/search?q={query}&limit=40&type=hashtags",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mastodon.social/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-telegram-group-search",
+    "name": "Telegram / Group Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Telegram / Group Search",
+    "template": "https://www.telegram-group.com/en?s={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.telegram-group.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-telegram-channel-search-i",
+    "name": "Telegram / Channel Search I",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Telegram / Channel Search I",
+    "template": "https://telegramchannels.me/search?type=all&search={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://telegramchannels.me/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-search-links-telegram-channel-search-ii",
+    "name": "Telegram / Channel Search II",
+    "target_types": [
+      "search"
+    ],
+    "category": "communities",
+    "description": "communities: Telegram / Channel Search II",
+    "template": "https://telemetr.io/en/catalog/global?term={query}",
+    "tags": [
+      "community_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://telemetr.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-profile",
+    "name": "Reddit / User Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / User Profile",
+    "template": "https://reddit.com/user/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-submissions",
+    "name": "Reddit / User Submissions",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / User Submissions",
+    "template": "https://reddit.com/user/{username}/submitted",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-comments",
+    "name": "Reddit / User Comments",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / User Comments",
+    "template": "https://reddit.com/user/{username}/comments/",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-archive",
+    "name": "Reddit / User Archive",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Reddit / User Archive",
+    "template": "https://web.archive.org/web/20250000000000*/https://www.reddit.com/user/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-search",
+    "name": "Hacker News / User Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / User Search",
+    "template": "https://news.ycombinator.com/user?id={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://news.ycombinator.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-posts",
+    "name": "Hacker News / User Posts",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / User Posts",
+    "template": "https://news.ycombinator.com/submitted?id={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://news.ycombinator.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-comments",
+    "name": "Hacker News / User Comments",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / User Comments",
+    "template": "https://news.ycombinator.com/threads?id={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://news.ycombinator.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-favorite",
+    "name": "Hacker News / Favorite",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Hacker News / Favorite",
+    "template": "https://news.ycombinator.com/favorites?id={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://news.ycombinator.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-tiktok-profile",
+    "name": "TikTok / Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Profile",
+    "template": "https://www.tiktok.com/@{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-tiktok-profile-search",
+    "name": "TikTok / Profile Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Profile Search",
+    "template": "https://www.tiktok.com/search/user?q={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-i",
+    "name": "TikTok / Analytics I",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Analytics I",
+    "template": "https://tokcount.com/?user={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tokcount.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-ii",
+    "name": "TikTok / Analytics II",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Analytics II",
+    "template": "https://exolyt.com/user/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://exolyt.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-iii",
+    "name": "TikTok / Analytics III",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: TikTok / Analytics III",
+    "template": "https://tokcounter.com/?user={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tokcounter.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-meetup-member-search",
+    "name": "Meetup / Member Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Meetup / Member Search",
+    "template": "https://www.google.com/search?q=site:meetup.com+{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-account",
+    "name": "Ebay / User Account",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / User Account",
+    "template": "https://www.ebay.com/usr/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-feedback",
+    "name": "Ebay / User Feedback",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / User Feedback",
+    "template": "https://feedback.ebay.com/fdbk/feedback_profile/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://feedback.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-items",
+    "name": "Ebay / User Items",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / User Items",
+    "template": "https://www.ebay.com/sch/i.html?_ssn={username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ebay.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-search",
+    "name": "Ebay / User Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Ebay / User Search",
+    "template": "https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.ebay.com%2Fusr+%22{username}%22",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-search",
+    "name": "Pinterest / User Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / User Search",
+    "template": "https://www.pinterest.com/{username}/",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-created",
+    "name": "Pinterest / User Created",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / User Created",
+    "template": "https://www.pinterest.com/{username}/_created/",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-saved",
+    "name": "Pinterest / User Saved",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Pinterest / User Saved",
+    "template": "https://www.pinterest.com/{username}/_saved/",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-discord-invite-check",
+    "name": "Discord / Invite Check",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Discord / Invite Check",
+    "template": "https://discord.com/invite/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://discord.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-parler-user-profile",
+    "name": "Parler / User Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Parler / User Profile",
+    "template": "https://app.parler.com/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://app.parler.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-parler-user-search",
+    "name": "Parler / User Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Parler / User Search",
+    "template": "https://app.parler.com/username/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://app.parler.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-gab-user-profile",
+    "name": "Gab / User Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Gab / User Profile",
+    "template": "https://gab.com/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gab.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-gettr-user-profile",
+    "name": "Gettr / User Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Gettr / User Profile",
+    "template": "https://gettr.com/user/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gettr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-gettr-comments",
+    "name": "Gettr / Comments",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Gettr / Comments",
+    "template": "https://gettr.com/user/{username}/comments",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gettr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-gettr-media",
+    "name": "Gettr / Media",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Gettr / Media",
+    "template": "https://gettr.com/user/{username}/medias",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gettr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-gettr-likes",
+    "name": "Gettr / Likes",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Gettr / Likes",
+    "template": "https://gettr.com/user/{username}/likes",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gettr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-mastodon-username-search",
+    "name": "Mastodon / Username Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Mastodon / Username Search",
+    "template": "https://mastodon.social/api/v2/search?q={username}&limit=40&type=accounts",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mastodon.social/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-telegram-profile-channel",
+    "name": "Telegram / Profile/Channel",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Telegram / Profile/Channel",
+    "template": "https://t.me/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://t.me/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "communities-community-user-links-telegram-user-videos",
+    "name": "Telegram / User Videos",
+    "target_types": [
+      "username"
+    ],
+    "category": "communities",
+    "description": "communities: Telegram / User Videos",
+    "template": "https://telesco.pe/{username}",
+    "tags": [
+      "community_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://telesco.pe/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "communities.py:community_user_links",
+    "parameters": [
+      "username"
+    ]
+  }
+]

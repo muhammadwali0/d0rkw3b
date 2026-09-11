@@ -1,0 +1,5408 @@
+[
+  {
+    "id": "communities-community-search-links-reddit-keyword-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Keyword Search"
+    ],
+    "legacy_template": "https://www.reddit.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-reddit-keyword-search-old",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Keyword Search (Old)"
+    ],
+    "legacy_template": "https://old.reddit.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-reddit-subreddit-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Subreddit Search"
+    ],
+    "legacy_template": "https://www.reddit.com/subreddits/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-reddit-domain",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Domain"
+    ],
+    "legacy_template": "https://reddit.com/search?q=site:MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-reddit-domain-mention",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Domain Mention"
+    ],
+    "legacy_template": "https://reddit.com/search?q=url:MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-reddit-image-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Reddit",
+      "Image Search"
+    ],
+    "legacy_template": "https://www.google.com/imghp?sbi=1",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-hacker-news-keyword-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Hacker News",
+      "Keyword Search"
+    ],
+    "legacy_template": "https://hn.algolia.com/?query=MIGRATION_QUERYEND&sort=byDate&prefix&page=0&dateRange=all&type=all",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-hacker-news-google-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Hacker News",
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:news.ycombinator.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-4chan-keyword-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "4chan",
+      "Keyword Search"
+    ],
+    "legacy_template": "https://4chansearch.com/?q=MIGRATION_QUERYEND&s=4",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-4chan-archive-search-i",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "4chan",
+      "Archive Search I"
+    ],
+    "legacy_template": "https://4chansearch.com/?q=MIGRATION_QUERYEND&s=7",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-4chan-archive-search-ii",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "4chan",
+      "Archive Search II"
+    ],
+    "legacy_template": "https://archive.4plebs.org/_/search/text/MIGRATION_QUERYEND/order/asc/",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-4chan-google",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "4chan",
+      "Google"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:4chan.org%20MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-tiktok-tags",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "TikTok",
+      "Tags"
+    ],
+    "legacy_template": "https://www.tiktok.com/tag/MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-tiktok-term-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "TikTok",
+      "Term Search"
+    ],
+    "legacy_template": "https://www.tiktok.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-tiktok-video-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "TikTok",
+      "Video Search"
+    ],
+    "legacy_template": "https://www.tiktok.com/search/video?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-tiktok-google-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "TikTok",
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:tiktok.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-meetup-event-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Meetup",
+      "Event Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:meetup.com+inurl:events+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-meetup-post-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Meetup",
+      "Post Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:meetup.com+inurl:discussions+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-meetup-google-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Meetup",
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:meetup.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-ebay-text-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Ebay",
+      "Text Search"
+    ],
+    "legacy_template": "https://www.ebay.com/sch/i.html?&LH_TitleDesc=1&_nkw=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-ebay-sold-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Ebay",
+      "Sold Search"
+    ],
+    "legacy_template": "https://www.ebay.com/sch/i.html?_from=R40&_nkw=MIGRATION_QUERYEND&LH_Sold=1&LH_Complete=1",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-ebay-completed-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Ebay",
+      "Completed Search"
+    ],
+    "legacy_template": "https://www.ebay.com/sch/i.html?_from=R40&_nkw=MIGRATION_QUERYEND&LH_Complete=1",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-pinterest-pins-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Pinterest",
+      "Pins Search"
+    ],
+    "legacy_template": "https://www.pinterest.com/search/pins/?q=MIGRATION_QUERYEND&rs=typo_auto_original&auto_correction_disabled=true",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-pinterest-boards-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Pinterest",
+      "Boards Search"
+    ],
+    "legacy_template": "https://www.pinterest.com/search/boards/?q=MIGRATION_QUERYEND&rs=typo_auto_original&auto_correction_disabled=true",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-pinterest-google-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Pinterest",
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:pinterest.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-discord-disboard",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Discord",
+      "Disboard"
+    ],
+    "legacy_template": "https://disboard.org/search?keyword=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-discord-discord-me",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Discord",
+      "Discord.me"
+    ],
+    "legacy_template": "https://discord.me/servers?search=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-discord-servers",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Discord",
+      "Servers"
+    ],
+    "legacy_template": "https://discordservers.com/search/MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-discord-discordbee",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Discord",
+      "Discordbee"
+    ],
+    "legacy_template": "https://discordbee.com/servers?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-discord-google-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Discord",
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:discord.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-parler-hashtag-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Parler",
+      "Hashtag Search"
+    ],
+    "legacy_template": "https://app.parler.com/hashtag/MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-gab-groups-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Gab",
+      "Groups Search"
+    ],
+    "legacy_template": "https://gab.com/search/hashtags?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-gab-hashtag-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Gab",
+      "Hashtag Search"
+    ],
+    "legacy_template": "https://gab.com/search/hashtags?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-mastodon-hashtag-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Mastodon",
+      "Hashtag Search"
+    ],
+    "legacy_template": "https://mastodon.social/api/v2/search?q=MIGRATION_QUERYEND&limit=40&type=hashtags",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-telegram-group-search",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Telegram",
+      "Group Search"
+    ],
+    "legacy_template": "https://www.telegram-group.com/en?s=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-telegram-channel-search-i",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Telegram",
+      "Channel Search I"
+    ],
+    "legacy_template": "https://telegramchannels.me/search?type=all&search=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-search-links-telegram-channel-search-ii",
+    "source": "communities.py:community_search_links",
+    "legacy_path": [
+      "Telegram",
+      "Channel Search II"
+    ],
+    "legacy_template": "https://telemetr.io/en/catalog/global?term=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-profile",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Reddit",
+      "User Profile"
+    ],
+    "legacy_template": "https://reddit.com/user/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-submissions",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Reddit",
+      "User Submissions"
+    ],
+    "legacy_template": "https://reddit.com/user/MIGRATION_USERNAMEEND/submitted",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-comments",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Reddit",
+      "User Comments"
+    ],
+    "legacy_template": "https://reddit.com/user/MIGRATION_USERNAMEEND/comments/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-reddit-user-archive",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Reddit",
+      "User Archive"
+    ],
+    "legacy_template": "https://web.archive.org/web/20250000000000*/https://www.reddit.com/user/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Hacker News",
+      "User Search"
+    ],
+    "legacy_template": "https://news.ycombinator.com/user?id=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-posts",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Hacker News",
+      "User Posts"
+    ],
+    "legacy_template": "https://news.ycombinator.com/submitted?id=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-user-comments",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Hacker News",
+      "User Comments"
+    ],
+    "legacy_template": "https://news.ycombinator.com/threads?id=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-hacker-news-favorite",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Hacker News",
+      "Favorite"
+    ],
+    "legacy_template": "https://news.ycombinator.com/favorites?id=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-tiktok-profile",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "TikTok",
+      "Profile"
+    ],
+    "legacy_template": "https://www.tiktok.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-tiktok-profile-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "TikTok",
+      "Profile Search"
+    ],
+    "legacy_template": "https://www.tiktok.com/search/user?q=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-i",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "TikTok",
+      "Analytics I"
+    ],
+    "legacy_template": "https://tokcount.com/?user=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-ii",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "TikTok",
+      "Analytics II"
+    ],
+    "legacy_template": "https://exolyt.com/user/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-tiktok-analytics-iii",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "TikTok",
+      "Analytics III"
+    ],
+    "legacy_template": "https://tokcounter.com/?user=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-meetup-member-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Meetup",
+      "Member Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:meetup.com+MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-account",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Ebay",
+      "User Account"
+    ],
+    "legacy_template": "https://www.ebay.com/usr/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-feedback",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Ebay",
+      "User Feedback"
+    ],
+    "legacy_template": "https://feedback.ebay.com/fdbk/feedback_profile/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-items",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Ebay",
+      "User Items"
+    ],
+    "legacy_template": "https://www.ebay.com/sch/i.html?_ssn=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-ebay-user-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Ebay",
+      "User Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.ebay.com%2Fusr+%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Pinterest",
+      "User Search"
+    ],
+    "legacy_template": "https://www.pinterest.com/MIGRATION_USERNAMEEND/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-created",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Pinterest",
+      "User Created"
+    ],
+    "legacy_template": "https://www.pinterest.com/MIGRATION_USERNAMEEND/_created/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-pinterest-user-saved",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Pinterest",
+      "User Saved"
+    ],
+    "legacy_template": "https://www.pinterest.com/MIGRATION_USERNAMEEND/_saved/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-discord-invite-check",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Discord",
+      "Invite Check"
+    ],
+    "legacy_template": "https://discord.com/invite/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-parler-user-profile",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Parler",
+      "User Profile"
+    ],
+    "legacy_template": "https://app.parler.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-parler-user-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Parler",
+      "User Search"
+    ],
+    "legacy_template": "https://app.parler.com/username/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-gab-user-profile",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Gab",
+      "User Profile"
+    ],
+    "legacy_template": "https://gab.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-gettr-user-profile",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Gettr",
+      "User Profile"
+    ],
+    "legacy_template": "https://gettr.com/user/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-gettr-comments",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Gettr",
+      "Comments"
+    ],
+    "legacy_template": "https://gettr.com/user/MIGRATION_USERNAMEEND/comments",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-gettr-media",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Gettr",
+      "Media"
+    ],
+    "legacy_template": "https://gettr.com/user/MIGRATION_USERNAMEEND/medias",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-gettr-likes",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Gettr",
+      "Likes"
+    ],
+    "legacy_template": "https://gettr.com/user/MIGRATION_USERNAMEEND/likes",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-mastodon-username-search",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Mastodon",
+      "Username Search"
+    ],
+    "legacy_template": "https://mastodon.social/api/v2/search?q=MIGRATION_USERNAMEEND&limit=40&type=accounts",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-telegram-profile-channel",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Telegram",
+      "Profile/Channel"
+    ],
+    "legacy_template": "https://t.me/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "communities-community-user-links-telegram-user-videos",
+    "source": "communities.py:community_user_links",
+    "legacy_path": [
+      "Telegram",
+      "User Videos"
+    ],
+    "legacy_template": "https://telesco.pe/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-pdf",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "PDF"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Apdf+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-doc-docx",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "DOC/DOCX"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Adoc+OR+ext%3Adocx+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-xls-xlsx-csv",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "XLS/XLSX/CSV"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Axls+OR+ext%3Axlsx+OR+ext%3Acsv+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-ppt-pptx-key",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "PPT/PPTX/KEY"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Appt+OR+ext%3Apptx+OR+ext%3Akey+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-txt-rtf-xml",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "TXT/RTF/XML"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Atxt+OR+ext%3Artf+OR+ext%3Axml+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-odt-ods-odp",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "ODT/ODS/ODP"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Aodt+OR+ext%3Aods+OR+ext%3Aodp+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-zip-rar-7z",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "ZIP/RAR/7Z"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Azip+OR+ext%3Arar+OR+ext%3A7z+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-jpg-jpeg-png",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "JPG/JPEG/PNG"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext:jpg+OR+ext:jpeg+OR+ext:png+MIGRATION_QUERYEND&udm=2",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-mpg-mp4",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "MPG/MP4"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Ampg+OR+ext%3Ampeg+OR+ext%3Amp4+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-mp3-wav",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "MP3/WAV"
+    ],
+    "legacy_template": "https://www.google.com/search?q=ext%3Amp3+OR+ext%3Awav+OR+ext%3Aflac+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-google-docs",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Google Docs"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Adocs.google.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-google-drive",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Google Drive"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Adrive.google.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-google-api",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Google API"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Astorage.googleapis.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-ms-docs",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "MS Docs"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Adocs.microsoft.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-amazon-aws",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Amazon AWS"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Aamazonaws.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-cloudfront",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "CloudFront"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Acloudfront.net+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-refseek",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Refseek"
+    ],
+    "legacy_template": "https://www.refseek.com/documents?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-core",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Core"
+    ],
+    "legacy_template": "https://core.ac.uk/search/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-grayhatwarfare",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "GrayHatWarfare"
+    ],
+    "legacy_template": "https://buckets.grayhatwarfare.com/files?page=1&keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-slideshare",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "SlideShare"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Aslideshare.net+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-prezi",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Prezi"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Aprezi.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-issuu",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "ISSUU"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Aissuu.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-powershow",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Powershow"
+    ],
+    "legacy_template": "https://www.powershow.com/search/presentations/ppt/MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-slide-bean",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Slide Bean"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Aslidebean.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-scribd",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Scribd"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ascribd.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-pdf-drive",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "PDF Drive"
+    ],
+    "legacy_template": "https://welib.org/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-wikileaks",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Wikileaks"
+    ],
+    "legacy_template": "https://search.wikileaks.org/?query=MIGRATION_QUERYEND&exact_phrase=&any_of=&exclude_words=&document_date_start=&document_date_end=&released_date_start=&released_date_end=&new_search=True&order_by=most_relevant#results",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-archive-org",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Archive.org"
+    ],
+    "legacy_template": "https://archive.org/search?query=MIGRATION_QUERYEND&sin=TXT",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "documents-document-links-documents-google-books",
+    "source": "documents.py:document_links",
+    "legacy_path": [
+      "Documents",
+      "Google Books"
+    ],
+    "legacy_template": "https://www.google.com/search?tbm=bks&q=MIGRATION_QUERYEND",
+    "target_types": [
+      "document"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-google-search",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Google Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-bing-search",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Bing Search"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-duckduckgo",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "DuckDuckGo"
+    ],
+    "legacy_template": "https://duckduckgo.com/?q=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-who-is",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Who.is"
+    ],
+    "legacy_template": "https://www.whois.com/whois/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-who-is-dns",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Who.is DNS"
+    ],
+    "legacy_template": "https://who.is/dns/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-who-is-history",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Who.is History"
+    ],
+    "legacy_template": "https://who.is/domain-history/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-urlscan",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "URLScan"
+    ],
+    "legacy_template": "https://urlscan.io/search/#page.domain%3AMIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-domainapp-dns",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "DomainApp DNS"
+    ],
+    "legacy_template": "https://dmns.app/domains?q=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-reverse-ip",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Reverse IP"
+    ],
+    "legacy_template": "https://viewdns.info/reverseip/?host=MIGRATION_DOMAINEND&t=1",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-reverse-domain",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Reverse Domain"
+    ],
+    "legacy_template": "https://viewdns.info/reversewhois/?q=MIGRATION_DOMAINEND&t=1",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-port-scan",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Port Scan"
+    ],
+    "legacy_template": "https://viewdns.info/portscan/?host=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": [
+      "Visiting this launcher can initiate a remote probe; disabled by default."
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-ip-history",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "IP History"
+    ],
+    "legacy_template": "https://viewdns.info/iphistory/?domain=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-dns-report",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "DNS Report"
+    ],
+    "legacy_template": "https://viewdns.info/dnsreport/?domain=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-traceroute",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Traceroute"
+    ],
+    "legacy_template": "https://viewdns.info/traceroute/?domain=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": [
+      "Visiting this launcher can initiate a remote probe; disabled by default."
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois"
+    ],
+    "legacy_template": "https://viewdns.info/whois/?domain=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whoxy",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whoxy"
+    ],
+    "legacy_template": "https://www.whoxy.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whoisology",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whoisology"
+    ],
+    "legacy_template": "https://whoisology.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-dnschecker",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "DNSChecker"
+    ],
+    "legacy_template": "https://dnschecker.org/all-dns-records-of-domain.php/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-virustotal",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "VirusTotal"
+    ],
+    "legacy_template": "https://www.virustotal.com/gui/domain/MIGRATION_DOMAINEND/relations",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-securitytrails",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "SecurityTrails"
+    ],
+    "legacy_template": "https://securitytrails.com/domain/MIGRATION_DOMAINEND/history",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-shodan",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Shodan"
+    ],
+    "legacy_template": "https://www.shodan.io/search?query=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-censys",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Censys"
+    ],
+    "legacy_template": "https://search.censys.io/search?q=parsed.names%3A%20%22MIGRATION_DOMAINEND%22",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-crt-sh",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "crt.sh"
+    ],
+    "legacy_template": "https://crt.sh/?q=%25.MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-i",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois Archive I"
+    ],
+    "legacy_template": "https://web.archive.org/web/20250708150623/https://who.is/whois/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-ii",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois Archive II"
+    ],
+    "legacy_template": "https://web.archive.org/web/20250914170937/https://whois.domaintools.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-iii",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois Archive III"
+    ],
+    "legacy_template": "https://web.archive.org/web/https://www.whoxy.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-iv",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois Archive IV"
+    ],
+    "legacy_template": "https://web.archive.org/web/https://domainbigdata.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-v",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "Whois Archive V"
+    ],
+    "legacy_template": "https://web.archive.org/web/https://whoisology.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-builtwith",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "BuiltWith"
+    ],
+    "legacy_template": "https://builtwith.com/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-mxtoolbox",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "MXToolbox"
+    ],
+    "legacy_template": "https://mxtoolbox.com/SuperTool.aspx?action=mx%3aMIGRATION_DOMAINEND&run=toolpage",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-alienvault-otx",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "AlienVault OTX"
+    ],
+    "legacy_template": "https://otx.alienvault.com/indicator/domain/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-ssl-test",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "SSL test"
+    ],
+    "legacy_template": "https://www.ssllabs.com/ssltest/analyze.html?d=MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": [
+      "Visiting this launcher can initiate a remote probe; disabled by default."
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-dnslytics",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "DNSlytics"
+    ],
+    "legacy_template": "https://dnslytics.com/domain/MIGRATION_DOMAINEND",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "domain-domain-osint-links-similarweb",
+    "source": "domain.py:domain_osint_links",
+    "legacy_path": [
+      "SimilarWeb"
+    ],
+    "legacy_template": "https://www.similarweb.com/website/MIGRATION_DOMAINEND/",
+    "target_types": [
+      "domain"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-google",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Google"
+    ],
+    "legacy_template": "https://www.google.com/search?q=%22MIGRATION_EMAILEND%22",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-bing",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Bing"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=%22MIGRATION_EMAILEND%22",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-yandex",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Yandex"
+    ],
+    "legacy_template": "https://yandex.com/search/?text=%22MIGRATION_EMAILEND%22",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hibp",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "HIBP"
+    ],
+    "legacy_template": "https://haveibeenpwned.com/unifiedsearch/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-gravatar",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Gravatar"
+    ],
+    "legacy_template": "https://gravatar.com/site/check/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-dehashed",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Dehashed"
+    ],
+    "legacy_template": "https://dehashed.com/search?query=%22MIGRATION_EMAILEND%22",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-spycloud",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Spycloud"
+    ],
+    "legacy_template": "https://spycloud.com/",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hudsonrock",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "HudsonRock"
+    ],
+    "legacy_template": "https://cavalier.hudsonrock.com/api/json/v2/preview/search-by-login/osint-tools?email=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-psbdmp",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "PSBDMP"
+    ],
+    "legacy_template": "https://psbdmp.ws/api/search/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-intelix",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "IntelIX"
+    ],
+    "legacy_template": "https://intelx.io/?s=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-cleantalk",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "CleanTalk"
+    ],
+    "legacy_template": "https://cleantalk.org/email-checker/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-leakix",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "LeakIX"
+    ],
+    "legacy_template": "https://leakix.net/search?scope=leak&q=%22MIGRATION_EMAILEND%22",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-hunterverify",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "HunterVerify"
+    ],
+    "legacy_template": "https://hunter.io/email-verifier/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-occrp",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "OCCRP"
+    ],
+    "legacy_template": "https://data.occrp.org/search?q=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-whoisology",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Whoisology"
+    ],
+    "legacy_template": "https://whoisology.com/email/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-analyzeid",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "AnalyzeID"
+    ],
+    "legacy_template": "https://analyzeid.com/id/MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-whoxy",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Whoxy"
+    ],
+    "legacy_template": "https://www.whoxy.com/search.php?email=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-scamsearch",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "ScamSearch"
+    ],
+    "legacy_template": "https://scamsearch.io/search_report?searchoption=all&search=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-skymem",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "SkyMem"
+    ],
+    "legacy_template": "https://www.skymem.info/srch?q=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "emailaddresses-email-osint-links-email-osint-flickr",
+    "source": "emailaddresses.py:email_osint_links",
+    "legacy_path": [
+      "Email OSINT",
+      "Flickr"
+    ],
+    "legacy_template": "https://www.flickr.com/search/people/?q=MIGRATION_EMAILEND",
+    "target_types": [
+      "email"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-timeline",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Timeline"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-about",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "About"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-employement",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Employement"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=work",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-education",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Education"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=education",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-locations",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Locations"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=living",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-contact-info",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Contact Info"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=contact-info",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-basic-info",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Basic Info"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=basic-info",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-relationships",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Relationships"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=relationship",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-family",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Family"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=family",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-biography",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Biography"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=bio",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-life-events",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Life Events"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/about?section=year-overviews",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-friends",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Friends"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/friends",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-following",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Following"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/following",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-photos",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Photos"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/photos",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-photos-albums",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Photos Albums"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/photos_albums",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-videos",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Videos"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/videos",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-reels",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Reels"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/reels/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-check-ins",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Check-ins"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/places_visited",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-visits",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Visits"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/map",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-recent-check-ins",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Recent Check-ins"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/places_recent",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-sports",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Sports"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/sports",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-music",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Music"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/music",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-movies",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Movies"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/movies",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-tv",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "TV"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/tv",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-books",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Books"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/books",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-games",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Games"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/games",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-likes",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Likes"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/likes",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-events",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Events"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/events",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-facts",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Facts"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/did_you_know",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-reviews",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Reviews"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/reviews",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-reviews-given",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Reviews Given"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/reviews_given",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-reviews-written",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Reviews Written"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/reviews_written",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-username-links-notes",
+    "source": "facebook.py:fb_username_links",
+    "legacy_path": [
+      "Notes"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/notes",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-number-links-profile",
+    "source": "facebook.py:fb_number_links",
+    "legacy_path": [
+      "Profile"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_PHONEEND",
+    "target_types": [
+      "phone"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-all",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "All"
+    ],
+    "legacy_template": "https://www.facebook.com/search/top/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-posts",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Posts"
+    ],
+    "legacy_template": "https://www.facebook.com/search/posts/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-people",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "People"
+    ],
+    "legacy_template": "https://www.facebook.com/search/people/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-photos",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Photos"
+    ],
+    "legacy_template": "https://www.facebook.com/search/photos/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-videos",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Videos"
+    ],
+    "legacy_template": "https://www.facebook.com/search/videos/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-marketplace",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Marketplace"
+    ],
+    "legacy_template": "https://www.facebook.com/search/marketplace/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-pages",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Pages"
+    ],
+    "legacy_template": "https://www.facebook.com/search/pages/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-places",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Places"
+    ],
+    "legacy_template": "https://www.facebook.com/search/places/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-groups",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Groups"
+    ],
+    "legacy_template": "https://www.facebook.com/search/groups/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-events",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Events"
+    ],
+    "legacy_template": "https://www.facebook.com/search/events/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-links",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Links"
+    ],
+    "legacy_template": "https://www.facebook.com/search/links/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-search-term-links-watch",
+    "source": "facebook.py:fb_search_term_links",
+    "legacy_path": [
+      "Watch"
+    ],
+    "legacy_template": "https://www.facebook.com/watch/search/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-user-id-links-profile",
+    "source": "facebook.py:fb_user_id_links",
+    "legacy_path": [
+      "Profile"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USER_IDEND",
+    "target_types": [
+      "user_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-location-links-photos-by-location",
+    "source": "facebook.py:fb_location_links",
+    "legacy_path": [
+      "Photos by Location"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_LOCATION_IDEND/photos",
+    "target_types": [
+      "location_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "facebook-fb-location-links-videos-by-location",
+    "source": "facebook.py:fb_location_links",
+    "legacy_path": [
+      "Videos by Location"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_LOCATION_IDEND/videos",
+    "target_types": [
+      "location_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-user-links-search-users",
+    "source": "github.py:gh_user_links",
+    "legacy_path": [
+      "Search Users"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_USERNAMEEND&type=users",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-repo-search-search-repositories",
+    "source": "github.py:gh_repo_search",
+    "legacy_path": [
+      "Search Repositories"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_REPOSITORYEND&type=repositories",
+    "target_types": [
+      "repository"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-repo-search-search-code",
+    "source": "github.py:gh_repo_search",
+    "legacy_path": [
+      "Search Code"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_REPOSITORYEND&type=code",
+    "target_types": [
+      "repository"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-repo-search-search-issues",
+    "source": "github.py:gh_repo_search",
+    "legacy_path": [
+      "Search Issues"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_REPOSITORYEND&type=issues",
+    "target_types": [
+      "repository"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-repo-search-search-discussions",
+    "source": "github.py:gh_repo_search",
+    "legacy_path": [
+      "Search Discussions"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_REPOSITORYEND&type=discussions",
+    "target_types": [
+      "repository"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-repo-search-search-topics",
+    "source": "github.py:gh_repo_search",
+    "legacy_path": [
+      "Search Topics"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_REPOSITORYEND&type=topics",
+    "target_types": [
+      "repository"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-repositories",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Repositories"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=repositories",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-code",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Code"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=code",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-users",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Users"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=users",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-issues",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Issues"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=issues",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-discussions",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Discussions"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=discussions",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-packages",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Packages"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=packages",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "github-gh-search-links-topics",
+    "source": "github.py:gh_search_links",
+    "legacy_path": [
+      "Topics"
+    ],
+    "legacy_template": "https://github.com/search?q=MIGRATION_QUERYEND&type=topics",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-google-images",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "Google Images"
+    ],
+    "legacy_template": "https://www.google.com/searchbyimage?image_url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-google-lens",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "Google Lens"
+    ],
+    "legacy_template": "https://lens.google.com/uploadbyurl?url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-bing-visual-search",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "Bing Visual Search"
+    ],
+    "legacy_template": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-tineye",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "TinEye"
+    ],
+    "legacy_template": "https://tineye.com/search?url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-yandex",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "Yandex"
+    ],
+    "legacy_template": "https://yandex.com/images/search?rpt=imageview&url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-facecheck",
+    "source": "images.py:reverse_image_search",
+    "legacy_path": [
+      "Reverse Image Search",
+      "FaceCheck"
+    ],
+    "legacy_template": "https://facecheck.id/search-by-url?url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-google-images",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Google Images"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_QUERYEND&sca_esv=d2ab6361f8823ac8&sxsrf=AE3TifMMxaz7DcLQ63hXOiXFxQ9hna1ihg:1758815445335&source=hp&ei=1WTVaJG1ErKJ7NYPlrf8UA&iflsig=AOw8s4IAAAAAaNVy5X4yk2OpJeYnvduxT6DcEjvEkoQQ&ved=0ahUKEwjR896OovSPAxWyBNsEHZYbHwoQ4dUDCBc&uact=5&oq=apple&gs_lp=Egtnd3Mtd2l6LWltZyIFYXBwbGUyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gIyChAjGCcYyQIY6gJI8g5QogZY1g1wAXgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIBoAIIqAIKmAMIkgcBMaAHALIHALgHAMIHAzItMcgHBg&sclient=gws-wiz-img&udm=2",
+    "target_types": [
+      "search"
+    ],
+    "changes": [
+      "Removed copied tracking and session parameters."
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-bing-images",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Bing Images"
+    ],
+    "legacy_template": "https://www.bing.com/images/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-yandex-images",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Yandex Images"
+    ],
+    "legacy_template": "https://yandex.com/images/search?text=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-x",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "X"
+    ],
+    "legacy_template": "https://x.com/search?q=MIGRATION_QUERYEND&src=typed_query&f=media",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-facebook",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Facebook"
+    ],
+    "legacy_template": "https://www.facebook.com/search/photos/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-instagram",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Instagram"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+MIGRATION_QUERYEND&tbm=isch",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-linkedin",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "LinkedIn"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Alinkedin.com+MIGRATION_QUERYEND&tbm=isch",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-flickr",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Flickr"
+    ],
+    "legacy_template": "https://www.flickr.com/search/?text=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-pinterest",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "Pinterest"
+    ],
+    "legacy_template": "https://www.pinterest.com/search/pins/?q=MIGRATION_QUERYEND&rs=typed",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "images-image-keyword-search-image-search-duckduckgo-images",
+    "source": "images.py:image_keyword_search",
+    "legacy_path": [
+      "Image Search",
+      "DuckDuckGo Images"
+    ],
+    "legacy_template": "https://duckduckgo.com/?q=MIGRATION_QUERYEND&iax=images&ia=images",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-ig-profile",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "IG Profile"
+    ],
+    "legacy_template": "https://www.instagram.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-ig-channels",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "IG Channels"
+    ],
+    "legacy_template": "https://www.instagram.com/MIGRATION_USERNAMEEND/channel/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-ig-tagged",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "IG Tagged"
+    ],
+    "legacy_template": "https://www.instagram.com/MIGRATION_USERNAMEEND/tagged/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-outgoing-search",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Outgoing Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-incoming-search",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Incoming Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+%22@MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-bing-search",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Bing Search"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=site%3Ainstagram.com+%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-yandex-search",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Yandex Search"
+    ],
+    "legacy_template": "https://yandex.com/search/?text=site%3Ainstagram.com+%22MIGRATION_USERNAMEEND%22&lr=10615",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-x-posts",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "X Posts"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Atwitter.com+%22MIGRATION_USERNAMEEND%22+%22instagram.com%2Fp%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-dumpor-profile",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Dumpor Profile"
+    ],
+    "legacy_template": "https://dumpor.io/v/MIGRATION_USERNAMEEND/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-toolzu-profile",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Toolzu Profile"
+    ],
+    "legacy_template": "https://toolzu.com/profile-analyzer/instagram/?username=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-links-threads",
+    "source": "instagram.py:instagram_username_links",
+    "legacy_path": [
+      "Threads"
+    ],
+    "legacy_template": "https://www.threads.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-user-id-links-followers",
+    "source": "instagram.py:instagram_user_id_links",
+    "legacy_path": [
+      "Followers"
+    ],
+    "legacy_template": "https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables={%22id%22:%22MIGRATION_USER_IDEND%22,%22include_reel%22:true,%22fetch_mutual%22:true,%22first%22:50}",
+    "target_types": [
+      "user_id"
+    ],
+    "changes": [
+      "Undocumented authenticated GraphQL query hash; retained for reference only."
+    ]
+  },
+  {
+    "id": "instagram-instagram-user-id-links-following",
+    "source": "instagram.py:instagram_user_id_links",
+    "legacy_path": [
+      "Following"
+    ],
+    "legacy_template": "https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables={%22id%22:%22MIGRATION_USER_IDEND%22,%22include_reel%22:true,%22fetch_mutual%22:false,%22first%22:50}",
+    "target_types": [
+      "user_id"
+    ],
+    "changes": [
+      "Undocumented authenticated GraphQL query hash; retained for reference only."
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-term-links-user-term",
+    "source": "instagram.py:instagram_username_term_links",
+    "legacy_path": [
+      "User + Term"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+%22MIGRATION_USERNAMEEND%22+%22MIGRATION_QUERYEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-username-association-links-associations",
+    "source": "instagram.py:instagram_username_association_links",
+    "legacy_path": [
+      "Associations"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+%22MIGRATION_USERNAMEEND%22+%22MIGRATION_USERNAME2END%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-term-only-links-ig-hashtags",
+    "source": "instagram.py:instagram_term_only_links",
+    "legacy_path": [
+      "IG Hashtags"
+    ],
+    "legacy_template": "https://www.instagram.com/explore/search/keyword/?q=%23MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-term-only-links-ig-terms",
+    "source": "instagram.py:instagram_term_only_links",
+    "legacy_path": [
+      "IG Terms"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Ainstagram.com+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "instagram-instagram-term-only-links-dumpor-tag",
+    "source": "instagram.py:instagram_term_only_links",
+    "legacy_path": [
+      "Dumpor Tag"
+    ],
+    "legacy_template": "https://dumpor.io/",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-reverseip",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD ReverseIP"
+    ],
+    "legacy_template": "https://viewdns.info/reverseip/?host=MIGRATION_IPEND&t=1",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-locateip",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD LocateIP"
+    ],
+    "legacy_template": "https://viewdns.info/iplocation/?ip=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-portscan",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD PortScan"
+    ],
+    "legacy_template": "https://viewdns.info/portscan/?host=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": [
+      "Visiting this launcher can initiate a remote probe; disabled by default."
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-whois",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD Whois"
+    ],
+    "legacy_template": "https://viewdns.info/whois/?domain=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-traceroute",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD TraceRoute"
+    ],
+    "legacy_template": "https://viewdns.info/traceroute/?domain=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": [
+      "Visiting this launcher can initiate a remote probe; disabled by default."
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-reversedns",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "VD ReverseDNS"
+    ],
+    "legacy_template": "https://viewdns.info/reversedns/?ip=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-ipaddress-com",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "IPAddress.com"
+    ],
+    "legacy_template": "https://www.ipaddress.com/ipv4/MIGRATION_IPEND",
+    "target_types": [
+      "ipv4"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-dnschecker",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "DNSChecker"
+    ],
+    "legacy_template": "https://dnschecker.org/ip-whois-lookup.php?query=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-iplookup",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "IPLookup"
+    ],
+    "legacy_template": "https://www.ip-lookup.org/location/MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxtool",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "MXTool"
+    ],
+    "legacy_template": "https://mxtoolbox.com/SuperTool.aspx?action=arin%3aMIGRATION_IPEND&run=toolpage",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxblacklist",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "MXBlacklist"
+    ],
+    "legacy_template": "https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3aMIGRATION_IPEND&run=toolpage",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxblocklist",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "MXBlocklist"
+    ],
+    "legacy_template": "https://mxtoolbox.com/SuperTool.aspx?action=blocklist%3aMIGRATION_IPEND&run=networktools",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-bing-ip",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Bing IP"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=ip%3AMIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-iplocation",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "IPLocation"
+    ],
+    "legacy_template": "https://www.iplocation.net/ip-lookup?query=MIGRATION_IPEND&submit=IP+Lookup",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-torrents",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Torrents"
+    ],
+    "legacy_template": "https://iknowwhatyoudownload.com/en/peer/?ip=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-wigle-ssid",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Wigle SSID"
+    ],
+    "legacy_template": "https://wigle.net/search?ssid=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": [
+      "Legacy IP input was used as an SSID or postal code; questionable mapping."
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-wigle-postal",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Wigle Postal"
+    ],
+    "legacy_template": "https://wigle.net/search#fullSearch?postalCode=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": [
+      "Legacy IP input was used as an SSID or postal code; questionable mapping."
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Shodan"
+    ],
+    "legacy_template": "https://www.shodan.io/search?query=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-beta",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Shodan Beta"
+    ],
+    "legacy_template": "https://beta.shodan.io/host/MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-raw",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Shodan Raw"
+    ],
+    "legacy_template": "https://beta.shodan.io/host/MIGRATION_IPEND/raw?language=en",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-history",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Shodan History"
+    ],
+    "legacy_template": "https://beta.shodan.io/host/MIGRATION_IPEND/history",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-threatcrowd",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "ThreatCrowd"
+    ],
+    "legacy_template": "https://ci-www.threatcrowd.org/ip.php?ip=MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-censys",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Censys"
+    ],
+    "legacy_template": "https://search.censys.io/hosts/MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-leakix",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "LeakIX"
+    ],
+    "legacy_template": "https://leakix.net/host/MIGRATION_IPEND",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-dehashed",
+    "source": "ipaddresses.py:ip_osint_links",
+    "legacy_path": [
+      "IP Address OSINT",
+      "Dehashed"
+    ],
+    "legacy_template": "https://dehashed.com/search?query=%22MIGRATION_IPEND%22",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-profile",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Profile"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-about",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "About"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/about/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-experience",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Experience"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/experience/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-education",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Education"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/education/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-skills",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Skills"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/skills/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-recommendations",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Recommendations"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/recommendations/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-accomplishments",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Accomplishments"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/details/accomplishments/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-posts",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Posts"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/all/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-articles",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Articles"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/posts/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-documents",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Documents"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/documents/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-images",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Images"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/images/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-videos",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Videos"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/videos/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-comments",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Comments"
+    ],
+    "legacy_template": "https://www.linkedin.com/in/MIGRATION_USERNAMEEND/recent-activity/comments/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-google-photos",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Google Photos"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site:linkedin.com+MIGRATION_USERNAMEEND&source=lnms&udm=2",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-profile-links-bing-photos",
+    "source": "linkedin.py:li_profile_links",
+    "legacy_path": [
+      "Bing Photos"
+    ],
+    "legacy_template": "https://www.bing.com/images/search?q=site%3Alinkedin.com+MIGRATION_USERNAMEEND&scenario=ImageBasicHover",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-company-page",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Company Page"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-about",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "About"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/about/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-jobs",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Jobs"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/jobs/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-people",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "People"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/people/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-events",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Events"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/events/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-posts",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Posts"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/posts/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-videos",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Videos"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/videos/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-company-links-life",
+    "source": "linkedin.py:li_company_links",
+    "legacy_path": [
+      "Life"
+    ],
+    "legacy_template": "https://www.linkedin.com/company/MIGRATION_COMPANYEND/life/",
+    "target_types": [
+      "company"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-all",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "All"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/all/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-people",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "People"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/people/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-companies",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Companies"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/companies/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-jobs",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Jobs"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/jobs/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-groups",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Groups"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/groups/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-posts",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Posts"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/content/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-events",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Events"
+    ],
+    "legacy_template": "https://www.linkedin.com/search/results/events/?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-li-search-links-courses",
+    "source": "linkedin.py:li_search_links",
+    "legacy_path": [
+      "Courses"
+    ],
+    "legacy_template": "https://www.linkedin.com/learning/search?keywords=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "linkedin-linkedin-post-upload-date-timestamp-extractor",
+    "source": "linkedin.py:linkedin_post_upload_date",
+    "legacy_path": [
+      "Timestamp Extractor"
+    ],
+    "legacy_template": "https://ollie-boyd.github.io/Linkedin-post-timestamp-extractor/?url=MIGRATION_URLEND",
+    "target_types": [
+      "url"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-date",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google Date"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_QUERYEND&tbs=cdr:1,cd_min:1/1/0,sbd:1",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-news",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google News"
+    ],
+    "legacy_template": "https://www.google.com/search?tbm=nws&q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-ftp",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google FTP"
+    ],
+    "legacy_template": "https://www.google.com/search?q=inurl%3Aftp+-inurl%3A%28http%7Chttps%29+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-index",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google Index"
+    ],
+    "legacy_template": "https://www.google.com/search?q=intitle%3Aindex.of+MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-scholar",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google Scholar"
+    ],
+    "legacy_template": "https://scholar.google.com/scholar?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-patents",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Google Patents"
+    ],
+    "legacy_template": "https://patents.google.com/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-bing",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Bing"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-bing-news",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Bing News"
+    ],
+    "legacy_template": "https://www.bing.com/news/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-yahoo",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Yahoo"
+    ],
+    "legacy_template": "https://search.yahoo.com/search?p=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-yandex",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Yandex"
+    ],
+    "legacy_template": "https://yandex.com/search/?text=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-baidu",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Baidu"
+    ],
+    "legacy_template": "https://www.baidu.com/s?wd=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-searx",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Searx"
+    ],
+    "legacy_template": "https://searx.be/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-duckduckgo",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "DuckDuckGo"
+    ],
+    "legacy_template": "https://duckduckgo.com/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-startpage",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Startpage"
+    ],
+    "legacy_template": "https://www.startpage.com/do/search?query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-qwant",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Qwant"
+    ],
+    "legacy_template": "https://www.qwant.com/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-brave",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Brave"
+    ],
+    "legacy_template": "https://search.brave.com/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-wayback",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Wayback"
+    ],
+    "legacy_template": "https://web.archive.org/web/*/MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-ahmia",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Ahmia"
+    ],
+    "legacy_template": "https://ahmia.fi/search/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-clearnet-tor-link",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "clearnet",
+      "Tor.link"
+    ],
+    "legacy_template": "https://tor.link/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-torch",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Torch"
+    ],
+    "legacy_template": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=MIGRATION_QUERYEND&DEFAULTOP=and&DB=default&FMT=query&xDB=default&xFILTERS=.%7E%7E&tkn=bf850c9344b659c1f203fbb53a9ec04a%0D%0A",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-deep-search",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Deep Search"
+    ],
+    "legacy_template": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/result.php?search=MIGRATION_QUERYEND&url=search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-ahmia",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Ahmia"
+    ],
+    "legacy_template": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/search/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-tordex",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Tordex"
+    ],
+    "legacy_template": "http://tordexpmg4xy32rfp4ovnz7zq5ujoejwq2u26uxxtkscgo5u3losmeid.onion/search?query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-vormweb",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "VormWeb"
+    ],
+    "legacy_template": "http://volkancfgpi4c7ghph6id2t7vcntenuly66qjt6oedwtjmyj4tkk5oqd.onion/en/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-onionland",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "OnionLand"
+    ],
+    "legacy_template": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-torland",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Torland"
+    ],
+    "legacy_template": "http://torlbmqwtudkorme6prgfpmsnile7ug2zm4u3ejpcncxuhpu4k2j4kyd.onion/index.php?a=search&q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-tor66",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Tor66"
+    ],
+    "legacy_template": "http://www.tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-gdark",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "GDark"
+    ],
+    "legacy_template": "http://zb2jtkhnbvhkya3d46twv3g7lkobi4s62tjffqmafjibixk6pmq75did.onion/gdark/search.php?query=MIGRATION_QUERYEND&search=1",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-hidden-reviews",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Hidden Reviews"
+    ],
+    "legacy_template": "http://u5lyidiw4lpkonoctpqzxgyk6xop7w7w3oho4dzzsi272rwnjhyx7ayd.onion/?s=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-submarine",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "Submarine"
+    ],
+    "legacy_template": "http://no6m4wzdexe3auiupv2zwif7rm6qwxcyhslkcnzisxgeiw6pvjsgafad.onion/search.php?term=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-onioncentre",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "OnionCentre"
+    ],
+    "legacy_template": "http://5qqrlc7hw3tsgokkqifb33p3mrlpnleka2bjg7n46vih2synghb6ycid.onion/index.php?a=search&q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "search-links-generate-links-tor-freshonion",
+    "source": "search_links.py:generate_links",
+    "legacy_path": [
+      "tor",
+      "FreshOnion"
+    ],
+    "legacy_template": "http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/?query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-google",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Google"
+    ],
+    "legacy_template": "https://www.google.com/search?q=%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-bing",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Bing"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-yandex",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Yandex"
+    ],
+    "legacy_template": "https://yandex.com/search/?text=%22MIGRATION_USERNAMEEND%22&lr=10615",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-id-crawl",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "ID Crawl"
+    ],
+    "legacy_template": "https://www.idcrawl.com/u/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-instantusername",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "InstantUsername"
+    ],
+    "legacy_template": "https://instantusername.com/?q=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namechecker",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "NameChecker"
+    ],
+    "legacy_template": "https://www.namechecker.org/#MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namechk",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "NameChk"
+    ],
+    "legacy_template": "https://namechk.com/namechk-plugin-search-results/?n=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namevine",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "NameVine"
+    ],
+    "legacy_template": "https://namevine.com/#/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-candidatechecker",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "CandidateChecker"
+    ],
+    "legacy_template": "https://candidatechecker.io/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-socialsearcher",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "SocialSearcher"
+    ],
+    "legacy_template": "https://www.social-searcher.com/google-social-search/?q=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-checkistan",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Checkistan"
+    ],
+    "legacy_template": "https://usernamechecker.checkistan.com/#MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-usersearch",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "UserSearch"
+    ],
+    "legacy_template": "https://usersearch.org/results_normal.php?URL_username=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-dehashed",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Dehashed"
+    ],
+    "legacy_template": "https://dehashed.com/search?query=%22MIGRATION_USERNAMEEND%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-psbdmp",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "PSBDMP"
+    ],
+    "legacy_template": "https://psbdmp.ws/api/search/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-gravatar",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Gravatar"
+    ],
+    "legacy_template": "https://gravatar.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-linktree",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "LinkTree"
+    ],
+    "legacy_template": "https://linktr.ee/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-x",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "X"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-facebook",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Facebook"
+    ],
+    "legacy_template": "https://www.facebook.com/MIGRATION_USERNAMEEND/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-instagram",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Instagram"
+    ],
+    "legacy_template": "https://www.instagram.com/MIGRATION_USERNAMEEND/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tiktok",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "TikTok"
+    ],
+    "legacy_template": "https://www.tiktok.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tinder",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Tinder"
+    ],
+    "legacy_template": "https://tinder.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tumblr",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Tumblr"
+    ],
+    "legacy_template": "https://MIGRATION_USERNAMEEND.tumblr.com/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-snapchat",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Snapchat"
+    ],
+    "legacy_template": "https://www.snapchat.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-medium",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Medium"
+    ],
+    "legacy_template": "https://medium.com/@MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-youtube",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "YouTube"
+    ],
+    "legacy_template": "https://www.youtube.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-reddit",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Reddit"
+    ],
+    "legacy_template": "https://www.reddit.com/user/MIGRATION_USERNAMEEND/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-ghunt",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Ghunt"
+    ],
+    "legacy_template": "https://gmail-osint.activetk.jp/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-dehashed-emails",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Dehashed Emails"
+    ],
+    "legacy_template": "https://dehashed.com/search?query=%22MIGRATION_USERNAMEEND%40gmail.com%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-email-search",
+    "source": "usernames.py:username_osint_links",
+    "legacy_path": [
+      "Username OSINT",
+      "Email Search"
+    ],
+    "legacy_template": "https://www.google.com/search?q=%22MIGRATION_USERNAMEEND%40gmail.com%22OR%22MIGRATION_USERNAMEEND%40yahoo.com%22OR%22MIGRATION_USERNAMEEND%40hotmail.com%22OR%22MIGRATION_USERNAMEEND%40protonmail.com%22OR%22MIGRATION_USERNAMEEND%40live.com%22OR%22MIGRATION_USERNAMEEND%40icloud.com%22OR%22MIGRATION_USERNAMEEND%40yandex.com%22OR%22MIGRATION_USERNAMEEND%40gmx.com%22OR%22MIGRATION_USERNAMEEND%40mail.com%22OR%22MIGRATION_USERNAMEEND%40mac.com%22OR%22MIGRATION_USERNAMEEND%40me.com%22",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-age-bypass",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Age Bypass"
+    ],
+    "legacy_template": "https://www.nsfwyoutube.com/watch?v=MIGRATION_VIDEO_IDEND",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-full-screen",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Full Screen"
+    ],
+    "legacy_template": "https://www.youtube.com/embed/MIGRATION_VIDEO_IDEND",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-hq",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Thumbnail HQ"
+    ],
+    "legacy_template": "https://i.ytimg.com/vi/MIGRATION_VIDEO_IDEND/maxresdefault.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-ii",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Thumbnail II"
+    ],
+    "legacy_template": "https://img.youtube.com/vi/MIGRATION_VIDEO_IDEND/1.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-iii",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Thumbnail III"
+    ],
+    "legacy_template": "https://img.youtube.com/vi/MIGRATION_VIDEO_IDEND/2.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-iv",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Thumbnail IV"
+    ],
+    "legacy_template": "https://img.youtube.com/vi/MIGRATION_VIDEO_IDEND/3.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-google-reverse",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Google Reverse"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_VIDEO_IDEND&tbm=isch&udm=2",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-bing-reverse",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Bing Reverse"
+    ],
+    "legacy_template": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:https://i.ytimg.com/vi/MIGRATION_VIDEO_IDEND/maxresdefault.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-yandex-reverse",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Yandex Reverse"
+    ],
+    "legacy_template": "https://yandex.com/images/search?rpt=imageview&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMIGRATION_VIDEO_IDEND%2Fmaxresdefault.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-tineye-reverse",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "TinEye Reverse"
+    ],
+    "legacy_template": "https://www.tineye.com/search/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMIGRATION_VIDEO_IDEND%2Fmaxresdefault.jpg",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-restrictions",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Restrictions"
+    ],
+    "legacy_template": "https://polsy.org.uk/stuff/ytrestrict.cgi?ytid=MIGRATION_VIDEO_IDEND",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-metadata",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Metadata"
+    ],
+    "legacy_template": "https://www.googleapis.com/youtube/v3/videos?id=MIGRATION_VIDEO_IDEND&part=snippet,statistics,recordingDetails&key=",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": [
+      "Requires an owner-supplied API key; bundled credential removed. Endpoint retained for reference only."
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-download",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Download"
+    ],
+    "legacy_template": "https://deturl.com/watch?v=MIGRATION_VIDEO_IDEND",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-archives",
+    "source": "videos.py:video_id_links",
+    "legacy_path": [
+      "YouTube Video ID",
+      "Archives"
+    ],
+    "legacy_template": "https://web.archive.org/web/20250925215933/https://www.youtube.com/watch?v=MIGRATION_VIDEO_IDEND",
+    "target_types": [
+      "video_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-google-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Google Videos"
+    ],
+    "legacy_template": "https://www.google.com/search?q=MIGRATION_QUERYEND&udm=7",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-bing-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Bing Videos"
+    ],
+    "legacy_template": "https://www.bing.com/videos/search?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-yandex-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Yandex Videos"
+    ],
+    "legacy_template": "https://yandex.ru/video/search?text=MIGRATION_QUERYEND&rpt=imageview",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-youtube-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "YouTube Videos"
+    ],
+    "legacy_template": "https://www.youtube.com/results?search_query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-x-media",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "X Media"
+    ],
+    "legacy_template": "https://x.com/search?q=MIGRATION_QUERYEND&f=media",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-facebook-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Facebook Videos"
+    ],
+    "legacy_template": "https://www.facebook.com/search/videos/?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-reddit-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Reddit Videos"
+    ],
+    "legacy_template": "https://www.reddit.com/search?q=site:v.redd.it%20AND%20MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-tiktok-videos",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "TikTok Videos"
+    ],
+    "legacy_template": "https://www.tiktok.com/tag/MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-archives-i",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Archives I"
+    ],
+    "legacy_template": "https://archive.org/details/movies?tab=collection&query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-archives-ii",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "Archives II"
+    ],
+    "legacy_template": "https://archive.org/details/opensource_movies?tab=collection&query=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-video-search-links-video-search-tv-archives",
+    "source": "videos.py:video_search_links",
+    "legacy_path": [
+      "Video Search",
+      "TV Archives"
+    ],
+    "legacy_template": "https://archive.org/details/tv?q=MIGRATION_QUERYEND",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-youtube-username-links-youtube-username-profile",
+    "source": "videos.py:youtube_username_links",
+    "legacy_path": [
+      "YouTube Username",
+      "Profile"
+    ],
+    "legacy_template": "https://www.youtube.com/user/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "videos-youtube-username-links-youtube-username-account-feed",
+    "source": "videos.py:youtube_username_links",
+    "legacy_path": [
+      "YouTube Username",
+      "Account Feed"
+    ],
+    "legacy_template": "https://www.youtube.com/feeds/videos.xml?user=MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-profile",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Profile"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-outgoing-tweets",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Outgoing Tweets"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-incoming-tweets",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Incoming Tweets"
+    ],
+    "legacy_template": "https://x.com/search?q=to%3AMIGRATION_USERNAMEEND&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-only-replies",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Only Replies"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20filter%3Areplies&src=typed_query&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-no-replies",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "No Replies"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20-filter%3Areplies&src=typed_query&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-media-tweets",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Media Tweets"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/media/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-highlighted-tweets",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Highlighted Tweets"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/highlights/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-lists-created",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Lists Created"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/lists/",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-lists-included",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Lists Included"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/lists/memberships",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-topics",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Topics"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/topics",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-links",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Links"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20filter%3Alinks&src=typed_query&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-followers",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Followers"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/followers",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-following",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Following"
+    ],
+    "legacy_template": "https://x.com/MIGRATION_USERNAMEEND/following",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-google-archives",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Google Archives"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Atwitter.com%2FMIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-google-tweets",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Google Tweets"
+    ],
+    "legacy_template": "https://www.google.com/search?q=site%3Atwitter.com%2FMIGRATION_USERNAMEEND%2Fstatus%2F",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-bing-archives",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Bing Archives"
+    ],
+    "legacy_template": "https://www.bing.com/search?q=twitter.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-yandex-archives",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Yandex Archives"
+    ],
+    "legacy_template": "https://www.yandex.com/search/?text=https%3A%2F%2Ftwitter.com%2FMIGRATION_USERNAMEEND&lr=10615",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-wayback-machine",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Wayback Machine"
+    ],
+    "legacy_template": "https://web.archive.org/web/20250000000000*/twitter.com/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-historical",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Historical"
+    ],
+    "legacy_template": "https://api.memory.lol/v1/tw/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-links-twitter-audit",
+    "source": "x.py:x_username_links",
+    "legacy_path": [
+      "Twitter Audit"
+    ],
+    "legacy_template": "https://www.twitteraudit.com/result/MIGRATION_USERNAMEEND",
+    "target_types": [
+      "username"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-username-by-year-outgoing-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "Outgoing by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-incoming-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "Incoming by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=to%3AMIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-media-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "Media by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31%20filter%3Amedia&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-term-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "Term by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=MIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-no-replies-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "No replies by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31%20-filter%3Areplies&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-username-by-year-only-replies-by-year",
+    "source": "x.py:x_username_by_year",
+    "legacy_path": [
+      "Only Replies by Year"
+    ],
+    "legacy_template": "https://x.com/search?q=from%3AMIGRATION_USERNAMEEND%20since%3AMIGRATION_YEAREND-01-01%20until%3AMIGRATION_YEAREND-12-31%20filter%3Areplies&src=typd&f=live",
+    "target_types": [
+      "username"
+    ],
+    "changes": [
+      "Exclusive end date corrected to January 1 of the following year."
+    ]
+  },
+  {
+    "id": "x-x-user-id-links-historical",
+    "source": "x.py:x_user_id_links",
+    "legacy_path": [
+      "Historical"
+    ],
+    "legacy_template": "https://api.memory.lol/v1/tw/id/MIGRATION_USER_IDEND",
+    "target_types": [
+      "user_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-real-name-links-profile",
+    "source": "x.py:x_real_name_links",
+    "legacy_path": [
+      "Profile"
+    ],
+    "legacy_template": "https://x.com/search?q=MIGRATION_QUERYEND&f=user",
+    "target_types": [
+      "search"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-list-links-list",
+    "source": "x.py:x_list_links",
+    "legacy_path": [
+      "List"
+    ],
+    "legacy_template": "https://x.com/i/lists/MIGRATION_LIST_IDEND",
+    "target_types": [
+      "list_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-list-links-list-members",
+    "source": "x.py:x_list_links",
+    "legacy_path": [
+      "List Members"
+    ],
+    "legacy_template": "https://x.com/i/lists/MIGRATION_LIST_IDEND/members",
+    "target_types": [
+      "list_id"
+    ],
+    "changes": []
+  },
+  {
+    "id": "x-x-list-links-list-followers",
+    "source": "x.py:x_list_links",
+    "legacy_path": [
+      "List Followers"
+    ],
+    "legacy_template": "https://x.com/i/lists/MIGRATION_LIST_IDEND/followers",
+    "target_types": [
+      "list_id"
+    ],
+    "changes": []
+  }
+]

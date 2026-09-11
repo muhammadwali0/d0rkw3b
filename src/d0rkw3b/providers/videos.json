@@ -1,0 +1,677 @@
+[
+  {
+    "id": "videos-video-id-links-youtube-video-id-age-bypass",
+    "name": "YouTube Video ID / Age Bypass",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Age Bypass",
+    "template": "https://www.nsfwyoutube.com/watch?v={video_id}",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.nsfwyoutube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-full-screen",
+    "name": "YouTube Video ID / Full Screen",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Full Screen",
+    "template": "https://www.youtube.com/embed/{video_id}",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-hq",
+    "name": "YouTube Video ID / Thumbnail HQ",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Thumbnail HQ",
+    "template": "https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://i.ytimg.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-ii",
+    "name": "YouTube Video ID / Thumbnail II",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Thumbnail II",
+    "template": "https://img.youtube.com/vi/{video_id}/1.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://img.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-iii",
+    "name": "YouTube Video ID / Thumbnail III",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Thumbnail III",
+    "template": "https://img.youtube.com/vi/{video_id}/2.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://img.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-thumbnail-iv",
+    "name": "YouTube Video ID / Thumbnail IV",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Thumbnail IV",
+    "template": "https://img.youtube.com/vi/{video_id}/3.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://img.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-google-reverse",
+    "name": "YouTube Video ID / Google Reverse",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Google Reverse",
+    "template": "https://www.google.com/search?q={video_id}&tbm=isch&udm=2",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-bing-reverse",
+    "name": "YouTube Video ID / Bing Reverse",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Bing Reverse",
+    "template": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:https://i.ytimg.com/vi/{video_id}/maxresdefault.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-yandex-reverse",
+    "name": "YouTube Video ID / Yandex Reverse",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Yandex Reverse",
+    "template": "https://yandex.com/images/search?rpt=imageview&url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F{video_id}%2Fmaxresdefault.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-tineye-reverse",
+    "name": "YouTube Video ID / TinEye Reverse",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / TinEye Reverse",
+    "template": "https://www.tineye.com/search/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2F{video_id}%2Fmaxresdefault.jpg",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tineye.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-restrictions",
+    "name": "YouTube Video ID / Restrictions",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Restrictions",
+    "template": "https://polsy.org.uk/stuff/ytrestrict.cgi?ytid={video_id}",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://polsy.org.uk/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-metadata",
+    "name": "YouTube Video ID / Metadata",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Metadata",
+    "template": "https://www.googleapis.com/youtube/v3/videos?id={video_id}&part=snippet,statistics,recordingDetails&key=",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": true,
+    "homepage": "https://www.googleapis.com/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Requires an owner-supplied API key; bundled credential removed. Endpoint retained for reference only.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-download",
+    "name": "YouTube Video ID / Download",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Download",
+    "template": "https://deturl.com/watch?v={video_id}",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://deturl.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-id-links-youtube-video-id-archives",
+    "name": "YouTube Video ID / Archives",
+    "target_types": [
+      "video_id"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Video ID / Archives",
+    "template": "https://web.archive.org/web/20250925215933/https://www.youtube.com/watch?v={video_id}",
+    "tags": [
+      "video_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_id_links",
+    "parameters": [
+      "video_id"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-google-videos",
+    "name": "Video Search / Google Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Google Videos",
+    "template": "https://www.google.com/search?q={query}&udm=7",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-bing-videos",
+    "name": "Video Search / Bing Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Bing Videos",
+    "template": "https://www.bing.com/videos/search?q={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-yandex-videos",
+    "name": "Video Search / Yandex Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Yandex Videos",
+    "template": "https://yandex.ru/video/search?text={query}&rpt=imageview",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.ru/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-youtube-videos",
+    "name": "Video Search / YouTube Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / YouTube Videos",
+    "template": "https://www.youtube.com/results?search_query={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-x-media",
+    "name": "Video Search / X Media",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / X Media",
+    "template": "https://x.com/search?q={query}&f=media",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-facebook-videos",
+    "name": "Video Search / Facebook Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Facebook Videos",
+    "template": "https://www.facebook.com/search/videos/?q={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-reddit-videos",
+    "name": "Video Search / Reddit Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Reddit Videos",
+    "template": "https://www.reddit.com/search?q=site:v.redd.it%20AND%20{query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-tiktok-videos",
+    "name": "Video Search / TikTok Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / TikTok Videos",
+    "template": "https://www.tiktok.com/tag/{query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-archives-i",
+    "name": "Video Search / Archives I",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Archives I",
+    "template": "https://archive.org/details/movies?tab=collection&query={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-archives-ii",
+    "name": "Video Search / Archives II",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / Archives II",
+    "template": "https://archive.org/details/opensource_movies?tab=collection&query={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-video-search-links-video-search-tv-archives",
+    "name": "Video Search / TV Archives",
+    "target_types": [
+      "search"
+    ],
+    "category": "videos",
+    "description": "videos: Video Search / TV Archives",
+    "template": "https://archive.org/details/tv?q={query}",
+    "tags": [
+      "video_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:video_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "videos-youtube-username-links-youtube-username-profile",
+    "name": "YouTube Username / Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Username / Profile",
+    "template": "https://www.youtube.com/user/{username}",
+    "tags": [
+      "youtube_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:youtube_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "videos-youtube-username-links-youtube-username-account-feed",
+    "name": "YouTube Username / Account Feed",
+    "target_types": [
+      "username"
+    ],
+    "category": "videos",
+    "description": "videos: YouTube Username / Account Feed",
+    "template": "https://www.youtube.com/feeds/videos.xml?user={username}",
+    "tags": [
+      "youtube_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "videos.py:youtube_username_links",
+    "parameters": [
+      "username"
+    ]
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "domain-domain-osint-links-google-search",
+    "name": "Google Search",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Google Search",
+    "template": "https://www.google.com/search?q={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-bing-search",
+    "name": "Bing Search",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Bing Search",
+    "template": "https://www.bing.com/search?q={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-duckduckgo",
+    "name": "DuckDuckGo",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: DuckDuckGo",
+    "template": "https://duckduckgo.com/?q={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://duckduckgo.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-who-is",
+    "name": "Who.is",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Who.is",
+    "template": "https://www.whois.com/whois/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.whois.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-who-is-dns",
+    "name": "Who.is DNS",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Who.is DNS",
+    "template": "https://who.is/dns/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://who.is/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-who-is-history",
+    "name": "Who.is History",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Who.is History",
+    "template": "https://who.is/domain-history/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://who.is/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-urlscan",
+    "name": "URLScan",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: URLScan",
+    "template": "https://urlscan.io/search/#page.domain%3A{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://urlscan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-domainapp-dns",
+    "name": "DomainApp DNS",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: DomainApp DNS",
+    "template": "https://dmns.app/domains?q={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dmns.app/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-reverse-ip",
+    "name": "Reverse IP",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Reverse IP",
+    "template": "https://viewdns.info/reverseip/?host={domain}&t=1",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-reverse-domain",
+    "name": "Reverse Domain",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Reverse Domain",
+    "template": "https://viewdns.info/reversewhois/?q={domain}&t=1",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-port-scan",
+    "name": "Port Scan",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Port Scan",
+    "template": "https://viewdns.info/portscan/?host={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Visiting this launcher can initiate a remote probe; disabled by default.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-ip-history",
+    "name": "IP History",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: IP History",
+    "template": "https://viewdns.info/iphistory/?domain={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-dns-report",
+    "name": "DNS Report",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: DNS Report",
+    "template": "https://viewdns.info/dnsreport/?domain={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-traceroute",
+    "name": "Traceroute",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Traceroute",
+    "template": "https://viewdns.info/traceroute/?domain={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Visiting this launcher can initiate a remote probe; disabled by default.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois",
+    "name": "Whois",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois",
+    "template": "https://viewdns.info/whois/?domain={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whoxy",
+    "name": "Whoxy",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whoxy",
+    "template": "https://www.whoxy.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.whoxy.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whoisology",
+    "name": "Whoisology",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whoisology",
+    "template": "https://whoisology.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://whoisology.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-dnschecker",
+    "name": "DNSChecker",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: DNSChecker",
+    "template": "https://dnschecker.org/all-dns-records-of-domain.php/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dnschecker.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-virustotal",
+    "name": "VirusTotal",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: VirusTotal",
+    "template": "https://www.virustotal.com/gui/domain/{domain}/relations",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.virustotal.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-securitytrails",
+    "name": "SecurityTrails",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: SecurityTrails",
+    "template": "https://securitytrails.com/domain/{domain}/history",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://securitytrails.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-shodan",
+    "name": "Shodan",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Shodan",
+    "template": "https://www.shodan.io/search?query={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.shodan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-censys",
+    "name": "Censys",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Censys",
+    "template": "https://search.censys.io/search?q=parsed.names%3A%20%22{domain}%22",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://search.censys.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-crt-sh",
+    "name": "crt.sh",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: crt.sh",
+    "template": "https://crt.sh/?q=%25.{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://crt.sh/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-i",
+    "name": "Whois Archive I",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois Archive I",
+    "template": "https://web.archive.org/web/20250708150623/https://who.is/whois/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-ii",
+    "name": "Whois Archive II",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois Archive II",
+    "template": "https://web.archive.org/web/20250914170937/https://whois.domaintools.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-iii",
+    "name": "Whois Archive III",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois Archive III",
+    "template": "https://web.archive.org/web/https://www.whoxy.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-iv",
+    "name": "Whois Archive IV",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois Archive IV",
+    "template": "https://web.archive.org/web/https://domainbigdata.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-whois-archive-v",
+    "name": "Whois Archive V",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: Whois Archive V",
+    "template": "https://web.archive.org/web/https://whoisology.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-builtwith",
+    "name": "BuiltWith",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: BuiltWith",
+    "template": "https://builtwith.com/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://builtwith.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-mxtoolbox",
+    "name": "MXToolbox",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: MXToolbox",
+    "template": "https://mxtoolbox.com/SuperTool.aspx?action=mx%3a{domain}&run=toolpage",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mxtoolbox.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-alienvault-otx",
+    "name": "AlienVault OTX",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: AlienVault OTX",
+    "template": "https://otx.alienvault.com/indicator/domain/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://otx.alienvault.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-ssl-test",
+    "name": "SSL test",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: SSL test",
+    "template": "https://www.ssllabs.com/ssltest/analyze.html?d={domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ssllabs.com/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Visiting this launcher can initiate a remote probe; disabled by default.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-dnslytics",
+    "name": "DNSlytics",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: DNSlytics",
+    "template": "https://dnslytics.com/domain/{domain}",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dnslytics.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  },
+  {
+    "id": "domain-domain-osint-links-similarweb",
+    "name": "SimilarWeb",
+    "target_types": [
+      "domain"
+    ],
+    "category": "domain",
+    "description": "domain: SimilarWeb",
+    "template": "https://www.similarweb.com/website/{domain}/",
+    "tags": [
+      "domain_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.similarweb.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "domain.py:domain_osint_links",
+    "parameters": [
+      "domain"
+    ]
+  }
+]

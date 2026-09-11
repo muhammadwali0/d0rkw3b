@@ -1,0 +1,454 @@
+[
+  {
+    "id": "instagram-instagram-username-links-ig-profile",
+    "name": "IG Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: IG Profile",
+    "template": "https://www.instagram.com/{username}",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-ig-channels",
+    "name": "IG Channels",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: IG Channels",
+    "template": "https://www.instagram.com/{username}/channel/",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-ig-tagged",
+    "name": "IG Tagged",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: IG Tagged",
+    "template": "https://www.instagram.com/{username}/tagged/",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-outgoing-search",
+    "name": "Outgoing Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Outgoing Search",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+%22{username}%22",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-incoming-search",
+    "name": "Incoming Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Incoming Search",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+%22@{username}%22",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-bing-search",
+    "name": "Bing Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Bing Search",
+    "template": "https://www.bing.com/search?q=site%3Ainstagram.com+%22{username}%22",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-yandex-search",
+    "name": "Yandex Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Yandex Search",
+    "template": "https://yandex.com/search/?text=site%3Ainstagram.com+%22{username}%22&lr=10615",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-x-posts",
+    "name": "X Posts",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: X Posts",
+    "template": "https://www.google.com/search?q=site%3Atwitter.com+%22{username}%22+%22instagram.com%2Fp%22",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-dumpor-profile",
+    "name": "Dumpor Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Dumpor Profile",
+    "template": "https://dumpor.io/v/{username}/",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dumpor.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-toolzu-profile",
+    "name": "Toolzu Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Toolzu Profile",
+    "template": "https://toolzu.com/profile-analyzer/instagram/?username={username}",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://toolzu.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-links-threads",
+    "name": "Threads",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Threads",
+    "template": "https://www.threads.com/@{username}",
+    "tags": [
+      "instagram_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.threads.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "instagram-instagram-user-id-links-followers",
+    "name": "Followers",
+    "target_types": [
+      "user_id"
+    ],
+    "category": "instagram",
+    "description": "instagram: Followers",
+    "template": "https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables={{%22id%22:%22{user_id}%22,%22include_reel%22:true,%22fetch_mutual%22:true,%22first%22:50}}",
+    "tags": [
+      "instagram_user_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Undocumented authenticated GraphQL query hash; retained for reference only.",
+    "source": "instagram.py:instagram_user_id_links",
+    "parameters": [
+      "user_id"
+    ]
+  },
+  {
+    "id": "instagram-instagram-user-id-links-following",
+    "name": "Following",
+    "target_types": [
+      "user_id"
+    ],
+    "category": "instagram",
+    "description": "instagram: Following",
+    "template": "https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables={{%22id%22:%22{user_id}%22,%22include_reel%22:true,%22fetch_mutual%22:false,%22first%22:50}}",
+    "tags": [
+      "instagram_user_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Undocumented authenticated GraphQL query hash; retained for reference only.",
+    "source": "instagram.py:instagram_user_id_links",
+    "parameters": [
+      "user_id"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-term-links-user-term",
+    "name": "User + Term",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: User + Term",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+%22{username}%22+%22{query}%22",
+    "tags": [
+      "instagram_username_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_term_links",
+    "parameters": [
+      "username",
+      "query"
+    ]
+  },
+  {
+    "id": "instagram-instagram-username-association-links-associations",
+    "name": "Associations",
+    "target_types": [
+      "username"
+    ],
+    "category": "instagram",
+    "description": "instagram: Associations",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+%22{username}%22+%22{username2}%22",
+    "tags": [
+      "instagram_username_association_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_username_association_links",
+    "parameters": [
+      "username",
+      "username2"
+    ]
+  },
+  {
+    "id": "instagram-instagram-term-only-links-ig-hashtags",
+    "name": "IG Hashtags",
+    "target_types": [
+      "search"
+    ],
+    "category": "instagram",
+    "description": "instagram: IG Hashtags",
+    "template": "https://www.instagram.com/explore/search/keyword/?q=%23{query}",
+    "tags": [
+      "instagram_term_only_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_term_only_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "instagram-instagram-term-only-links-ig-terms",
+    "name": "IG Terms",
+    "target_types": [
+      "search"
+    ],
+    "category": "instagram",
+    "description": "instagram: IG Terms",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+{query}",
+    "tags": [
+      "instagram_term_only_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_term_only_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "instagram-instagram-term-only-links-dumpor-tag",
+    "name": "Dumpor Tag",
+    "target_types": [
+      "search"
+    ],
+    "category": "instagram",
+    "description": "instagram: Dumpor Tag",
+    "template": "https://dumpor.io/",
+    "tags": [
+      "instagram_term_only_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dumpor.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "instagram.py:instagram_term_only_links",
+    "parameters": [
+      "query"
+    ]
+  }
+]

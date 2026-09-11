@@ -1,0 +1,827 @@
+[
+  {
+    "id": "search-links-generate-links-clearnet-google",
+    "name": "clearnet / Google",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google",
+    "template": "https://www.google.com/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-date",
+    "name": "clearnet / Google Date",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google Date",
+    "template": "https://www.google.com/search?q={query}&tbs=cdr:1,cd_min:1/1/0,sbd:1",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-news",
+    "name": "clearnet / Google News",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google News",
+    "template": "https://www.google.com/search?tbm=nws&q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-ftp",
+    "name": "clearnet / Google FTP",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google FTP",
+    "template": "https://www.google.com/search?q=inurl%3Aftp+-inurl%3A%28http%7Chttps%29+{query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-index",
+    "name": "clearnet / Google Index",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google Index",
+    "template": "https://www.google.com/search?q=intitle%3Aindex.of+{query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-scholar",
+    "name": "clearnet / Google Scholar",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google Scholar",
+    "template": "https://scholar.google.com/scholar?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://scholar.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-google-patents",
+    "name": "clearnet / Google Patents",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Google Patents",
+    "template": "https://patents.google.com/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://patents.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-bing",
+    "name": "clearnet / Bing",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Bing",
+    "template": "https://www.bing.com/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-bing-news",
+    "name": "clearnet / Bing News",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Bing News",
+    "template": "https://www.bing.com/news/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-yahoo",
+    "name": "clearnet / Yahoo",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Yahoo",
+    "template": "https://search.yahoo.com/search?p={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://search.yahoo.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-yandex",
+    "name": "clearnet / Yandex",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Yandex",
+    "template": "https://yandex.com/search/?text={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-baidu",
+    "name": "clearnet / Baidu",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Baidu",
+    "template": "https://www.baidu.com/s?wd={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.baidu.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-searx",
+    "name": "clearnet / Searx",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Searx",
+    "template": "https://searx.be/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://searx.be/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-duckduckgo",
+    "name": "clearnet / DuckDuckGo",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / DuckDuckGo",
+    "template": "https://duckduckgo.com/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://duckduckgo.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-startpage",
+    "name": "clearnet / Startpage",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Startpage",
+    "template": "https://www.startpage.com/do/search?query={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.startpage.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-qwant",
+    "name": "clearnet / Qwant",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Qwant",
+    "template": "https://www.qwant.com/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.qwant.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-brave",
+    "name": "clearnet / Brave",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Brave",
+    "template": "https://search.brave.com/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://search.brave.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-wayback",
+    "name": "clearnet / Wayback",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Wayback",
+    "template": "https://web.archive.org/web/*/{query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://web.archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-ahmia",
+    "name": "clearnet / Ahmia",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Ahmia",
+    "template": "https://ahmia.fi/search/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://ahmia.fi/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-clearnet-tor-link",
+    "name": "clearnet / Tor.link",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: clearnet / Tor.link",
+    "template": "https://tor.link/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tor.link/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-torch",
+    "name": "tor / Torch",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Torch",
+    "template": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P={query}&DEFAULTOP=and&DB=default&FMT=query&xDB=default&xFILTERS=.%7E%7E&tkn=bf850c9344b659c1f203fbb53a9ec04a%0D%0A",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-deep-search",
+    "name": "tor / Deep Search",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Deep Search",
+    "template": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/result.php?search={query}&url=search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-ahmia",
+    "name": "tor / Ahmia",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Ahmia",
+    "template": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/search/?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-tordex",
+    "name": "tor / Tordex",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Tordex",
+    "template": "http://tordexpmg4xy32rfp4ovnz7zq5ujoejwq2u26uxxtkscgo5u3losmeid.onion/search?query={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://tordexpmg4xy32rfp4ovnz7zq5ujoejwq2u26uxxtkscgo5u3losmeid.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-vormweb",
+    "name": "tor / VormWeb",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / VormWeb",
+    "template": "http://volkancfgpi4c7ghph6id2t7vcntenuly66qjt6oedwtjmyj4tkk5oqd.onion/en/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://volkancfgpi4c7ghph6id2t7vcntenuly66qjt6oedwtjmyj4tkk5oqd.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-onionland",
+    "name": "tor / OnionLand",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / OnionLand",
+    "template": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-torland",
+    "name": "tor / Torland",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Torland",
+    "template": "http://torlbmqwtudkorme6prgfpmsnile7ug2zm4u3ejpcncxuhpu4k2j4kyd.onion/index.php?a=search&q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://torlbmqwtudkorme6prgfpmsnile7ug2zm4u3ejpcncxuhpu4k2j4kyd.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-tor66",
+    "name": "tor / Tor66",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Tor66",
+    "template": "http://www.tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/search?q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://www.tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-gdark",
+    "name": "tor / GDark",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / GDark",
+    "template": "http://zb2jtkhnbvhkya3d46twv3g7lkobi4s62tjffqmafjibixk6pmq75did.onion/gdark/search.php?query={query}&search=1",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://zb2jtkhnbvhkya3d46twv3g7lkobi4s62tjffqmafjibixk6pmq75did.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-hidden-reviews",
+    "name": "tor / Hidden Reviews",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Hidden Reviews",
+    "template": "http://u5lyidiw4lpkonoctpqzxgyk6xop7w7w3oho4dzzsi272rwnjhyx7ayd.onion/?s={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://u5lyidiw4lpkonoctpqzxgyk6xop7w7w3oho4dzzsi272rwnjhyx7ayd.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-submarine",
+    "name": "tor / Submarine",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / Submarine",
+    "template": "http://no6m4wzdexe3auiupv2zwif7rm6qwxcyhslkcnzisxgeiw6pvjsgafad.onion/search.php?term={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://no6m4wzdexe3auiupv2zwif7rm6qwxcyhslkcnzisxgeiw6pvjsgafad.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-onioncentre",
+    "name": "tor / OnionCentre",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / OnionCentre",
+    "template": "http://5qqrlc7hw3tsgokkqifb33p3mrlpnleka2bjg7n46vih2synghb6ycid.onion/index.php?a=search&q={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://5qqrlc7hw3tsgokkqifb33p3mrlpnleka2bjg7n46vih2synghb6ycid.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "search-links-generate-links-tor-freshonion",
+    "name": "tor / FreshOnion",
+    "target_types": [
+      "search"
+    ],
+    "category": "search_links",
+    "description": "search_links: tor / FreshOnion",
+    "template": "http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/?query={query}",
+    "tags": [
+      "generate_links"
+    ],
+    "network": "tor",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "search_links.py:generate_links",
+    "parameters": [
+      "query"
+    ]
+  }
+]

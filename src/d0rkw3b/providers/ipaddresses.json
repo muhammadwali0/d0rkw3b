@@ -1,0 +1,651 @@
+[
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-reverseip",
+    "name": "IP Address OSINT / VD ReverseIP",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD ReverseIP",
+    "template": "https://viewdns.info/reverseip/?host={ip}&t=1",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-locateip",
+    "name": "IP Address OSINT / VD LocateIP",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD LocateIP",
+    "template": "https://viewdns.info/iplocation/?ip={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-portscan",
+    "name": "IP Address OSINT / VD PortScan",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD PortScan",
+    "template": "https://viewdns.info/portscan/?host={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Visiting this launcher can initiate a remote probe; disabled by default.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-whois",
+    "name": "IP Address OSINT / VD Whois",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD Whois",
+    "template": "https://viewdns.info/whois/?domain={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-traceroute",
+    "name": "IP Address OSINT / VD TraceRoute",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD TraceRoute",
+    "template": "https://viewdns.info/traceroute/?domain={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Visiting this launcher can initiate a remote probe; disabled by default.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-vd-reversedns",
+    "name": "IP Address OSINT / VD ReverseDNS",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / VD ReverseDNS",
+    "template": "https://viewdns.info/reversedns/?ip={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://viewdns.info/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-ipaddress-com",
+    "name": "IP Address OSINT / IPAddress.com",
+    "target_types": [
+      "ipv4"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / IPAddress.com",
+    "template": "https://www.ipaddress.com/ipv4/{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ipaddress.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-dnschecker",
+    "name": "IP Address OSINT / DNSChecker",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / DNSChecker",
+    "template": "https://dnschecker.org/ip-whois-lookup.php?query={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://dnschecker.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-iplookup",
+    "name": "IP Address OSINT / IPLookup",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / IPLookup",
+    "template": "https://www.ip-lookup.org/location/{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.ip-lookup.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxtool",
+    "name": "IP Address OSINT / MXTool",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / MXTool",
+    "template": "https://mxtoolbox.com/SuperTool.aspx?action=arin%3a{ip}&run=toolpage",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mxtoolbox.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxblacklist",
+    "name": "IP Address OSINT / MXBlacklist",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / MXBlacklist",
+    "template": "https://mxtoolbox.com/SuperTool.aspx?action=blacklist%3a{ip}&run=toolpage",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mxtoolbox.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-mxblocklist",
+    "name": "IP Address OSINT / MXBlocklist",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / MXBlocklist",
+    "template": "https://mxtoolbox.com/SuperTool.aspx?action=blocklist%3a{ip}&run=networktools",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://mxtoolbox.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-bing-ip",
+    "name": "IP Address OSINT / Bing IP",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Bing IP",
+    "template": "https://www.bing.com/search?q=ip%3A{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-iplocation",
+    "name": "IP Address OSINT / IPLocation",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / IPLocation",
+    "template": "https://www.iplocation.net/ip-lookup?query={ip}&submit=IP+Lookup",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.iplocation.net/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-torrents",
+    "name": "IP Address OSINT / Torrents",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Torrents",
+    "template": "https://iknowwhatyoudownload.com/en/peer/?ip={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://iknowwhatyoudownload.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-wigle-ssid",
+    "name": "IP Address OSINT / Wigle SSID",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Wigle SSID",
+    "template": "https://wigle.net/search?ssid={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://wigle.net/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Legacy IP input was used as an SSID or postal code; questionable mapping.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-wigle-postal",
+    "name": "IP Address OSINT / Wigle Postal",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Wigle Postal",
+    "template": "https://wigle.net/search#fullSearch?postalCode={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://wigle.net/",
+    "enabled": false,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Legacy IP input was used as an SSID or postal code; questionable mapping.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan",
+    "name": "IP Address OSINT / Shodan",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Shodan",
+    "template": "https://www.shodan.io/search?query={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.shodan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-beta",
+    "name": "IP Address OSINT / Shodan Beta",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Shodan Beta",
+    "template": "https://beta.shodan.io/host/{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://beta.shodan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-raw",
+    "name": "IP Address OSINT / Shodan Raw",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Shodan Raw",
+    "template": "https://beta.shodan.io/host/{ip}/raw?language=en",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://beta.shodan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-shodan-history",
+    "name": "IP Address OSINT / Shodan History",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Shodan History",
+    "template": "https://beta.shodan.io/host/{ip}/history",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://beta.shodan.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-threatcrowd",
+    "name": "IP Address OSINT / ThreatCrowd",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / ThreatCrowd",
+    "template": "https://ci-www.threatcrowd.org/ip.php?ip={ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://ci-www.threatcrowd.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-censys",
+    "name": "IP Address OSINT / Censys",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Censys",
+    "template": "https://search.censys.io/hosts/{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://search.censys.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-leakix",
+    "name": "IP Address OSINT / LeakIX",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / LeakIX",
+    "template": "https://leakix.net/host/{ip}",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://leakix.net/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  },
+  {
+    "id": "ipaddresses-ip-osint-links-ip-address-osint-dehashed",
+    "name": "IP Address OSINT / Dehashed",
+    "target_types": [
+      "ipv4",
+      "ipv6"
+    ],
+    "category": "ipaddresses",
+    "description": "ipaddresses: IP Address OSINT / Dehashed",
+    "template": "https://dehashed.com/search?query=%22{ip}%22",
+    "tags": [
+      "ip_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://dehashed.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "ipaddresses.py:ip_osint_links",
+    "parameters": [
+      "ip"
+    ]
+  }
+]

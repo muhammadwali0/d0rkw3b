@@ -1,0 +1,327 @@
+[
+  {
+    "id": "github-gh-user-links-search-users",
+    "name": "Search Users",
+    "target_types": [
+      "username"
+    ],
+    "category": "github",
+    "description": "github: Search Users",
+    "template": "https://github.com/search?q={username}&type=users",
+    "tags": [
+      "gh_user_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_user_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "github-gh-repo-search-search-repositories",
+    "name": "Search Repositories",
+    "target_types": [
+      "repository"
+    ],
+    "category": "github",
+    "description": "github: Search Repositories",
+    "template": "https://github.com/search?q={repository}&type=repositories",
+    "tags": [
+      "gh_repo_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_repo_search",
+    "parameters": [
+      "repository"
+    ]
+  },
+  {
+    "id": "github-gh-repo-search-search-code",
+    "name": "Search Code",
+    "target_types": [
+      "repository"
+    ],
+    "category": "github",
+    "description": "github: Search Code",
+    "template": "https://github.com/search?q={repository}&type=code",
+    "tags": [
+      "gh_repo_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_repo_search",
+    "parameters": [
+      "repository"
+    ]
+  },
+  {
+    "id": "github-gh-repo-search-search-issues",
+    "name": "Search Issues",
+    "target_types": [
+      "repository"
+    ],
+    "category": "github",
+    "description": "github: Search Issues",
+    "template": "https://github.com/search?q={repository}&type=issues",
+    "tags": [
+      "gh_repo_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_repo_search",
+    "parameters": [
+      "repository"
+    ]
+  },
+  {
+    "id": "github-gh-repo-search-search-discussions",
+    "name": "Search Discussions",
+    "target_types": [
+      "repository"
+    ],
+    "category": "github",
+    "description": "github: Search Discussions",
+    "template": "https://github.com/search?q={repository}&type=discussions",
+    "tags": [
+      "gh_repo_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_repo_search",
+    "parameters": [
+      "repository"
+    ]
+  },
+  {
+    "id": "github-gh-repo-search-search-topics",
+    "name": "Search Topics",
+    "target_types": [
+      "repository"
+    ],
+    "category": "github",
+    "description": "github: Search Topics",
+    "template": "https://github.com/search?q={repository}&type=topics",
+    "tags": [
+      "gh_repo_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_repo_search",
+    "parameters": [
+      "repository"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-repositories",
+    "name": "Repositories",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Repositories",
+    "template": "https://github.com/search?q={query}&type=repositories",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-code",
+    "name": "Code",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Code",
+    "template": "https://github.com/search?q={query}&type=code",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-users",
+    "name": "Users",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Users",
+    "template": "https://github.com/search?q={query}&type=users",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-issues",
+    "name": "Issues",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Issues",
+    "template": "https://github.com/search?q={query}&type=issues",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-discussions",
+    "name": "Discussions",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Discussions",
+    "template": "https://github.com/search?q={query}&type=discussions",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-packages",
+    "name": "Packages",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Packages",
+    "template": "https://github.com/search?q={query}&type=packages",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "github-gh-search-links-topics",
+    "name": "Topics",
+    "target_types": [
+      "search"
+    ],
+    "category": "github",
+    "description": "github: Topics",
+    "template": "https://github.com/search?q={query}&type=topics",
+    "tags": [
+      "gh_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://github.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "github.py:gh_search_links",
+    "parameters": [
+      "query"
+    ]
+  }
+]

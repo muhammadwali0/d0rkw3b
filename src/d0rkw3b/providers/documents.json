@@ -1,0 +1,727 @@
+[
+  {
+    "id": "documents-document-links-documents-pdf",
+    "name": "Documents / PDF",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / PDF",
+    "template": "https://www.google.com/search?q=ext%3Apdf+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-doc-docx",
+    "name": "Documents / DOC/DOCX",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / DOC/DOCX",
+    "template": "https://www.google.com/search?q=ext%3Adoc+OR+ext%3Adocx+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-xls-xlsx-csv",
+    "name": "Documents / XLS/XLSX/CSV",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / XLS/XLSX/CSV",
+    "template": "https://www.google.com/search?q=ext%3Axls+OR+ext%3Axlsx+OR+ext%3Acsv+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-ppt-pptx-key",
+    "name": "Documents / PPT/PPTX/KEY",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / PPT/PPTX/KEY",
+    "template": "https://www.google.com/search?q=ext%3Appt+OR+ext%3Apptx+OR+ext%3Akey+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-txt-rtf-xml",
+    "name": "Documents / TXT/RTF/XML",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / TXT/RTF/XML",
+    "template": "https://www.google.com/search?q=ext%3Atxt+OR+ext%3Artf+OR+ext%3Axml+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-odt-ods-odp",
+    "name": "Documents / ODT/ODS/ODP",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / ODT/ODS/ODP",
+    "template": "https://www.google.com/search?q=ext%3Aodt+OR+ext%3Aods+OR+ext%3Aodp+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-zip-rar-7z",
+    "name": "Documents / ZIP/RAR/7Z",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / ZIP/RAR/7Z",
+    "template": "https://www.google.com/search?q=ext%3Azip+OR+ext%3Arar+OR+ext%3A7z+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-jpg-jpeg-png",
+    "name": "Documents / JPG/JPEG/PNG",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / JPG/JPEG/PNG",
+    "template": "https://www.google.com/search?q=ext:jpg+OR+ext:jpeg+OR+ext:png+{query}&udm=2",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-mpg-mp4",
+    "name": "Documents / MPG/MP4",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / MPG/MP4",
+    "template": "https://www.google.com/search?q=ext%3Ampg+OR+ext%3Ampeg+OR+ext%3Amp4+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-mp3-wav",
+    "name": "Documents / MP3/WAV",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / MP3/WAV",
+    "template": "https://www.google.com/search?q=ext%3Amp3+OR+ext%3Awav+OR+ext%3Aflac+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-google-docs",
+    "name": "Documents / Google Docs",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Google Docs",
+    "template": "https://www.google.com/search?q=site%3Adocs.google.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-google-drive",
+    "name": "Documents / Google Drive",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Google Drive",
+    "template": "https://www.google.com/search?q=site%3Adrive.google.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-google-api",
+    "name": "Documents / Google API",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Google API",
+    "template": "https://www.google.com/search?q=site%3Astorage.googleapis.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-ms-docs",
+    "name": "Documents / MS Docs",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / MS Docs",
+    "template": "https://www.google.com/search?q=site%3Adocs.microsoft.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-amazon-aws",
+    "name": "Documents / Amazon AWS",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Amazon AWS",
+    "template": "https://www.google.com/search?q=site%3Aamazonaws.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-cloudfront",
+    "name": "Documents / CloudFront",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / CloudFront",
+    "template": "https://www.google.com/search?q=site%3Acloudfront.net+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-refseek",
+    "name": "Documents / Refseek",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Refseek",
+    "template": "https://www.refseek.com/documents?q={query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.refseek.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-core",
+    "name": "Documents / Core",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Core",
+    "template": "https://core.ac.uk/search/?q={query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://core.ac.uk/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-grayhatwarfare",
+    "name": "Documents / GrayHatWarfare",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / GrayHatWarfare",
+    "template": "https://buckets.grayhatwarfare.com/files?page=1&keywords={query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://buckets.grayhatwarfare.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-slideshare",
+    "name": "Documents / SlideShare",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / SlideShare",
+    "template": "https://www.google.com/search?q=site%3Aslideshare.net+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-prezi",
+    "name": "Documents / Prezi",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Prezi",
+    "template": "https://www.google.com/search?q=site%3Aprezi.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-issuu",
+    "name": "Documents / ISSUU",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / ISSUU",
+    "template": "https://www.google.com/search?q=site%3Aissuu.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-powershow",
+    "name": "Documents / Powershow",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Powershow",
+    "template": "https://www.powershow.com/search/presentations/ppt/{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.powershow.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-slide-bean",
+    "name": "Documents / Slide Bean",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Slide Bean",
+    "template": "https://www.google.com/search?q=site%3Aslidebean.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-scribd",
+    "name": "Documents / Scribd",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Scribd",
+    "template": "https://www.google.com/search?q=site%3Ascribd.com+{query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-pdf-drive",
+    "name": "Documents / PDF Drive",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / PDF Drive",
+    "template": "https://welib.org/?q={query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://welib.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-wikileaks",
+    "name": "Documents / Wikileaks",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Wikileaks",
+    "template": "https://search.wikileaks.org/?query={query}&exact_phrase=&any_of=&exclude_words=&document_date_start=&document_date_end=&released_date_start=&released_date_end=&new_search=True&order_by=most_relevant#results",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://search.wikileaks.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-archive-org",
+    "name": "Documents / Archive.org",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Archive.org",
+    "template": "https://archive.org/search?query={query}&sin=TXT",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://archive.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "documents-document-links-documents-google-books",
+    "name": "Documents / Google Books",
+    "target_types": [
+      "document"
+    ],
+    "category": "documents",
+    "description": "documents: Documents / Google Books",
+    "template": "https://www.google.com/search?tbm=bks&q={query}",
+    "tags": [
+      "document_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "documents.py:document_links",
+    "parameters": [
+      "query"
+    ]
+  }
+]

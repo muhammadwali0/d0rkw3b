@@ -1,0 +1,1227 @@
+[
+  {
+    "id": "facebook-fb-username-links-timeline",
+    "name": "Timeline",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Timeline",
+    "template": "https://www.facebook.com/{username}",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-about",
+    "name": "About",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: About",
+    "template": "https://www.facebook.com/{username}/about",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-employement",
+    "name": "Employement",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Employement",
+    "template": "https://www.facebook.com/{username}/about?section=work",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-education",
+    "name": "Education",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Education",
+    "template": "https://www.facebook.com/{username}/about?section=education",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-locations",
+    "name": "Locations",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Locations",
+    "template": "https://www.facebook.com/{username}/about?section=living",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-contact-info",
+    "name": "Contact Info",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Contact Info",
+    "template": "https://www.facebook.com/{username}/about?section=contact-info",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-basic-info",
+    "name": "Basic Info",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Basic Info",
+    "template": "https://www.facebook.com/{username}/about?section=basic-info",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-relationships",
+    "name": "Relationships",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Relationships",
+    "template": "https://www.facebook.com/{username}/about?section=relationship",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-family",
+    "name": "Family",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Family",
+    "template": "https://www.facebook.com/{username}/about?section=family",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-biography",
+    "name": "Biography",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Biography",
+    "template": "https://www.facebook.com/{username}/about?section=bio",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-life-events",
+    "name": "Life Events",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Life Events",
+    "template": "https://www.facebook.com/{username}/about?section=year-overviews",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-friends",
+    "name": "Friends",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Friends",
+    "template": "https://www.facebook.com/{username}/friends",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-following",
+    "name": "Following",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Following",
+    "template": "https://www.facebook.com/{username}/following",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-photos",
+    "name": "Photos",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Photos",
+    "template": "https://www.facebook.com/{username}/photos",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-photos-albums",
+    "name": "Photos Albums",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Photos Albums",
+    "template": "https://www.facebook.com/{username}/photos_albums",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-videos",
+    "name": "Videos",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Videos",
+    "template": "https://www.facebook.com/{username}/videos",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-reels",
+    "name": "Reels",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Reels",
+    "template": "https://www.facebook.com/{username}/reels/",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-check-ins",
+    "name": "Check-ins",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Check-ins",
+    "template": "https://www.facebook.com/{username}/places_visited",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-visits",
+    "name": "Visits",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Visits",
+    "template": "https://www.facebook.com/{username}/map",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-recent-check-ins",
+    "name": "Recent Check-ins",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Recent Check-ins",
+    "template": "https://www.facebook.com/{username}/places_recent",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-sports",
+    "name": "Sports",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Sports",
+    "template": "https://www.facebook.com/{username}/sports",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-music",
+    "name": "Music",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Music",
+    "template": "https://www.facebook.com/{username}/music",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-movies",
+    "name": "Movies",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Movies",
+    "template": "https://www.facebook.com/{username}/movies",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-tv",
+    "name": "TV",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: TV",
+    "template": "https://www.facebook.com/{username}/tv",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-books",
+    "name": "Books",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Books",
+    "template": "https://www.facebook.com/{username}/books",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-games",
+    "name": "Games",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Games",
+    "template": "https://www.facebook.com/{username}/games",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-likes",
+    "name": "Likes",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Likes",
+    "template": "https://www.facebook.com/{username}/likes",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-events",
+    "name": "Events",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Events",
+    "template": "https://www.facebook.com/{username}/events",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-facts",
+    "name": "Facts",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Facts",
+    "template": "https://www.facebook.com/{username}/did_you_know",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-reviews",
+    "name": "Reviews",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Reviews",
+    "template": "https://www.facebook.com/{username}/reviews",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-reviews-given",
+    "name": "Reviews Given",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Reviews Given",
+    "template": "https://www.facebook.com/{username}/reviews_given",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-reviews-written",
+    "name": "Reviews Written",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Reviews Written",
+    "template": "https://www.facebook.com/{username}/reviews_written",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-username-links-notes",
+    "name": "Notes",
+    "target_types": [
+      "username"
+    ],
+    "category": "facebook",
+    "description": "facebook: Notes",
+    "template": "https://www.facebook.com/{username}/notes",
+    "tags": [
+      "fb_username_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_username_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "facebook-fb-number-links-profile",
+    "name": "Profile",
+    "target_types": [
+      "phone"
+    ],
+    "category": "facebook",
+    "description": "facebook: Profile",
+    "template": "https://www.facebook.com/{phone}",
+    "tags": [
+      "fb_number_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_number_links",
+    "parameters": [
+      "phone"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-all",
+    "name": "All",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: All",
+    "template": "https://www.facebook.com/search/top/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-posts",
+    "name": "Posts",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Posts",
+    "template": "https://www.facebook.com/search/posts/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-people",
+    "name": "People",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: People",
+    "template": "https://www.facebook.com/search/people/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-photos",
+    "name": "Photos",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Photos",
+    "template": "https://www.facebook.com/search/photos/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-videos",
+    "name": "Videos",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Videos",
+    "template": "https://www.facebook.com/search/videos/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-marketplace",
+    "name": "Marketplace",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Marketplace",
+    "template": "https://www.facebook.com/search/marketplace/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-pages",
+    "name": "Pages",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Pages",
+    "template": "https://www.facebook.com/search/pages/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-places",
+    "name": "Places",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Places",
+    "template": "https://www.facebook.com/search/places/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-groups",
+    "name": "Groups",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Groups",
+    "template": "https://www.facebook.com/search/groups/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-events",
+    "name": "Events",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Events",
+    "template": "https://www.facebook.com/search/events/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-links",
+    "name": "Links",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Links",
+    "template": "https://www.facebook.com/search/links/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-search-term-links-watch",
+    "name": "Watch",
+    "target_types": [
+      "search"
+    ],
+    "category": "facebook",
+    "description": "facebook: Watch",
+    "template": "https://www.facebook.com/watch/search/?q={query}",
+    "tags": [
+      "fb_search_term_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_search_term_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "facebook-fb-user-id-links-profile",
+    "name": "Profile",
+    "target_types": [
+      "user_id"
+    ],
+    "category": "facebook",
+    "description": "facebook: Profile",
+    "template": "https://www.facebook.com/{user_id}",
+    "tags": [
+      "fb_user_id_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_user_id_links",
+    "parameters": [
+      "user_id"
+    ]
+  },
+  {
+    "id": "facebook-fb-location-links-photos-by-location",
+    "name": "Photos by Location",
+    "target_types": [
+      "location_id"
+    ],
+    "category": "facebook",
+    "description": "facebook: Photos by Location",
+    "template": "https://www.facebook.com/{location_id}/photos",
+    "tags": [
+      "fb_location_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_location_links",
+    "parameters": [
+      "location_id"
+    ]
+  },
+  {
+    "id": "facebook-fb-location-links-videos-by-location",
+    "name": "Videos by Location",
+    "target_types": [
+      "location_id"
+    ],
+    "category": "facebook",
+    "description": "facebook: Videos by Location",
+    "template": "https://www.facebook.com/{location_id}/videos",
+    "tags": [
+      "fb_location_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "facebook.py:fb_location_links",
+    "parameters": [
+      "location_id"
+    ]
+  }
+]

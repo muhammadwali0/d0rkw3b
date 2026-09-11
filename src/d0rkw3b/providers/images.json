@@ -1,0 +1,402 @@
+[
+  {
+    "id": "images-reverse-image-search-reverse-image-search-google-images",
+    "name": "Reverse Image Search / Google Images",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / Google Images",
+    "template": "https://www.google.com/searchbyimage?image_url={url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-google-lens",
+    "name": "Reverse Image Search / Google Lens",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / Google Lens",
+    "template": "https://lens.google.com/uploadbyurl?url={url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://lens.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-bing-visual-search",
+    "name": "Reverse Image Search / Bing Visual Search",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / Bing Visual Search",
+    "template": "https://www.bing.com/images/search?view=detailv2&iss=sbi&q=imgurl:{url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-tineye",
+    "name": "Reverse Image Search / TinEye",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / TinEye",
+    "template": "https://tineye.com/search?url={url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tineye.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-yandex",
+    "name": "Reverse Image Search / Yandex",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / Yandex",
+    "template": "https://yandex.com/images/search?rpt=imageview&url={url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-reverse-image-search-reverse-image-search-facecheck",
+    "name": "Reverse Image Search / FaceCheck",
+    "target_types": [
+      "url"
+    ],
+    "category": "images",
+    "description": "images: Reverse Image Search / FaceCheck",
+    "template": "https://facecheck.id/search-by-url?url={url}",
+    "tags": [
+      "reverse_image_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://facecheck.id/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:reverse_image_search",
+    "parameters": [
+      "url"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-google-images",
+    "name": "Image Search / Google Images",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Google Images",
+    "template": "https://www.google.com/search?q={query}&udm=2",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified. Removed copied tracking and session parameters.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-bing-images",
+    "name": "Image Search / Bing Images",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Bing Images",
+    "template": "https://www.bing.com/images/search?q={query}",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-yandex-images",
+    "name": "Image Search / Yandex Images",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Yandex Images",
+    "template": "https://yandex.com/images/search?text={query}",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-x",
+    "name": "Image Search / X",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / X",
+    "template": "https://x.com/search?q={query}&src=typed_query&f=media",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-facebook",
+    "name": "Image Search / Facebook",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Facebook",
+    "template": "https://www.facebook.com/search/photos/?q={query}",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-instagram",
+    "name": "Image Search / Instagram",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Instagram",
+    "template": "https://www.google.com/search?q=site%3Ainstagram.com+{query}&tbm=isch",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-linkedin",
+    "name": "Image Search / LinkedIn",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / LinkedIn",
+    "template": "https://www.google.com/search?q=site%3Alinkedin.com+{query}&tbm=isch",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-flickr",
+    "name": "Image Search / Flickr",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Flickr",
+    "template": "https://www.flickr.com/search/?text={query}",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.flickr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-pinterest",
+    "name": "Image Search / Pinterest",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / Pinterest",
+    "template": "https://www.pinterest.com/search/pins/?q={query}&rs=typed",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.pinterest.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "images-image-keyword-search-image-search-duckduckgo-images",
+    "name": "Image Search / DuckDuckGo Images",
+    "target_types": [
+      "search"
+    ],
+    "category": "images",
+    "description": "images: Image Search / DuckDuckGo Images",
+    "template": "https://duckduckgo.com/?q={query}&iax=images&ia=images",
+    "tags": [
+      "image_keyword_search"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://duckduckgo.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "images.py:image_keyword_search",
+    "parameters": [
+      "query"
+    ]
+  }
+]

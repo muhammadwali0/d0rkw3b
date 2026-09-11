@@ -1,0 +1,4 @@
+include CHANGELOG.md CONTRIBUTING.md SECURITY.md CODE_OF_CONDUCT.md
+recursive-include docs *.md *.json
+recursive-include tests *.py
+recursive-include tools *.py

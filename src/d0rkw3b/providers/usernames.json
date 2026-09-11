@@ -1,0 +1,727 @@
+[
+  {
+    "id": "usernames-username-osint-links-username-osint-google",
+    "name": "Username OSINT / Google",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Google",
+    "template": "https://www.google.com/search?q=%22{username}%22",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-bing",
+    "name": "Username OSINT / Bing",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Bing",
+    "template": "https://www.bing.com/search?q=%22{username}%22",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-yandex",
+    "name": "Username OSINT / Yandex",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Yandex",
+    "template": "https://yandex.com/search/?text=%22{username}%22&lr=10615",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://yandex.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-id-crawl",
+    "name": "Username OSINT / ID Crawl",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / ID Crawl",
+    "template": "https://www.idcrawl.com/u/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.idcrawl.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-instantusername",
+    "name": "Username OSINT / InstantUsername",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / InstantUsername",
+    "template": "https://instantusername.com/?q={username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://instantusername.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namechecker",
+    "name": "Username OSINT / NameChecker",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / NameChecker",
+    "template": "https://www.namechecker.org/#{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.namechecker.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namechk",
+    "name": "Username OSINT / NameChk",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / NameChk",
+    "template": "https://namechk.com/namechk-plugin-search-results/?n={username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://namechk.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-namevine",
+    "name": "Username OSINT / NameVine",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / NameVine",
+    "template": "https://namevine.com/#/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://namevine.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-candidatechecker",
+    "name": "Username OSINT / CandidateChecker",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / CandidateChecker",
+    "template": "https://candidatechecker.io/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://candidatechecker.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-socialsearcher",
+    "name": "Username OSINT / SocialSearcher",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / SocialSearcher",
+    "template": "https://www.social-searcher.com/google-social-search/?q={username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.social-searcher.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-checkistan",
+    "name": "Username OSINT / Checkistan",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Checkistan",
+    "template": "https://usernamechecker.checkistan.com/#{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://usernamechecker.checkistan.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-usersearch",
+    "name": "Username OSINT / UserSearch",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / UserSearch",
+    "template": "https://usersearch.org/results_normal.php?URL_username={username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://usersearch.org/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-dehashed",
+    "name": "Username OSINT / Dehashed",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Dehashed",
+    "template": "https://dehashed.com/search?query=%22{username}%22",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://dehashed.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-psbdmp",
+    "name": "Username OSINT / PSBDMP",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / PSBDMP",
+    "template": "https://psbdmp.ws/api/search/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://psbdmp.ws/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-gravatar",
+    "name": "Username OSINT / Gravatar",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Gravatar",
+    "template": "https://gravatar.com/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gravatar.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-linktree",
+    "name": "Username OSINT / LinkTree",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / LinkTree",
+    "template": "https://linktr.ee/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://linktr.ee/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-x",
+    "name": "Username OSINT / X",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / X",
+    "template": "https://x.com/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://x.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-facebook",
+    "name": "Username OSINT / Facebook",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Facebook",
+    "template": "https://www.facebook.com/{username}/",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.facebook.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-instagram",
+    "name": "Username OSINT / Instagram",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Instagram",
+    "template": "https://www.instagram.com/{username}/",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.instagram.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tiktok",
+    "name": "Username OSINT / TikTok",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / TikTok",
+    "template": "https://www.tiktok.com/@{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.tiktok.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tinder",
+    "name": "Username OSINT / Tinder",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Tinder",
+    "template": "https://tinder.com/@{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tinder.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-tumblr",
+    "name": "Username OSINT / Tumblr",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Tumblr",
+    "template": "https://{username}.tumblr.com/",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://tumblr.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-snapchat",
+    "name": "Username OSINT / Snapchat",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Snapchat",
+    "template": "https://www.snapchat.com/@{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.snapchat.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-medium",
+    "name": "Username OSINT / Medium",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Medium",
+    "template": "https://medium.com/@{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://medium.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-youtube",
+    "name": "Username OSINT / YouTube",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / YouTube",
+    "template": "https://www.youtube.com/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.youtube.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-reddit",
+    "name": "Username OSINT / Reddit",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Reddit",
+    "template": "https://www.reddit.com/user/{username}/",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.reddit.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-ghunt",
+    "name": "Username OSINT / Ghunt",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Ghunt",
+    "template": "https://gmail-osint.activetk.jp/{username}",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://gmail-osint.activetk.jp/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-dehashed-emails",
+    "name": "Username OSINT / Dehashed Emails",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Dehashed Emails",
+    "template": "https://dehashed.com/search?query=%22{username}%40gmail.com%22",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://dehashed.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "usernames-username-osint-links-username-osint-email-search",
+    "name": "Username OSINT / Email Search",
+    "target_types": [
+      "username"
+    ],
+    "category": "usernames",
+    "description": "usernames: Username OSINT / Email Search",
+    "template": "https://www.google.com/search?q=%22{username}%40gmail.com%22OR%22{username}%40yahoo.com%22OR%22{username}%40hotmail.com%22OR%22{username}%40protonmail.com%22OR%22{username}%40live.com%22OR%22{username}%40icloud.com%22OR%22{username}%40yandex.com%22OR%22{username}%40gmx.com%22OR%22{username}%40mail.com%22OR%22{username}%40mac.com%22OR%22{username}%40me.com%22",
+    "tags": [
+      "username_osint_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "usernames.py:username_osint_links",
+    "parameters": [
+      "username"
+    ]
+  }
+]

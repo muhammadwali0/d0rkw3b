@@ -1,0 +1,802 @@
+[
+  {
+    "id": "linkedin-li-profile-links-profile",
+    "name": "Profile",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Profile",
+    "template": "https://www.linkedin.com/in/{username}",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-about",
+    "name": "About",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: About",
+    "template": "https://www.linkedin.com/in/{username}/details/about/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-experience",
+    "name": "Experience",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Experience",
+    "template": "https://www.linkedin.com/in/{username}/details/experience/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-education",
+    "name": "Education",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Education",
+    "template": "https://www.linkedin.com/in/{username}/details/education/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-skills",
+    "name": "Skills",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Skills",
+    "template": "https://www.linkedin.com/in/{username}/details/skills/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-recommendations",
+    "name": "Recommendations",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Recommendations",
+    "template": "https://www.linkedin.com/in/{username}/details/recommendations/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-accomplishments",
+    "name": "Accomplishments",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Accomplishments",
+    "template": "https://www.linkedin.com/in/{username}/details/accomplishments/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-posts",
+    "name": "Posts",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Posts",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/all/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-articles",
+    "name": "Articles",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Articles",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/posts/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-documents",
+    "name": "Documents",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Documents",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/documents/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-images",
+    "name": "Images",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Images",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/images/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-videos",
+    "name": "Videos",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Videos",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/videos/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-comments",
+    "name": "Comments",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Comments",
+    "template": "https://www.linkedin.com/in/{username}/recent-activity/comments/",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-google-photos",
+    "name": "Google Photos",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Google Photos",
+    "template": "https://www.google.com/search?q=site:linkedin.com+{username}&source=lnms&udm=2",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.google.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-profile-links-bing-photos",
+    "name": "Bing Photos",
+    "target_types": [
+      "username"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Bing Photos",
+    "template": "https://www.bing.com/images/search?q=site%3Alinkedin.com+{username}&scenario=ImageBasicHover",
+    "tags": [
+      "li_profile_links"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://www.bing.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_profile_links",
+    "parameters": [
+      "username"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-company-page",
+    "name": "Company Page",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Company Page",
+    "template": "https://www.linkedin.com/company/{company}",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-about",
+    "name": "About",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: About",
+    "template": "https://www.linkedin.com/company/{company}/about/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-jobs",
+    "name": "Jobs",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Jobs",
+    "template": "https://www.linkedin.com/company/{company}/jobs/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-people",
+    "name": "People",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: People",
+    "template": "https://www.linkedin.com/company/{company}/people/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-events",
+    "name": "Events",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Events",
+    "template": "https://www.linkedin.com/company/{company}/events/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-posts",
+    "name": "Posts",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Posts",
+    "template": "https://www.linkedin.com/company/{company}/posts/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-videos",
+    "name": "Videos",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Videos",
+    "template": "https://www.linkedin.com/company/{company}/videos/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-company-links-life",
+    "name": "Life",
+    "target_types": [
+      "company"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Life",
+    "template": "https://www.linkedin.com/company/{company}/life/",
+    "tags": [
+      "li_company_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_company_links",
+    "parameters": [
+      "company"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-all",
+    "name": "All",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: All",
+    "template": "https://www.linkedin.com/search/results/all/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-people",
+    "name": "People",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: People",
+    "template": "https://www.linkedin.com/search/results/people/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-companies",
+    "name": "Companies",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Companies",
+    "template": "https://www.linkedin.com/search/results/companies/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-jobs",
+    "name": "Jobs",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Jobs",
+    "template": "https://www.linkedin.com/search/results/jobs/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-groups",
+    "name": "Groups",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Groups",
+    "template": "https://www.linkedin.com/search/results/groups/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-posts",
+    "name": "Posts",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Posts",
+    "template": "https://www.linkedin.com/search/results/content/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-events",
+    "name": "Events",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Events",
+    "template": "https://www.linkedin.com/search/results/events/?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-li-search-links-courses",
+    "name": "Courses",
+    "target_types": [
+      "search"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Courses",
+    "template": "https://www.linkedin.com/learning/search?keywords={query}",
+    "tags": [
+      "li_search_links"
+    ],
+    "network": "clearnet",
+    "auth": "may_require",
+    "requires_api_key": false,
+    "homepage": "https://www.linkedin.com/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:li_search_links",
+    "parameters": [
+      "query"
+    ]
+  },
+  {
+    "id": "linkedin-linkedin-post-upload-date-timestamp-extractor",
+    "name": "Timestamp Extractor",
+    "target_types": [
+      "url"
+    ],
+    "category": "linkedin",
+    "description": "linkedin: Timestamp Extractor",
+    "template": "https://ollie-boyd.github.io/Linkedin-post-timestamp-extractor/?url={url}",
+    "tags": [
+      "linkedin_post_upload_date"
+    ],
+    "network": "clearnet",
+    "auth": "unknown",
+    "requires_api_key": false,
+    "homepage": "https://ollie-boyd.github.io/",
+    "enabled": true,
+    "status": "unverified",
+    "last_verified": null,
+    "notes": "Migrated from legacy code; endpoint availability has not been verified.",
+    "source": "linkedin.py:linkedin_post_upload_date",
+    "parameters": [
+      "url"
+    ]
+  }
+]
