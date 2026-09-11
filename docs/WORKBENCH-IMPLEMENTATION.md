@@ -109,3 +109,10 @@ connector-disable enforcement and stderr verbose/debug frames. Registry updates
 have no remote service, implicit fetch or target transmission. 51 offline tests
 pass. Version/release metadata, lint/build/install CI, final docs and full review
 remain pending; no release or external publication has occurred.
+
+## Final implementation and verification
+
+P0/P1/P2 implementation and P3 architecture documentation are delivered. See
+[WORKBENCH-VERIFICATION.md](WORKBENCH-VERIFICATION.md) for the section-by-section
+specification mapping, exact local checks, compatibility/provider comparison,
+limitations and commits. Earlier progress counts above are historical milestones.

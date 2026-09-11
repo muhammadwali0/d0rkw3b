@@ -23,3 +23,5 @@ documentation site; no hosted documentation service is claimed.
 | Future UI and browser interface | [Local interface design](local-interface.md) |
 | Translations | [Community translation structure](translations/README.md) |
 | Historical migration | [v1 audit](AUDIT.md), [v1 verification](VERIFICATION.md) |
+
+Current release engineering evidence: [Workbench verification](WORKBENCH-VERIFICATION.md).
