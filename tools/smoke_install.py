@@ -5,6 +5,7 @@ import json
 import os
 import subprocess
 import sys
+import sysconfig
 import tempfile
 from pathlib import Path
 
@@ -53,7 +54,7 @@ def smoke():
         run("file", str(path), as_json=True)
         run("evidence", "add", "test-case", str(path), as_json=True)
         run("case", "graph", "test-case", "--format", "graphml")
-        executable = Path(sys.executable).parent / (
+        executable = Path(sysconfig.get_path("scripts")) / (
             "d0rkw3b.exe" if os.name == "nt" else "d0rkw3b"
         )
         subprocess.run(
