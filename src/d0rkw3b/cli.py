@@ -120,6 +120,10 @@ def interactive():
 
 def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
+    from .connectors.cli import dispatch as connector_dispatch
+    managed = connector_dispatch(argv)
+    if managed is not None:
+        return managed
     from .cases.cli import dispatch as case_dispatch
     managed = case_dispatch(argv)
     if managed is not None:

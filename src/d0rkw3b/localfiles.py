@@ -5,6 +5,7 @@ import os
 import re
 import stat
 import struct
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -26,10 +27,13 @@ def open_regular(path):
         raise
 
 
-def inspect_stream(stream, filename, *, copy_to=None):
+def inspect_stream(stream, filename, *, copy_to=None, timeout=None):
+    deadline = None if timeout is None else time.monotonic() + timeout
     before = os.fstat(stream.fileno())
     digest, size, sample = hashlib.sha256(), 0, bytearray()
     while block := stream.read(SAMPLE_LIMIT):
+        if deadline is not None and time.monotonic() > deadline:
+            raise EvidenceError('local file inspection exceeded its time budget')
         size += len(block)
         digest.update(block)
         if len(sample) < SAMPLE_LIMIT:
@@ -85,8 +89,8 @@ def inspect_stream(stream, filename, *, copy_to=None):
     return metadata
 
 
-def inspect_file(path):
+def inspect_file(path, *, timeout=None):
     resolved, stream = open_regular(path)
     with stream:
-        result = inspect_stream(stream, resolved)
+        result = inspect_stream(stream, resolved, timeout=timeout)
     return {'path': str(resolved), **result}

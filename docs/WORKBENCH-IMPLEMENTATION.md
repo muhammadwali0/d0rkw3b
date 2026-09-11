@@ -87,3 +87,16 @@ aware timelines. File/hash/hostname model types added for collection consumers.
 cross-case isolation, no implicit storage, evidence bytes and graph provenance.
 Remaining: active connectors, external integrations/plugins, ecosystem and release
 work; final audit must still assess the entire original attachment.
+
+## Progress: P1 collection and plugin contract
+
+Implemented explicit DNS, IANA-bootstrap RDAP, local-file/hash connectors and an
+optional read-only ExifTool adapter. Manifests disclose destinations, filesystem,
+subprocess, credential names and limits. Installed tool detection distinguishes
+available ExifTool adapter from detection-only Sherlock/Maigret/theHarvester/Amass.
+Static packaged plugin manifests are inspected without imports; entry-point code
+loads only after explicit execution/disclosure. 45 offline tests pass, including
+mocked DNS/RDAP, local hashing, subprocess timeout/output bounds, missing tools,
+read-only ExifTool args and test-plugin lifecycle. No live DNS/RDAP or installed
+ExifTool run is claimed. Remaining: registry updates/packs, query grammar,
+configuration/errors/logging, documentation/release CI and full completion audit.
