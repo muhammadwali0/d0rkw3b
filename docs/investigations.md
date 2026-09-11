@@ -12,9 +12,9 @@ d0rkw3b dev validate-recipes
 
 Investigations normalize an entity, rank relevant provider queries, group paths
 from actual categories or recipe stages, and attach observations/provenance.
-No connector runs and no case is created. The default shows five queries per
+No connector runs or case is created by default. Explicit `--with ID` executes a declared connector; `--case NAME` saves to an existing local case. The default shows five queries per
 stage; `--all` expands every matching enabled path. JSON carries the full plan
-schema; CSV and Markdown project the generated queries to the existing row format.
+schema; CSV and Markdown project generated queries, with a kind column or heading distinguishing them from findings.
 Text and all projections identify paths as generated queries, not findings.
 Use `--network tor` or `all` explicitly for Tor paths; no Tor connection is made.
 

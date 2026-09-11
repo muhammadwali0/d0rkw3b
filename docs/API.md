@@ -10,14 +10,14 @@ registry = providers()
 
 These two package-level functions are supported entry points. They are offline:
 no socket calls, browser opening, plugin loading, or implicit persistence.
-`providers()` returns validated bundled provider dictionaries. `investigate()`
+`providers()` returns validated effective provider dictionaries, including explicit local snapshots/preferences; `providers(bundled=True)` returns only bundled definitions. `investigate()`
 returns a structured plan with `entity`, `entities`, `relationships`, `observations`,
 `paths`, `diagnostics` and `recipe`. `to_dict()` adds `schema_version: 1` and returns
 JSON-compatible data. Invalid input or an incompatible recipe raises ValueError.
 Internal module paths are not a compatibility promise.
 
 Options: `type`, `recipe`, `all`, `network` (clearnet/tor/all), `provider_files`,
-`recipe_files`, and `parameters`. Target parameters cannot override entity identity.
+`recipe_files`, `parameters`, `category` and `pack`. Target parameters cannot override entity identity.
 The `created_at` option accepts an explicit timezone-bearing ISO timestamp for
 replaying imported runs/tests; omit it for actual current creation time.
 

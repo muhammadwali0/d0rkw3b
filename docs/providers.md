@@ -49,3 +49,17 @@ Use `unverified` and null dates until actual verification. Describe login/API-ke
 requirements honestly. Retain broken/deprecated links disabled with an explanation.
 Do not submit credentials, copied session tokens, tracking parameters, or claims
 of health based only on successful URL generation.
+
+## Workbench metadata
+
+Optional `quality` contains integer `priority` (0–5) and nonempty `reason` for a
+transparent editorial preference. `packs` is an array of logical group IDs.
+`rate_limit_notes` is text. Optional `verification` contains `method`, qualitative
+`confidence` (low/medium/high), and `notes`, and requires an actual `last_verified`
+date. See [health and ranking](provider-verification.md): runtime reachability
+reports never set semantic verification automatically.
+
+The effective registry is bundled data plus an explicitly activated validated
+snapshot, extra files, and local disabled-provider preferences. See
+[registry snapshots](registry-updates.md). Malformed snapshots fall back to bundled
+coverage. No provider count, target coverage or category is silently removed.
