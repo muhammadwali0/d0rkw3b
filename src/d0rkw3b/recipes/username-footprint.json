@@ -1,0 +1,30 @@
+{
+  "id": "username-footprint",
+  "name": "Username footprint",
+  "description": "Generate reviewable username footprint paths. Queries are not confirmed findings.",
+  "target_types": [
+    "username"
+  ],
+  "stages": [
+    {
+      "name": "Discovery",
+      "description": "Look for exact textual mentions. Shared handles are not proof of identity.",
+      "providers": [
+        "usernames-username-osint-links-username-osint-google",
+        "usernames-username-osint-links-username-osint-bing",
+        "usernames-username-osint-links-username-osint-yandex"
+      ]
+    },
+    {
+      "name": "Profiles",
+      "description": "Manually review potential profiles. Links do not establish that accounts exist.",
+      "providers": [
+        "usernames-username-osint-links-username-osint-x",
+        "usernames-username-osint-links-username-osint-facebook",
+        "usernames-username-osint-links-username-osint-instagram",
+        "usernames-username-osint-links-username-osint-tiktok",
+        "usernames-username-osint-links-username-osint-reddit"
+      ]
+    }
+  ]
+}

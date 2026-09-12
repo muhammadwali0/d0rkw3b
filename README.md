@@ -1,152 +1,116 @@
 # D0RKW3B
 
-D0RKW3B is a privacy-first, local OSINT query engine and investigation launcher.
-Turn a username, email, domain, IP, URL or search term into links to public
-providers. It generates queries; it does not fetch results, scrape profiles,
-crawl sites, or collect target data.
+**The Local OSINT Workbench**
 
-Version 1.0.0 requires Python 3.10 or newer. There are no runtime dependencies,
-telemetry, mandatory accounts, API keys, or servers. Generating links performs no
-network requests. Output contains your target: handle redirected files accordingly.
+Turn domains, usernames, emails, IP addresses, URLs and local files into structured
+investigation paths. Search, pivot and organize research while keeping your case
+data on your own machine.
+
+Normal queries and investigation plans are offline. Active collection is explicit.
+Generated links are **queries, not findings**. No accounts, mandatory API keys,
+telemetry, server or base runtime dependencies.
 
 ## Install
 
-From a local checkout:
+Python 3.10+; version **1.1.0**. From this checkout:
 
 ```sh
 pipx install .
-```
-
-Or install in a virtual environment:
-
-```sh
-python -m venv .venv
-# Linux/macOS
-. .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install .
+# Or: uv tool install .
+# Or, inside a virtual environment: python -m pip install .
 d0rkw3b --version
 ```
 
-These instructions install the checkout; they do not assume a PyPI release exists.
-`python -m d0rkw3b` provides the same interface after installation.
+`python -m d0rkw3b` is equivalent after installation. These commands install the
+checkout; they do not assume a PyPI release or community package exists.
+See [Getting started](docs/getting-started.md) for Windows/macOS/Linux instructions.
 
-## Generate queries
-
-```sh
-d0rkw3b username muhammadwali0
-d0rkw3b email example@example.com
-d0rkw3b domain example.com
-d0rkw3b ip 1.1.1.1
-d0rkw3b url https://example.com/page
-d0rkw3b search "Acme Corporation"
-
-d0rkw3b example@example.com
-d0rkw3b example.com
-d0rkw3b 8.8.8.8
-d0rkw3b 2001:4860:4860::8888
-d0rkw3b @username
-d0rkw3b wali --type username
-```
-
-Plain ambiguous text is a search. Domains normalize through IDNA; IP addresses
-normalize through Python's IP parser. Explicit types validate inputs without DNS
-lookups. Email validation accepts common addresses, not every RFC mailbox syntax.
+## A 30-second start
 
 ```sh
-d0rkw3b example.com --format json > queries.json
-d0rkw3b document "annual report" --format markdown
-d0rkw3b providers --format json
-d0rkw3b validate-providers
-d0rkw3b --help
+d0rkw3b investigate example.com --recipe domain-footprint
+d0rkw3b investigate alice --type username
+d0rkw3b user@example.com --format json
+d0rkw3b recipes list
 ```
 
-`--category documents` applies to the `document` target type:
+The domain recipe produces certificate, registration, history and reputation
+query paths. It does not contact those providers or claim any result was found.
+Use `--all` for every matching query, or `--pack infrastructure` to focus a plan.
+Legacy commands such as `d0rkw3b domain example.com`, `search "Acme Corporation"`,
+and `interactive` remain available.
+
+## Save a local case
 
 ```sh
-d0rkw3b document "Acme Corporation" --category documents --format csv
+d0rkw3b case new acme
+d0rkw3b investigate example.com --case acme
+d0rkw3b case add acme alice@example.com
+d0rkw3b case note acme "Review certificate history"
+d0rkw3b evidence add acme ./report.pdf
+d0rkw3b case timeline acme --format csv
+d0rkw3b case graph acme --format graphml
 ```
 
-JSON is an array ordered by stable provider ID, with `id`, `name`, `category`,
-`network`, `status`, and `url`. It includes no timestamps or random fields.
-CSV has the same columns; Markdown and text support human review. Diagnostics go
-to stderr. Exit codes: 0 success, 1 failed registry validation, 2 usage/input/no
-matching providers, 130 interrupted. Redirect output using your shell; existing
-files are subject to your shell's normal overwrite behavior.
+Cases use local SQLite with entities, relationships, runs, observations, notes and
+evidence provenance. Evidence imports preserve bytes and record SHA-256. No case
+or search history is saved unless you explicitly use a case.
 
-## Categories and advanced targets
+## Query providers versus connectors
 
-The registry preserves 425 legacy links across 14 categories: `search_links`,
-`facebook`, `x`, `linkedin`, `instagram`, `github`, `communities`, `emailaddresses`,
-`usernames`, `documents`, `images`, `videos`, `ipaddresses`, and `domain`.
+| Action | What happens |
+|---|---|
+| `investigate example.com` | Builds a local plan with ranked generated queries |
+| `domain example.com --format json` | Emits a complete array of generated URLs |
+| `collect domain example.com --connector dns` | Explicitly resolves through your system DNS resolver |
+| `investigate example.com --with rdap` | Explicitly queries IANA bootstrap and the selected RDAP registry |
+| `file ./photo.jpg` | Reads local bytes for hashes and bounded metadata |
+| `file ./photo.jpg --with exiftool` | Explicitly runs an optional installed ExifTool adapter |
 
-Additional explicit types are `document`, `video_id` (YouTube), `phone` (Facebook
-number route), `user_id`, `location_id`, `list_id`, `repository`, and `company`.
-Use `--category` to select the platform for IDs. A URL target offers the existing
-reverse-image and LinkedIn post timestamp launchers; choose the relevant category.
-A generated link does not imply the target exists or matches the provider.
+Connector capabilities and destinations are disclosed before execution. Optional
+Python plugins use static manifests and explicit entry-point activation; they
+are trusted code, not sandboxed code. `integrations` distinguishes a working
+adapter contract from tools that are only detected on PATH.
+
+## Provider trust and privacy
+
+The bundled registry retains **425 providers** across **14 categories**: **13 Tor**,
+**10 disabled**, and **425 semantically unverified**. These are definitions, not
+verified services. No live provider health results are claimed.
 
 ```sh
-d0rkw3b username someone --category x --param year=2024
-d0rkw3b username someone --category instagram --param query="search terms"
-d0rkw3b username someone --category instagram --param username2=other
-d0rkw3b repository d0rkw3b --category github
-d0rkw3b company acme --category linkedin
-d0rkw3b user_id 12345 --category facebook
-d0rkw3b video_id dQw4w9WgXcQ --category videos
+d0rkw3b dev registry-stats
+d0rkw3b providers health --help
+d0rkw3b packs list
 ```
 
-Providers needing additional parameters are omitted until those parameters are
-supplied. Selecting one explicitly with `--provider ID` instead reports missing
-parameters. Use repeatable `--provider` flags for precise selection. IDs and
-parameter names are listed by `providers --format json`.
+`providers health` is an explicit, bounded homepage reachability check. HTTP 200
+never establishes semantic correctness. Normal startup does not run health checks.
+Editorial ranking is transparent and does not pretend to measure reliability.
 
-## Interactive use and opening links
+No hidden network calls, target uploads, file uploads or remote case storage.
+Explicit browser opening sends the selected target to its provider. Tor links
+require `--network tor` or `all`; D0RKW3B never opens them in your ordinary browser
+or configures Tor automatically. Case exports and terminal output may contain
+sensitive data. Review destinations and protect local files.
+
+## Learn and contribute
+
+- [Documentation index](docs/index.md): CLI, concepts, investigations, providers,
+  recipes, cases, evidence, connectors, plugins, privacy, Tor and troubleshooting.
+- [Python API](docs/API.md): `from d0rkw3b import investigate, providers`.
+- [Contributing](CONTRIBUTING.md): providers, fixes, recipes, plugins, translations.
+- [Release and packaging](docs/releasing.md): builds, checksums, SBOM and limitations.
 
 ```sh
-d0rkw3b interactive
+python -m pip install -e ".[dev]"
+python -m pytest -q
+ruff check .
+python -m build
 ```
 
-Choose a numbered category and action for guided prompts, preserving all legacy
-menu actions. The terminal prompt also accepts the same commands (without the `d0rkw3b` prefix),
-including category filters and structured formats. Enter `help`, `providers`,
-or `quit`. EOF and Ctrl-C exit cleanly. Scripts should use direct commands.
-
-Nothing opens by default. To send a target to one provider through your browser,
-select its exact ID and add `--open`:
-
-```sh
-d0rkw3b search "Acme Corporation" --provider search-links-generate-links-clearnet-google --open
-```
-
-The browser and destination service may store queries, use cookies, require login,
-or perform their own collection. Review provider notes before visiting a link.
-
-## Tor and provider status
-
-Use `--network tor` or `--network all` to include `.onion` links. D0RKW3B does not
-start Tor, configure a proxy, or verify that Tor is running. It refuses automatic
-opening of Tor links. Copy a selected link into a separately configured Tor Browser.
-Clearnet indexes of onion content remain clearnet providers.
-
-All migrated endpoints are **unverified**; none were live-probed during migration.
-`enabled` means eligible for local query generation, not a health claim. Providers
-may be unavailable, outdated, authentication-dependent, or geographically limited.
-`--include-disabled` exposes retained reference definitions, including undocumented
-Instagram queries, questionable WiGLE mappings, remote-probe launchers, and the
-YouTube metadata endpoint requiring an API key. These cannot be opened with
-`--open`. No API-key execution feature is supplied.
-
-## Development and contributions
-
-```sh
-python -m pip install -e .
-python -m unittest discover -s tests -v
-d0rkw3b validate-providers
-```
-
-See [CONTRIBUTING.md](CONTRIBUTING.md), [provider schema](docs/providers.md),
-[pre-migration audit](docs/AUDIT.md), and the complete
-[migration inventory](docs/migration-inventory.json). Adding most providers only
-requires a JSON entry. Existing screenshots in `screenshots/` show the legacy UI.
-The MIT [license](LICENSE) is unchanged. See [SECURITY.md](SECURITY.md) for reporting.
+Use public information responsibly and respect authorization, access controls and
+other people's privacy. D0RKW3B does not provide credential attacks, login/CAPTCHA
+bypass, exploit deployment or speculative attribution. See [SECURITY.md](SECURITY.md)
+and the [MIT license](LICENSE). Existing screenshots show the legacy v1 menu, not
+new workbench functionality.

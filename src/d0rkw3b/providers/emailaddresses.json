@@ -22,7 +22,11 @@
     "source": "emailaddresses.py:email_osint_links",
     "parameters": [
       "email"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "emailaddresses-email-osint-links-email-osint-bing",
@@ -47,7 +51,11 @@
     "source": "emailaddresses.py:email_osint_links",
     "parameters": [
       "email"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "emailaddresses-email-osint-links-email-osint-yandex",
@@ -97,7 +105,11 @@
     "source": "emailaddresses.py:email_osint_links",
     "parameters": [
       "email"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "emailaddresses-email-osint-links-email-osint-gravatar",

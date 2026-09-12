@@ -1,0 +1,26 @@
+{
+  "id": "repository-investigation",
+  "name": "Repository investigation",
+  "description": "Generate reviewable repository investigation paths. Queries are not confirmed findings.",
+  "target_types": [
+    "repository"
+  ],
+  "stages": [
+    {
+      "name": "Repository discovery",
+      "description": "Find repository candidates matching a repository name.",
+      "providers": [
+        "github-gh-repo-search-search-repositories"
+      ]
+    },
+    {
+      "name": "Code and discussion",
+      "description": "Review code, issues and discussion references.",
+      "providers": [
+        "github-gh-repo-search-search-code",
+        "github-gh-repo-search-search-issues",
+        "github-gh-repo-search-search-discussions"
+      ]
+    }
+  ]
+}

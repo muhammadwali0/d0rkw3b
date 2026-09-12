@@ -22,7 +22,11 @@
     "source": "domain.py:domain_osint_links",
     "parameters": [
       "domain"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "domain-domain-osint-links-bing-search",
@@ -97,7 +101,11 @@
     "source": "domain.py:domain_osint_links",
     "parameters": [
       "domain"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "domain-domain-osint-links-who-is-dns",
@@ -472,7 +480,11 @@
     "source": "domain.py:domain_osint_links",
     "parameters": [
       "domain"
-    ]
+    ],
+    "quality": {
+      "priority": 4,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "domain-domain-osint-links-securitytrails",
@@ -572,7 +584,11 @@
     "source": "domain.py:domain_osint_links",
     "parameters": [
       "domain"
-    ]
+    ],
+    "quality": {
+      "priority": 5,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "domain-domain-osint-links-whois-archive-i",
@@ -772,7 +788,11 @@
     "source": "domain.py:domain_osint_links",
     "parameters": [
       "domain"
-    ]
+    ],
+    "quality": {
+      "priority": 3,
+      "reason": "Editorial starting point for this target: broad discovery or a focused public lookup. Not a reachability or semantic-verification claim."
+    }
   },
   {
     "id": "domain-domain-osint-links-ssl-test",

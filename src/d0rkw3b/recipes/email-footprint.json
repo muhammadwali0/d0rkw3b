@@ -1,0 +1,27 @@
+{
+  "id": "email-footprint",
+  "name": "Email footprint",
+  "description": "Generate reviewable email footprint paths. Queries are not confirmed findings.",
+  "target_types": [
+    "email"
+  ],
+  "stages": [
+    {
+      "name": "Public mentions",
+      "description": "Review quoted email search results.",
+      "providers": [
+        "emailaddresses-email-osint-links-email-osint-google",
+        "emailaddresses-email-osint-links-email-osint-bing",
+        "emailaddresses-email-osint-links-email-osint-yandex"
+      ]
+    },
+    {
+      "name": "Registration context",
+      "description": "Review public registration references; access may require an account.",
+      "providers": [
+        "emailaddresses-email-osint-links-email-osint-whoisology",
+        "emailaddresses-email-osint-links-email-osint-whoxy"
+      ]
+    }
+  ]
+}
